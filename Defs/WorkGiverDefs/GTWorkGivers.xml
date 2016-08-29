@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+	<!-- ============= Fabricating ============= -->
+	<WorkGiverDef Name="GTWorkGiver" Abstract="True">
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>90</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+
+	<WorkGiverDef ParentName="GTWorkGiver">
+		<defName>DoBillsMatterfab</defName>
+		<label>operate Matter Fabricator</label>
+		<fixedBillGiverDefs>
+			<li>Matterfab</li>
+		</fixedBillGiverDefs>
+		<verb>fabricate</verb>
+		<gerund>fabricating</gerund>
+	</WorkGiverDef>
+
+	<WorkGiverDef ParentName="GTWorkGiver">
+		<defName>DoBillsElectrolysis</defName>
+		<label>operate electrolyzer</label>
+		<fixedBillGiverDefs>
+			<li>Electrolyzer</li>
+		</fixedBillGiverDefs>
+		<verb>electrolyze</verb>
+		<gerund>electrolyzing</gerund>
+	</WorkGiverDef>
+
+	<WorkGiverDef ParentName="GTWorkGiver">
+		<defName>DoBillsRobassem</defName>
+		<label>operate Robotic Assembler</label>
+		<fixedBillGiverDefs>
+			<li>RobAssem</li>
+		</fixedBillGiverDefs>
+		<verb>assemble</verb>
+		<gerund>assembling</gerund>
+	</WorkGiverDef>
+
+	<WorkGiverDef ParentName="GTWorkGiver">
+		<defName>DoBillsPharma</defName>
+		<label>operate Pharmaceutical table</label>
+		<fixedBillGiverDefs>
+			<li>PharmaTable</li>
+		</fixedBillGiverDefs>
+		<verb>produce</verb>
+		<gerund>producing</gerund>
+	</WorkGiverDef>
+
+</WorkGivers>

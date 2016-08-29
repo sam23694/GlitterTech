@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ThingDefs>
+
+	<!-- ============================================================== -->
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+		<defName>MeleeWeapon_GTPacifier</defName>
+		<label>Orion Corp pacifier</label>
+		<description>A staff equiped with electrodes which blast targets with heat and electrity. Designed to enforce maximum pain with moderate damage.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractPistol</soundInteract>
+		<weaponTags>
+			<li>OCMelee</li>
+		</weaponTags>
+		<costStuffCount>90</costStuffCount>
+		<costList>
+			<ComputerComp>5</ComputerComp>
+			<Uranium>1</Uranium>
+		</costList>
+		<statBases>
+			<WorkToMake>45000</WorkToMake>
+			<MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
+			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+		</statBases>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<verbs>
+			<li>
+				<verbClass>Verb_MeleeAttack</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<meleeDamageDef>PacifierStab</meleeDamageDef>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</ThingDefs>

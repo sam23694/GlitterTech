@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<ThingDef Name="FurnitureBase" ParentName="BuildingBase" Abstract="True">
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+		<DesignationCategory>Furniture</DesignationCategory>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+	</ThingDef>
+
+
+	<!--============================== Beds ==============================-->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ambTable</defName>
+		<label>Re-Ambulation Pod</label>
+		<Description>Warning this med-pod is calibrated for male patients only. This pod is designed for severely injured patents. By injecting bio-discardable re-constructive nano machines into the blood stream this table will fix most wounds over time, but some wounds will still require a doctor.</Description>
+		<ThingClass>Building_Bed</ThingClass>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Bed/HospitalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(3,4)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToMake>3200</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<BedRestEffectiveness>1.5</BedRestEffectiveness>
+			<ImmunityGainSpeedFactor>3</ImmunityGainSpeedFactor>
+			<MedicalTreatmentQualityFactor>3</MedicalTreatmentQualityFactor>
+		</statBases>
+		<Size>(1,2)</Size>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>80</costStuffCount>
+		<costList>
+			<Titanium>80</Titanium>
+			<GlitterworldMedicine>10</GlitterworldMedicine>
+			<MagneticCoil>2</MagneticCoil>
+			<ComputerComp>4</ComputerComp>
+			<Serum>1</Serum>
+			<Component>6</Component>
+		</costList>
+		<building>
+			<Bed_ShowSleeperBody>true</Bed_ShowSleeperBody>
+			<Bed_HealTickInterval>50</Bed_HealTickInterval>
+			<bed_defaultMedical>true</bed_defaultMedical>
+		</building>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>350</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<soundPowerOn>PowerOnSmall</soundPowerOn>
+				<soundPowerOff>PowerOffSmall</soundPowerOff>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>VitalsMonitor</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>6</glowRadius>
+				<glowColor>(0,255,255,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<fillPercent>0.4</fillPercent>
+		<PathCost>60</PathCost>
+		<LeaveResourcesWhenKilled>True</LeaveResourcesWhenKilled>
+		<StaticSunShadowHeight>0.17</StaticSunShadowHeight>
+		<CastEdgeShadows>True</CastEdgeShadows>
+		<Passability>PassThroughOnly</Passability>
+		<DrawGUIOverlay>True</DrawGUIOverlay>
+		<researchPrerequisites><li>Pharmaceuticals</li></researchPrerequisites>
+		<designationCategory>Furniture</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>DynChair</defName>
+		<label>Dynamic Relaxation Chair</label>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Armchair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<shadowData>
+				<volume>(0.6, 0.6, 0.6)</volume>
+			</shadowData>
+			<damageData>
+				<rectN>(0,0,1,0.703125)</rectN>
+				<rectS>(0.09375,0,0.84375,1)</rectS>
+				<rectE>(0,0,0.84375,0.625)</rectE>
+				<rectW>(0.15625,0,0.84375,0.625)</rectW>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>140</MaxHitPoints>
+			<WorkToMake>5000</WorkToMake>
+			<Flammability>1.0</Flammability>
+			<Beauty>10</Beauty>
+			<Comfort>8</Comfort>
+		</statBases>
+		<description>A large, chair that dynamically reforms to not only comfort each person, but sense areas of specific discomfort and provide mild or intensive massaging. All it needs is a bar fridge...</description>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Titanium>40</Titanium>
+			<ComputerComp>4</ComputerComp>
+			<Uranium>1</Uranium>
+			<Component>2</Component>
+		</costList>
+		<pathCost>30</pathCost>
+		<fillPercent>0.40</fillPercent>
+		<designationCategory>Furniture</designationCategory>
+		<building>
+			<isSittable>true</isSittable>
+		</building>
+	</ThingDef>
+
+	<!-- ======================== Lighting ======================= -->
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>FloodLight</defName>
+		<label>Flood light</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<graphicData>
+			<texPath>Things/Building/Furniture/LampStanding</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.6, 0.3)</volume>
+				<offset>(0,0,-0.1)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToMake>115</WorkToMake>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<selectable>true</selectable>
+		<fillPercent>0.20</fillPercent>
+		<description>Flood light illuminates a large area, but costs a bit more.</description>
+		<costList>
+			<Titanium>15</Titanium>
+			<Uranium>1</Uranium>
+		</costList>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>650</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>24</glowRadius>
+				<glowColor>(208,217,217,0)</glowColor>
+			</li>
+		</comps>
+		<designationCategory>Furniture</designationCategory>
+		<rotatable>false</rotatable>
+	</ThingDef>
+
+
+
+
+
+
+
+
+
+</Buildings>

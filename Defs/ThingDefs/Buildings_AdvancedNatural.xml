@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="BuildingNaturalBase" Abstract="True">
+		<category>Building</category>
+		<selectable>true</selectable>
+		<drawerType>MapMeshOnly</drawerType>
+		<filthLeaving>RockRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef ParentName="RockBase">
+		<defName>MineableTitanium</defName>
+		<label>compacted titanium</label>
+		<graphicData>
+			<texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<color>(89,83,68)</color>
+			<colorTwo>(240,240,240)</colorTwo>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>12000</MaxHitPoints>
+		</statBases>
+		<description>Elemental titanium</description>
+		<building>
+			<isResourceRock>true</isResourceRock>
+			<mineableThing>Titanium</mineableThing>
+			<mineableYield>12</mineableYield>
+			<mineableScatterCommonality>0.06</mineableScatterCommonality>
+			<mineableScatterLumpSizeRange>
+				<min>10</min>
+				<max>50</max>
+			</mineableScatterLumpSizeRange>
+		</building>
+	</ThingDef>
+
+</ThingDefs>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_MRGPistol</defName>
+		<label>MRG bullet</label>
+		<graphicData>
+		<texPath>Things/Projectile/MRGP</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>20</damageAmountBase>
+			<speed>200</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_MRGPistol</defName>
+		<label>MRG-5 Pistol</label>
+		<description>Micro rail gun mark 5. The compact counter part of the MRG-5 Rifle, this pistol is the fifth instalment of top of the line rail gun technologies.  Very accurate and powerful, this weapon will make propellant weapons seem neolithic.</description>
+		<graphicData>
+		<texPath>Things/Item/Equipment/misc/MRG-5Pistol</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>2300</MarketValue>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.65</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GlitterTechEM</li>
+		</weaponTags>						
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_MRGPistol</projectileDef>
+				<warmupTicks>25</warmupTicks>
+				<range>18</range>
+				<soundCast>EM_small</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_MRGRifle</defName>
+		<label>MRG bullet</label>
+		<graphicData>
+		<texPath>Things/Projectile/MRGP</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>35</damageAmountBase>
+			<speed>200</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_MRGRifle</defName>
+		<label>MRG-5 Rifle</label>
+		<description>Micro rail gun mark 5. This Rifle is the fifth instalment of top of the line rail gun technologies.  Very accurate and powerful, this weapon will make propellant weapons seem neolithic.</description>
+		<graphicData>
+		<texPath>Things/Item/Equipment/misc/MRG-5Rifle</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>2600</MarketValue>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GlitterTechEM</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_MRGRifle</projectileDef>
+				<warmupTicks>25</warmupTicks>
+				<range>30</range>
+				<soundCast>EM_small</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</ThingDefs>

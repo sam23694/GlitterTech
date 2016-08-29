@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+	<!--=============== Titanium ====================-->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Titanium</defName>
+		<label>Titanium</label>
+		<description>Titanium alloy. A complex mix of rare elements, making a very strong durable material resistant to corrosion, and high velocity kinetics. Perfect for starships and Orbital space elevators...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Titanium</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<statBases>
+			<MarketValue>32</MarketValue>
+			<SharpDamageMultiplier>1.8</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<color>(255,255,255)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<statFactors>
+				<MaxHitPoints>3.5</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<Beauty>3</Beauty>
+				<DoorOpenSpeed>3</DoorOpenSpeed>
+				<BedRestEffectiveness>1.5</BedRestEffectiveness>
+				<WorkToMake>10.0</WorkToMake>
+				<MeleeWeapon_Cooldown>0.5</MeleeWeapon_Cooldown>
+			</statFactors>
+		</stuffProps>
+		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+	</ThingDef>
+
+	<!--=============== AlphaPoly ====================-->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AlphaPoly</defName>
+		<label>Alpha Poly</label>
+		<description>The first iteration in artificially constructed, atomically assembled dense matter. This man made, and extremely rare material, only assembled in high end matter assemblers is good for building structures in the chronospheres of stars.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/APoly</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<tradeability>Never</tradeability>
+		<statBases>
+			<MarketValue>117</MarketValue>
+			<SharpDamageMultiplier>3</SharpDamageMultiplier>
+			<BluntDamageMultiplier>3.5</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<color>(100,60,100)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+			<statOffsets>
+				<Beauty>16</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>500</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<Beauty>16</Beauty>
+				<DoorOpenSpeed>5</DoorOpenSpeed>
+				<BedRestEffectiveness>3.0</BedRestEffectiveness>
+				<WorkToMake>15.0</WorkToMake>
+				<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			</statFactors>
+		</stuffProps>
+		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+	</ThingDef>
+
+	<!--=============== BetaPoly ====================-->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>BetaPoly</defName>
+		<label>Beta Poly</label>
+		<description>The second iteration in artificially constructed, atomically assembled dense matter. This man made, and extremely rare material, this material is too expensive to be mass produced, and has only been used as material for indestructable space suits, unstoppable kinetic slugs and containment for miniture black holes.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/BPoly</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>First</resourceReadoutPriority>
+		<soundInteract>Silver_Drop</soundInteract>
+		<soundDrop>Silver_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<resourceReadoutAlwaysShow>true</resourceReadoutAlwaysShow>
+		<tradeability>Never</tradeability>
+		<statBases>
+			<MarketValue>235</MarketValue>
+			<SharpDamageMultiplier>8</SharpDamageMultiplier>
+			<BluntDamageMultiplier>8.5</BluntDamageMultiplier>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<color>(100,60,60)</color>
+			<constructEffect>ConstructMetal</constructEffect>
+			<soundImpactStuff>BulletImpactMetal</soundImpactStuff>
+			<statOffsets>
+				<Beauty>20</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>1000</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<Beauty>30</Beauty>
+				<WorkToMake>100</WorkToMake>
+				<DoorOpenSpeed>5</DoorOpenSpeed>
+				<MeleeWeapon_Cooldown>0.5</MeleeWeapon_Cooldown>
+			</statFactors>
+		</stuffProps>
+		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+	</ThingDef>
+
+	<!--=============== Components ====================-->
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>MagneticCoil</defName>
+		<label>Magnetic Coil</label>
+		<description>An advanced magnetic coil. Beyond the fabrication skills of anyone but an Electromagnetic physicist.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/MagneticCoil</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Silicon</defName>
+		<label>Silicon</label>
+		<description>Raw elemental Silicon, used in most electronic components.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Silicon</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>1</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>ComputerComp</defName>
+		<label>Computer components</label>
+		<description>Advanced electronic circuit boards. Required by advanced machinery, when simple mechanics just isn't enough.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/ComputerComp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>350</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Ethanol</defName>
+		<label>Ethanol</label>
+		<description>Pure ethanol, strong alcohol used in Medicines and on most weekends...</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Ethanol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Bandage</defName>
+		<label>Bandages</label>
+		<description>Cloth bandages, essential for binding wounds to reduce blood loss.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Bandage</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>Serum</defName>
+		<label>Serum</label>
+		<description>Fabricated serums, used as treatments on glitterworld planets, when body reconstruction is unavailable.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Serum</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Standard_Drop</soundInteract>
+		<soundDrop>Standard_Drop</soundDrop>
+		<statBases>
+			<MarketValue>250</MarketValue>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+</Resources>

@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<!--========================= Doors =============================-->
+
+	<ThingDef ParentName="BuildingBase" Name="DoorBase" Abstract="True">
+		<thingClass>Building_Door</thingClass>
+		<blueprintClass>Blueprint_Door</blueprintClass>
+		<category>Building</category>
+		<blueprintGraphicData>
+			<texPath>Things/Building/Door/Door_Blueprint</texPath>
+		</blueprintGraphicData>
+		<altitudeLayer>DoorMoveable</altitudeLayer>
+		<fillPercent>1</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Structure</designationCategory>
+		<holdsRoof>true</holdsRoof>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<drawerType>RealtimeOnly</drawerType>
+		<building>
+			<soundDoorOpenPowered>DoorOpenPowered</soundDoorOpenPowered>
+			<soundDoorClosePowered>DoorClosePowered</soundDoorClosePowered>
+			<soundDoorOpenManual>DoorOpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>DoorCloseManual</soundDoorCloseManual>
+			<ignoreNeedsPower>true</ignoreNeedsPower>
+			<canPlaceOverWall>true</canPlaceOverWall>
+		</building>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="DoorBase">
+		<defName>BlastDoor</defName>
+		<label>Blast Door</label>
+		<description>Divides rooms. Powered operation and incredibly strong. Designed to withstand Orbital Kinetic Bombardment...</description>
+		<statBases>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<WorkToMake>2200</WorkToMake>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Door/Autodoor_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<rect>(0,0.1,1,0.8)</rect>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Door/Autodoor_MenuIcon</uiIconPath>
+		<costList>
+			<Titanium>100</Titanium>
+			<MagneticCoil>1</MagneticCoil>
+			<Component>4</Component>
+		</costList>
+		<costStuffCount>120</costStuffCount>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>80</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<researchPrerequisites><li>AdvancedArmor</li></researchPrerequisites>
+	</ThingDef>
+
+	<!--========================= Walls =============================-->
+
+	<ThingDef ParentName="BuildingBase" Name="Wall">
+    <defName>Wall</defName>
+    <label>wall</label>
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <description>An impassable wall. Capable of holding up a roof.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/Wall</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
+      <linkType>CornerFiller</linkType>
+      <linkFlags>
+        <li>Wall</li>
+        <li>Rock</li>
+      </linkFlags>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+        <edgeTop>Damage/Edge</edgeTop>
+        <edgeBot>Damage/Edge</edgeBot>
+        <edgeLeft>Damage/Edge</edgeLeft>
+        <edgeRight>Damage/Edge</edgeRight>
+      </damageData>
+    </graphicData>
+    <blueprintGraphicData>
+      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+    </blueprintGraphicData>
+    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <statBases>
+      <MaxHitPoints>350</MaxHitPoints>
+      <WorkToMake>150</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>5</costStuffCount>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>1</fillPercent>
+    <coversFloor>true</coversFloor>
+    <placingDraggableDimensions>1</placingDraggableDimensions>
+    <tickerType>Never</tickerType>
+    <rotatable>false</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+    <blockLight>true</blockLight>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <building>
+      <isInert>true</isInert>
+      <ignoreNeedsPower>true</ignoreNeedsPower>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>2</multiplier>
+      </li>
+    </damageMultipliers>
+  </ThingDef>
+
+	<ThingDef ParentName="Wall">
+		<defName>WallWindow</defName>
+		<label>Wall window</label>
+		<description>A wall with a bullet proof window and power conduit.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Window_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/Window_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>1225</MaxHitPoints>
+			<WorkToMake>150</WorkToMake>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<Titanium>10</Titanium>
+		</costList>
+		<blockLight>false</blockLight>
+		<researchPrerequisites><li>TWindows</li></researchPrerequisites>
+	</ThingDef>
+
+	<!--========================= Lighted =============================-->
+
+	<ThingDef ParentName="Wall" Name="WallLight">
+		<defName>WallLight_White</defName>
+		<label>Wall light</label>
+		<description>A Wall with a light, for those awkward hallways where lamps just don't fit.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Light_Atlas</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/Light_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>1225</MaxHitPoints>
+			<WorkToMake>150</WorkToMake>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costList>
+			<Titanium>10</Titanium>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>150</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(217,217,217,0)</glowColor>
+			</li>
+		</comps>
+		<researchPrerequisites><li>TLights</li></researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="WallLight">
+		<defName>WallLight_Red</defName>
+		<label>Wall red light</label>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(217,0,0,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="WallLight">
+		<defName>WallLight_Green</defName>
+		<label>Wall green light</label>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(0,217,0,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="WallLight">
+		<defName>WallLight_Blue</defName>
+		<label>Wall blue light</label>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(0,0,217,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="WallLight">
+		<defName>WallLight_Yellow</defName>
+		<label>Wall yellow light</label>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(217,217,0,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="WallLight">
+		<defName>WallLight_Purple</defName>
+		<label>Wall purple light</label>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(217,0,217,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="WallLight">
+		<defName>WallLight_Cyan</defName>
+		<label>Wall cyan light</label>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>12</glowRadius>
+				<glowColor>(0,217,217,0)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Buildings>

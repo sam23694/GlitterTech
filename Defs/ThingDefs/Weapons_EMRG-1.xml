@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_EMRifle</defName>
+		<label>EM bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/EM_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>80</damageAmountBase>
+			<speed>200</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_EMRifle</defName>
+		<label>EMRG-1</label>
+		<description>Electromagnetic Rail Gun. The lastest thing in long range combat. Extremely powerful.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/misc/EMRG-1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>1400</MarketValue>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.86</AccuracyShort>
+			<AccuracyMedium>0.86</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>2.33</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>GlitterTechEMRG</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_EMRifle</projectileDef>
+				<warmupTicks>220</warmupTicks>
+				<range>60</range>
+				<soundCast>EM</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</ThingDefs>

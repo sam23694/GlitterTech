@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+	Each coverage value is relative to its parent.
+	Remaining body part coverage (100% minus coverage of all child nodes) is a chance to hit exactly this part.
+	Damage "starts" at corePart, and then "goes deeper" until it hits remaining body part coverage or leaf node - this body part is then hit.
+-->
+
+<BodyDefs>
+	
+	<BodyDef>
+		<defName>TankChassis</defName>
+		<label>tank chassis</label>
+		<corePart>
+			<def>TChassis</def>
+			<height>Middle</height>
+			<depth>Outside</depth>
+			<parts>
+				<li>
+					<def>THull</def>
+					<coverage>0.4</coverage>
+					<height>Top</height>
+					<depth>Outside</depth>
+				</li>
+				<li>
+					<def>TFrame</def>
+					<coverage>0.2</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Engine</def>
+					<coverage>0.01</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>Crew</def>
+					<coverage>0.01</coverage>
+					<depth>Inside</depth>
+				</li>
+				<li>
+					<def>TurretActuator</def>
+					<coverage>0.03</coverage>
+					<height>Top</height>
+					<depth>Inside</depth>
+					<parts>
+						<li>
+							<def>CannonLoader</def>
+							<coverage>0.05</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>AmmoRack</def>
+							<coverage>0.05</coverage>
+							<depth>Inside</depth>
+						</li>
+						<li>
+							<def>TurretHull</def>
+							<coverage>0.9</coverage>
+							<depth>Outside</depth>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>LeftTrack</def>
+					<coverage>0.08</coverage>
+					<height>Bottom</height>
+					<depth>Outside</depth>
+					<parts>
+						<li>
+							<def>TrackChain</def>
+							<coverage>0.2</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>Fender</def>
+							<coverage>0.6</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>WheelSystem</def>
+							<coverage>0.1</coverage>
+							<depth>Inside</depth>
+						</li>
+					</parts>
+				</li>
+				<li>
+					<def>RightTrack</def>
+					<coverage>0.08</coverage>
+					<height>Bottom</height>
+					<depth>Outside</depth>
+					<parts>
+						<li>
+							<def>TrackChain</def>
+							<coverage>0.2</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>Fender</def>
+							<coverage>0.6</coverage>
+							<depth>Outside</depth>
+						</li>
+						<li>
+							<def>WheelSystem</def>
+							<coverage>0.1</coverage>
+							<depth>Inside</depth>
+						</li>
+					</parts>
+				</li>
+			</parts>
+		</corePart>
+	</BodyDef>
+
+</BodyDefs>

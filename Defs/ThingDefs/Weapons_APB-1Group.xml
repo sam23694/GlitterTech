@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_APBPistol</defName>
+		<label>APB bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/APBP</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<flyOverhead>false</flyOverhead>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<speed>200</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_APB-1Pistol</defName>
+		<label>APB-1 Pistol</label>
+		<description>Anion Particle Beam Pistol mark 1. The compact counter part of the APB-1 Rifle, this pistol projects anions through Hydrogen, creating a neutrally charged kinetic projectile capable of disassembling matter on the atomic level. Accurate and powerful, this weapon will ignite most targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/misc/APB-1Pistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+		<statBases>
+			<MarketValue>1800</MarketValue>
+			<AccuracyTouch>0.45</AccuracyTouch>
+			<AccuracyShort>0.35</AccuracyShort>
+			<AccuracyMedium>0.20</AccuracyMedium>
+			<AccuracyLong>0.10</AccuracyLong>
+			<RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GlitterTech</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_APBPistol</projectileDef>
+				<warmupTicks>20</warmupTicks>
+				<range>30</range>
+				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>PB</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_APBProjector</defName>
+		<label>APB bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/APBProj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>50</damageAmountBase>
+			<speed>200</speed>
+			<explosionRadius>1.9</explosionRadius >
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_APB-1Projector</defName>
+		<label>APB-1 Projector</label>
+		<description>Anion Particle Beam Projector mark 1. The latest thing in anti air and anti tank weaponry, this projector literally projects anions through Hydrogen, creating a neutrally charged kinetic projectile capable of disassembling matter on the atomic level. Accurate and powerful, this weapon will create a destructive blast.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/misc/APB-1Proj</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>2200</MarketValue>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GlitterTech</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_APBProjector</projectileDef>
+				<forcedMissRadius>1.5</forcedMissRadius>
+				<warmupTicks>200</warmupTicks>
+				<range>80</range>
+				<soundCast>PBP</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_APBRifle</defName>
+		<label>APB bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/APBR</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<speed>200</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_APB-1Rifle</defName>
+		<label>APB-1 Rifle</label>
+		<description>Anion Particle Beam Rifle mark 1. The forefront of anti-personel weaponry, this rifle projects anions through Hydrogen, creating a neutrally charged kinetic projectile capable of disassembling matter on the atomic level. Accurate and powerful, this weapon will ignite most targets.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/misc/APB-1Rifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>1900</MarketValue>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.45</AccuracyShort>
+			<AccuracyMedium>0.25</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
+			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>GlitterTech</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_APBRifle</projectileDef>
+				<warmupTicks>80</warmupTicks>
+				<range>35</range>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<burstShotCount>4</burstShotCount>
+				<soundCast>PB</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</ThingDefs>

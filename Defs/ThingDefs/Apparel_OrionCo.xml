@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef Name="ApparelBase" Abstract="True">
+    <thingClass>Apparel</thingClass>
+    <category>Item</category>
+    <selectable>True</selectable>
+    <pathCost>10</pathCost>
+    <useHitPoints>True</useHitPoints>
+    <graphicData>
+      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+    </graphicData>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <tickerType>Never</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+	<!-- ============= Stuff-less apparel =================-->
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_OCCombatVest</defName>
+		<label>Orion Combat vest</label>
+		<description>A standard issue Orion Corporation combat vest. Equiped with more advanced alloys then your usual vest.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>800</MarketValue>
+			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+		</equippedStatOffsets>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>OCArmor</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.6,0.6,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_OCHelmet</defName>
+		<label>Orion Corporation helmet</label> 
+		<description>A standard issue Orion Corporation helmet. Other then the characteristic Orion blue, it is made of more advanced materials then the standard helmet.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/MilitaryHelmet/MilitaryHelmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>400</MaxHitPoints>
+			<MarketValue>700</MarketValue>
+			<ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.02</MoveSpeed>
+			<PsychicSensitivity>-0.45</PsychicSensitivity>
+		</equippedStatOffsets>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/MilitaryHelmet/MilitaryHelmet</worngraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>OCArmor</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.6,0.6,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_OCPants</defName>
+		<label>Orion Unfiorm pants</label>
+		<description>A set of Orion pants.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Legs</li>
+			</bodyPartGroups>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>OCFatigues</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.65,0.65,0.65,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelBase">
+		<defName>Apparel_OCShirt</defName>
+		<label>Orion Uniform Shirt</label>
+		<description>A basic Orion shirt.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.03</ArmorRating_Sharp>
+			<Insulation_Cold>-10</Insulation_Cold>
+		</statBases>
+		<thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</worngraphicPath>
+			<layers>
+				<li>OnSkin</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>OCFatigues</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>6</weight>
+					<only>RGBA(0.3,0.3,0.3,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+</ThingDefs>

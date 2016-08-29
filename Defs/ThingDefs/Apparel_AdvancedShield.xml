@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="ApparelShieldBase" Abstract="True">
+		<thingClass>Apparel</thingClass>
+		<category>Item</category>
+		<selectable>True</selectable>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<comps>
+			<li>
+				<compClass>CompForbiddable</compClass>
+			</li>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelShieldBase">
+		<thingClass>PersonalShield</thingClass>
+		<defName>Apparel_HC1Shield</defName>
+		<label>HC-1 shield</label>
+		<description>A high capacity energy shield device. The top teir class of personal shields, the mark 1 increases energy capacity by a factor of ten, but recycles the shield slower. </description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PersonalShield/PersonalShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>2400</MarketValue>
+			<PersonalShieldRechargeRate>0.4</PersonalShieldRechargeRate>
+			<PersonalShieldEnergyMax>10</PersonalShieldEnergyMax>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Accessory</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>GTShield</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>RGBA(0.8,0.8,0.8,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelShieldBase">
+		<thingClass>PersonalShield</thingClass>
+		<defName>Apparel_OCShield</defName>
+		<label>Orion Corp defense shield</label>
+		<description>An Orion corp patented personal defense shield. Standard capacity, but recycles the shield much faster then all of the competitors.</description>
+		<graphicData>
+			<texPath>Things/Pawn/Humanlike/Apparel/PersonalShield/PersonalShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<MarketValue>2100</MarketValue>
+			<PersonalShieldRechargeRate>1</PersonalShieldRechargeRate>
+			<PersonalShieldEnergyMax>1</PersonalShieldEnergyMax>
+		</statBases>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Accessory</li>
+			</layers>
+			<commonality>1</commonality>
+			<tags>
+				<li>OCShield</li>
+			</tags>
+		</apparel>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>RGBA(0.6,0.6,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+	</ThingDef>
+
+
+
+
+</Defs>

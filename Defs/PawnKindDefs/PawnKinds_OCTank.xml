@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+
+
+	<PawnKindDef>
+		<defName>OCTank</defName>
+		<label>Orion Corporation MBT</label>
+		<race>Race_Tank</race>
+		<combatPower>100</combatPower>
+		<defaultFactionType>OrionCo</defaultFactionType>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Vehicle/OCTank</texPath>
+					<graphicClass>Graphic_Multi</graphicClass>
+					<drawSize>3</drawSize>
+					<shadowData>
+						<volume>(0.6, 0.8, 0.6)</volume>
+					</shadowData>
+				</bodyGraphicData>
+			</li>
+		</lifeStages>
+		<weaponMoney>
+			<min>1000</min>
+			<max>1000</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>OCTank</li>
+		</weaponTags>
+	</PawnKindDef>
+
+</PawnKindDefs>

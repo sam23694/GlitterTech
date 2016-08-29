@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+	<!-- ========================= Work tables ==========================-->
+
+	<ThingDef ParentName="BuildingBase">
+		<DefName>PharmaTable</DefName>
+		<label>pharmaceutical table</label>
+		<ThingClass>Building_WorkTable_HeatPush</ThingClass>
+		<Description>A table and tools for mixing and producing drugs and medicine.</Description>
+		<graphicData>
+			<texPath>Things/Building/Production/TablePharmaceutical</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<CostList>
+			<Steel>120</Steel>
+			<Titanium>40</Titanium>
+			<Silicon>40</Silicon>
+			<ComputerComp>5</ComputerComp>
+			<Ethanol>10</Ethanol>
+			<Component>4</Component>
+		</CostList>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>6500</WorkToMake>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<Size>(3,1)</Size>
+		<DesignationCategory>Production</DesignationCategory>
+		<Passability>PassThroughOnly</Passability>
+		<pathCost>60</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>BuildBandages</li>
+			<li>BuildMedicine</li>
+			<li>ProduceSerum</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<startElectricalFires>true</startElectricalFires>
+				<basePowerConsumption>1200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>4</glowRadius>
+				<glowColor>(120,120,120,0)</glowColor>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.25</heatPerTickWhileWorking>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites><li>Pharmaceuticals</li></researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+	</ThingDef>
+
+	<!-- ========================= Matter fabricator ==========================-->
+	<ThingDef ParentName="BuildingBase">
+		<DefName>Matterfab</DefName>
+		<label>Matter fabricator</label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>The forefront of quantum thermodynamics and plasma spectrometry, this machine disassembles elements into base subatomic particles and re-assembles them into powerful artificial elements.</Description>
+		<graphicData>
+			<texPath>Things/Building/Production/MatterFab</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,2)</drawSize>
+			<damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+		</graphicData>
+		<CostList>
+			<Steel>650</Steel>
+			<Titanium>150</Titanium>
+			<Uranium>5</Uranium>
+			<MagneticCoil>12</MagneticCoil>
+			<ComputerComp>35</ComputerComp>
+			<Component>12</Component>
+		</CostList>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<Size>(7,2)</Size>
+		<DesignationCategory>Production</DesignationCategory>
+		<Passability>Impassable</Passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>ProduceAPoly</li>
+			<li>ProduceBPoly</li>
+			<li>ProducePlasteel</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>65000</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(0,217,217,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>1.5</heatPerTickWhileWorking>
+			<soundAmbient>MatterFab</soundAmbient>
+		</building>
+		<researchPrerequisites><li>AtomicA</li></researchPrerequisites>
+	</ThingDef>
+
+	<!-- ========================= Electrolyzer ==========================-->
+
+	<ThingDef ParentName="BuildingBase">
+		<DefName>Electrolyzer</DefName>
+		<label>Electrolyzer</label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>A machine that induces electrolysis, separating elements by applying a direct electric current and driving non-spontaneous chemical reactions. Produces manufactored materials.</Description>
+		<graphicData>
+			<texPath>Things/Building/Production/Electrolyzer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,2)</drawSize>
+			<damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+		</graphicData>
+		<constructEffect>ConstructMetal</constructEffect>
+		<CostList>
+			<Steel>540</Steel>
+			<Titanium>120</Titanium>
+			<ComputerComp>10</ComputerComp>
+			<Component>6</Component>
+		</CostList>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<Size>(3,2)</Size>
+		<DesignationCategory>Production</DesignationCategory>
+		<Passability>Impassable</Passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>ProduceSilicon</li>
+			<li>ProduceEthanol</li>
+			<li>ProduceTitanium</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1100</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(0,112,112,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.5</heatPerTickWhileWorking>
+		</building>
+		<researchPrerequisites><li>Electrolysis</li></researchPrerequisites>
+	</ThingDef>
+
+	<!-- ========================= Robotic assembler ==========================-->
+
+	<ThingDef ParentName="BuildingBase">
+		<DefName>RobAssem</DefName>
+		<label>Robotic Assembler</label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>A machine that applies state of the art robotics, not jerry rigged with scrap metal, to construct machine Component too intricate for simple human hands.</Description>
+		<graphicData>
+			<texPath>Things/Building/Production/RobAssem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,2)</drawSize>
+			<damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+		</graphicData>
+		<constructEffect>ConstructMetal</constructEffect>
+		<CostList>
+			<Steel>480</Steel>
+			<Titanium>120</Titanium>
+			<ComputerComp>12</ComputerComp>
+			<Component>12</Component>
+		</CostList>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<Size>(5,2)</Size>
+		<DesignationCategory>Production</DesignationCategory>
+		<Passability>Impassable</Passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>BuildComputerComp</li>
+			<li>BuildMagneticCoil</li>
+			<li>BuildGlitterworldMedicine</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1350</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(255,0,0,0)</glowColor>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<heatPerTickWhileWorking>0.5</heatPerTickWhileWorking>
+		</building>
+		<researchPrerequisites><li>RoboticEngineering</li></researchPrerequisites>
+	</ThingDef>
+
+</ThingDefs>

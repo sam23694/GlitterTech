@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactionDefs>
+
+	<FactionDef>
+		<defName>Commando</defName>
+		<label>Commando Squad</label>
+		<description>A squad of commandos.</description>
+		<pawnsPlural>commandos</pawnsPlural>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<canMakeRandomly>true</canMakeRandomly>
+		<raidCommonality>25</raidCommonality>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<appreciative>false</appreciative>
+		<leaderTitle>General</leaderTitle>
+		<startingGoodwill>
+			<min>-100</min>
+			<max>-90</max>
+		</startingGoodwill>
+		<factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<techLevel>Spacer</techLevel>
+		<earliestRaidDays>180</earliestRaidDays>
+		<backstoryCategory>Raider</backstoryCategory>
+		<canFlee>false</canFlee>
+		<hairTags>
+			<li>Punk</li>
+			<li>Urban</li>
+		</hairTags>
+		<naturalColonyGoodwill>
+			<min>-100</min>
+			<max>-80</max>
+		</naturalColonyGoodwill>
+		<pawnGroupMakers>
+			<li Class="PawnGroupMaker_Normal">
+				<commonality>100</commonality>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<options>
+					<Commando>20</Commando>
+					<CommandoH>10</CommandoH>
+					<CommandoScout>5</CommandoScout>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
+		<homeIconColor>(150,150,150)</homeIconColor>
+	</FactionDef>
+
+</FactionDefs>

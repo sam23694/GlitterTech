@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_OCPistol</defName>
+		<label>OC bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>8</damageAmountBase>
+			<speed>150</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_OCPDPistol</defName>
+		<label>OC Defense Pistol</label>
+		<description>Orion Corps line of personal defense weapons. This pistol is light weight and perfect for personal defense in hostile environments.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/OrionCorp/OCDPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>800</MarketValue>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.10</AccuracyLong>
+			<RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>OCDefense</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_OCPistol</projectileDef>
+				<warmupTicks>35</warmupTicks>
+				<range>24</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>OCDRifle</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseBullet">
+		<defName>Bullet_OCRifle</defName>
+		<label>APB bullet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<speed>150</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_OCPDRifle</defName>
+		<label>OC Defense Rifle</label>
+		<description>Orion Corps line of personal defense weapons. This Rifle is light weight and perfect for personal defense in hostile environments.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/OrionCorp/OCDRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+
+		<statBases>
+			<MarketValue>1000</MarketValue>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.65</AccuracyMedium>
+			<AccuracyLong>0.15</AccuracyLong>
+			<RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+		</statBases>
+		<weaponTags>
+			<li>OCDefense</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_OCRifle</projectileDef>
+				<warmupTicks>65</warmupTicks>
+				<range>35</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>12</burstShotCount>
+				<soundCast>OCDRifle</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseGun">
+		<defName>Gun_OCRocket</defName>
+		<label>Orion rocket launcher</label>
+		<description>A standard issue Orion Corporation anti-tank weapon. Laser guide and much more accurate then standard rocket launchers</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponRanged/RocketLauncher</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>900</MarketValue>
+			<AccuracyTouch>0.9</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.92</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<destroyOnDrop>false</destroyOnDrop>
+		<weaponTags>
+			<li>OCHeavy</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_ShootOneUse</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<projectileDef>Bullet_Rocket</projectileDef>
+				<forcedMissRadius>1.0</forcedMissRadius>
+				<warmupTicks>150</warmupTicks>
+				<range>60</range>
+				<soundCast>InfernoCannon_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+	</ThingDef>
+
+</ThingDefs>

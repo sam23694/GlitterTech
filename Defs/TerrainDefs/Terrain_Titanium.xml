@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TerrainDefs>
+
+	<TerrainDef Name="FloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Heavy</li>
+			<li>SmoothHard</li>
+		</affordances>
+		<statBases>
+			<WorkToMake>135</WorkToMake>
+		</statBases>
+		<designationCategory>Floors</designationCategory>
+		<Fertility>0</Fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<AcceptTerrainSourceFilth>True</AcceptTerrainSourceFilth>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	</TerrainDef>
+
+
+	<!-- ================= Tile ================= -->
+
+	<TerrainDef  ParentName="FloorBase" Name="GTTile" Abstract="True">
+		<RenderPrecedence>240</RenderPrecedence>
+		<Description>Tiles, for that Glitter world look.</Description>
+		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
+		<color>(255,255,255)</color>
+		<EdgeType>Hard</EdgeType>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="GTTile">
+		<DefName>TitaniumTile</DefName>
+		<Label>Titanium tile</Label>
+		<Description>Titanium tiles, for that Glitter world look.</Description>
+		<color>(255,255,255)</color>
+		<statBases>
+			<WorkToMake>135</WorkToMake>
+			<Beauty>8</Beauty>
+		</statBases>
+		<CostList>
+			<Titanium>3</Titanium>
+		</CostList>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="GTTile">
+		<DefName>AlphaTile</DefName>
+		<Label>Alpha-Poly tile</Label>
+		<Description>Alpha-Poly tiles, for that alien spaceship look.</Description>
+		<color>(100,60,100)</color>
+		<statBases>
+			<WorkToMake>15</WorkToMake>
+			<Beauty>16</Beauty>
+		</statBases>
+		<CostList>
+			<AlphaPoly>3</AlphaPoly>
+		</CostList>
+	</TerrainDef>
+
+	<TerrainDef  ParentName="GTTile">
+		<DefName>BetaTile</DefName>
+		<Label>Beta-Poly tile</Label>
+		<Description>Beta-Poly tiles, for that alien spaceship look.</Description>
+		<color>(100,60,60)</color>
+		<statBases>
+			<WorkToMake>100</WorkToMake>
+			<Beauty>30</Beauty>
+		</statBases>
+		<CostList>
+			<BetaPoly>3</BetaPoly>
+		</CostList>
+	</TerrainDef>
+
+</TerrainDefs>

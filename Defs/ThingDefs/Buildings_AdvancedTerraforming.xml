@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>ImpactionCharge</defName>
+		<label>Impaction charge</label>
+		<thingClass>Building_BlastingCharge</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Terraforming/ImpactionCharge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<WorkToMake>800</WorkToMake>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<description>Detonates on command. Creates a directed blast of plasma, which impacts right into the bedrock. Used for asteroid mining and acessing underground resources.</description>
+		<comps>
+			<li Class="CompProperties_Explosive">
+				<explosiveRadius>3.9</explosiveRadius>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(255,255,0,0)</glowColor>
+			</li>
+		</comps>
+		<size>(1,1)</size>
+		<costList>
+			<Titanium>35</Titanium>
+			<MagneticCoil>4</MagneticCoil>
+			<Uranium>1</Uranium>
+		</costList>
+		<killedLeavings>
+			<SteamGeyser>1</SteamGeyser>
+		</killedLeavings>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
+		<researchPrerequisites><li>ElectroPlasmatics</li></researchPrerequisites>
+	</ThingDef>
+
+
+</Buildings>
