@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_OCPistol</defName>
 		<label>OC bullet</label>
 		<graphicData>
@@ -15,7 +15,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_OCPDPistol</defName>
 		<label>OC Defense Pistol</label>
 		<description>Orion Corps line of personal defense weapons. This pistol is light weight and perfect for personal defense in hostile environments.</description>
@@ -41,7 +41,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_OCPistol</projectileDef>
-				<warmupTicks>35</warmupTicks>
+				<warmupTime>0.19</warmupTime>
 				<range>24</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 				<burstShotCount>2</burstShotCount>
@@ -52,7 +52,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_OCRifle</defName>
 		<label>APB bullet</label>
 		<graphicData>
@@ -66,7 +66,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_OCPDRifle</defName>
 		<label>OC Defense Rifle</label>
 		<description>Orion Corps line of personal defense weapons. This Rifle is light weight and perfect for personal defense in hostile environments.</description>
@@ -92,7 +92,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_OCRifle</projectileDef>
-				<warmupTicks>65</warmupTicks>
+				<warmupTime>0.4</warmupTime>
 				<range>35</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 				<burstShotCount>12</burstShotCount>
@@ -103,7 +103,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_OCRocket</defName>
 		<label>Orion rocket launcher</label>
 		<description>A standard issue Orion Corporation anti-tank weapon. Laser guide and much more accurate then standard rocket launchers</description>
@@ -130,7 +130,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_Rocket</projectileDef>
 				<forcedMissRadius>1.0</forcedMissRadius>
-				<warmupTicks>150</warmupTicks>
+				<warmupTime>1.0</warmupTime>
 				<range>60</range>
 				<soundCast>InfernoCannon_Fire</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>

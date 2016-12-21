@@ -2,7 +2,7 @@
 <ThingDefs>
 	<!-- ========================= Work tables ==========================-->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<DefName>PharmaTable</DefName>
 		<label>pharmaceutical table</label>
 		<ThingClass>Building_WorkTable_HeatPush</ThingClass>
@@ -78,7 +78,7 @@
 	</ThingDef>
 
 	<!-- ========================= Matter fabricator ==========================-->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<DefName>Matterfab</DefName>
 		<label>Matter fabricator</label>
 		<ThingClass>Building_WorkTable</ThingClass>
@@ -147,7 +147,7 @@
 
 	<!-- ========================= Electrolyzer ==========================-->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<DefName>Electrolyzer</DefName>
 		<label>Electrolyzer</label>
 		<ThingClass>Building_WorkTable</ThingClass>
@@ -214,7 +214,7 @@
 
 	<!-- ========================= Robotic assembler ==========================-->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<DefName>RobAssem</DefName>
 		<label>Robotic Assembler</label>
 		<ThingClass>Building_WorkTable</ThingClass>

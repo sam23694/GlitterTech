@@ -1,7 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef ParentName="BasePawn" Name="BaseGTVehicle" Abstract="True">
+	<ThingDef Name="BasePawn_GT" Abstract="True">
+		<thingClass>Pawn</thingClass>
+		<category>Pawn</category>
+		<selectable>true</selectable>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<useHitPoints>false</useHitPoints>
+		<hasTooltip>true</hasTooltip>
+		<soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+		<inspectorTabs>
+			<li>ITab_Pawn_Health</li>
+			<li>ITab_Pawn_Needs</li>
+			<li>ITab_Pawn_Character</li>
+			<li>ITab_Pawn_Training</li>
+			<li>ITab_Pawn_Gear</li>
+			<li>ITab_Pawn_Guest</li>
+			<li>ITab_Pawn_Prisoner</li>
+			<li>ITab_Pawn_Social</li>
+		</inspectorTabs>
+		<comps>
+			<li>
+				<compClass>CompAttachBase</compClass>
+			</li>
+		</comps>
+		<drawGUIOverlay>true</drawGUIOverlay>
+	</ThingDef>
+
+	<ThingDef ParentName="BasePawn_GT" Name="BaseGTVehicle" Abstract="True">
 		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
 		<statBases>
 			<PsychicSensitivity>0</PsychicSensitivity>
@@ -31,7 +58,7 @@
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
-				<defaultCooldownTicks>150</defaultCooldownTicks>
+				<defaultCooldownTime>1.2</defaultCooldownTime>
 				<meleeDamageBaseAmount>50</meleeDamageBaseAmount>
 				<meleeDamageDef>Blunt</meleeDamageDef>
 			</li>

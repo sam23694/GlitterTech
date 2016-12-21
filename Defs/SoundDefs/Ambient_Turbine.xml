@@ -4,6 +4,7 @@
 	<SoundDef>
 		<defName>XITurbine</defName>  
 		<sustain>True</sustain>  
+		<context>MapOnly</context>
 		<eventNames />  
 		<priorityMode>PrioritizeNearest</priorityMode>  
 		<subSounds>

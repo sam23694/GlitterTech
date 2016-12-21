@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TerrainDefs>
 
-	<TerrainDef Name="FloorBase" Abstract="True">
+	<TerrainDef Name="FloorBase_GT" Abstract="True">
 		<layerable>true</layerable>
 		<affordances>
 			<li>Light</li>
@@ -21,7 +21,7 @@
 
 	<!-- ================= Tile ================= -->
 
-	<TerrainDef  ParentName="FloorBase" Name="GTTile" Abstract="True">
+	<TerrainDef  ParentName="FloorBase_GT" Name="GTTile" Abstract="True">
 		<RenderPrecedence>240</RenderPrecedence>
 		<Description>Tiles, for that Glitter world look.</Description>
 		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>

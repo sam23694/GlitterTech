@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef Name="BuildingBase_GT" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>BuildingRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>Shield</defName>
 		<label>Shield</label>
 		<thingClass>Building</thingClass>
@@ -49,7 +61,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>EMTurret</defName>
 		<label>EMRG turret</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -105,7 +117,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_EMRGTurret</turretGunDef>
-			<turretburstCooldownTicks>400</turretburstCooldownTicks>
+			<turretBurstCooldownTime>10</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/EMRGTurret_Top</turretTopgraphicPath>
 		</building>
 		<researchPrerequisites>
@@ -114,7 +126,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>CannisterTurret</defName>
 		<label>Cannister turret</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -171,7 +183,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_CannisterTurret</turretGunDef>
-			<turretBurstCooldownTicks>650</turretBurstCooldownTicks>
+			<turretBurstCooldownTime>12</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/EMRGTurret_Top</turretTopgraphicPath>
 		</building>
 		<researchPrerequisites>
@@ -180,7 +192,7 @@
 	</ThingDef>
 
 	<!--=============== Mortar turret ===============-->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>AutoMortar</defName>
 		<label>Automatic mortar</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -235,8 +247,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_AutoMortar</turretGunDef>
-			<turretBurstWarmupTicks>150</turretBurstWarmupTicks>
-			<turretBurstCooldownTicks>1200</turretBurstCooldownTicks>
+			<turretBurstCooldownTime>18</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/AutoMortarTop</turretTopgraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
@@ -251,7 +262,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>ClusterMortar</defName>
 		<label>Automatic cluster mortar</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -305,8 +316,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_ClusterMortar</turretGunDef>
-			<turretBurstWarmupTicks>150</turretBurstWarmupTicks>
-			<turretBurstCooldownTicks>1200</turretBurstCooldownTicks>
+			<turretBurstCooldownTime>18</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/AutoMortarTop</turretTopgraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
@@ -320,7 +330,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>EMPAMortar</defName>
 		<label>Automatic EMP mortar</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -374,8 +384,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_EMPAMortar</turretGunDef>
-			<turretBurstWarmupTicks>150</turretBurstWarmupTicks>
-			<turretBurstCooldownTicks>1200</turretBurstCooldownTicks>
+			<turretBurstCooldownTime>18</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/AutoMortarTop</turretTopgraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
@@ -391,7 +400,7 @@
 
 
 	<!--=============== Missile turret ===============-->
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>MissileTurret</defName>
 		<label>Long range missile turret</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -447,8 +456,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_MissileTurret</turretGunDef>
-			<turretBurstWarmupTicks>100</turretBurstWarmupTicks>
-			<turretBurstCooldownTicks>1200</turretBurstCooldownTicks>
+			<turretBurstCooldownTime>18</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/AutoMissileTop</turretTopgraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
@@ -462,7 +470,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>CMissileTurret</defName>
 		<label>Cruise missile turret</label>
 		<thingClass>Building_TurretGun</thingClass>
@@ -519,8 +527,7 @@
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_CMissileTurret</turretGunDef>
-			<turretBurstWarmupTicks>650</turretBurstWarmupTicks>
-			<turretBurstCooldownTicks>6000</turretBurstCooldownTicks>
+			<turretBurstCooldownTime>50</turretBurstCooldownTime>
 			<turretTopgraphicPath>Things/Building/Turret/AutoCMissileTop</turretTopgraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>

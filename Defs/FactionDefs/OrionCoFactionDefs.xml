@@ -9,16 +9,22 @@
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Orion Installation</fixedName>
 		<raidCommonality>20</raidCommonality>
-		<canSiege>true</canSiege>
+		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Director</leaderTitle>
+		<expandingIconTexture>World/WorldObjects/Expanding/PirateOutpost</expandingIconTexture>
+		<colorSpectrum>
+			<li>(0.45, 0.03, 0.02)</li>
+			<li>(0.8, 0.08, 0.18)</li>
+			<li>(0.92, 0.62, 0.06)</li>
+		</colorSpectrum>
 		<startingGoodwill>
 			<min>-100</min>
 			<max>40</max>
 		</startingGoodwill>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
-		<canFlee>false</canFlee>
+		<autoFlee>false</autoFlee>
 		<hidden>false</hidden>
 		<hairTags>
 			<li>Urban</li>
@@ -32,11 +38,8 @@
 			<max>45</max>
 		</allowedArrivalTemperatureRange>
 		<pawnGroupMakers>
-			<li Class="PawnGroupMaker_Normal">
-				<commonality>100</commonality>
-				<disallowedStrategies>
-					<li>Siege</li>
-				</disallowedStrategies>
+			<li>
+				<kindDef>Normal</kindDef>
 				<options>
 					<OCSoldier>60</OCSoldier>
 					<OCPeaceKeeper>20</OCPeaceKeeper>
@@ -45,8 +48,7 @@
 				</options>
 			</li>
 		</pawnGroupMakers>
-		<homeIconPath>World/FactionHomes/DefaultHome</homeIconPath>
-		<homeIconColor>(150,150,150)</homeIconColor>
+		<homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
 	</FactionDef>
 
 </FactionDefs>

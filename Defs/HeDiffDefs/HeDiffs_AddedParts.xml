@@ -2,7 +2,13 @@
 <Defs>
 	<!-- Added body parts -->
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef Name="AddedBodyPartBase_GT" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<defaultLabelColor>(0.5, 0.5, 0.9)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTHeart</defName>
 		<label>Cybernetic heart</label>
 		<spawnThingOnRemoved>GTHeart</spawnThingOnRemoved>
@@ -23,7 +29,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTLung</defName>
 		<label>Cybernetic lung</label>
 		<spawnThingOnRemoved>GTLung</spawnThingOnRemoved>
@@ -44,7 +50,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTKidney</defName>
 		<label>Cybernetic kidney</label>
 		<spawnThingOnRemoved>GTKidney</spawnThingOnRemoved>
@@ -65,7 +71,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTLiver</defName>
 		<label>Cybernetic liver</label>
 		<spawnThingOnRemoved>GTLiver</spawnThingOnRemoved>
@@ -90,7 +96,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTStomach</defName>
 		<label>Cybernetic stomach</label>
 		<spawnThingOnRemoved>GTStomach</spawnThingOnRemoved>
@@ -115,7 +121,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTDentures</defName>
 		<label>Advanced bionic dentures</label>
 		<spawnThingOnRemoved>GTDentures</spawnThingOnRemoved>
@@ -136,7 +142,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTArm</defName>
 		<label>Advanced bionic arm</label>
 		<spawnThingOnRemoved>GTArm</spawnThingOnRemoved>
@@ -156,12 +162,11 @@
 			</li>
 		</stages>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>100</defaultCooldownTicks>
+						<defaultCooldownTime>1.0</defaultCooldownTime>
 						<meleeDamageBaseAmount>20</meleeDamageBaseAmount>
 						<meleeDamageDef>Blunt</meleeDamageDef>
 					</li>
@@ -170,7 +175,7 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTHand</defName>
 		<label>Advanced bionic hand</label>
 		<spawnThingOnRemoved>GTHand</spawnThingOnRemoved>
@@ -190,12 +195,11 @@
 			</li>
 		</stages>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>100</defaultCooldownTicks>
+						<defaultCooldownTime>1.0</defaultCooldownTime>
 						<meleeDamageBaseAmount>12</meleeDamageBaseAmount>
 						<meleeDamageDef>Blunt</meleeDamageDef>
 					</li>
@@ -204,7 +208,7 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTLeg</defName>
 		<label>Advanced bionic leg</label>
 		<spawnThingOnRemoved>GTLeg</spawnThingOnRemoved>
@@ -225,7 +229,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTFoot</defName>
 		<label>Advanced bionic foot</label>
 		<spawnThingOnRemoved>GTFoot</spawnThingOnRemoved>
@@ -246,7 +250,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTEye</defName>
 		<label>Advanced bionic eye</label>
 		<spawnThingOnRemoved>GTEye</spawnThingOnRemoved>
@@ -267,7 +271,7 @@
 		</stages>
 	</HediffDef>
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTEar</defName>
 		<label>Advanced bionic ear</label>
 		<spawnThingOnRemoved>GTEar</spawnThingOnRemoved>

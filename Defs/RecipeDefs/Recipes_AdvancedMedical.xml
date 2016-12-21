@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-	<RecipeDef ParentName="SurgeryFlesh" Name="GTSurgery" Abstract="True">
+	<RecipeDef Abstract="True" Name="GTSurgery">
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
 		<recipeUsers>
 			<li>Human</li>
 		</recipeUsers>

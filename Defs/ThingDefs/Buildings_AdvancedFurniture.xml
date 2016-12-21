@@ -1,20 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Buildings>
 
-	<ThingDef Name="FurnitureBase" ParentName="BuildingBase" Abstract="True">
-		<comps>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-		</comps>
-		<DesignationCategory>Furniture</DesignationCategory>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
-	</ThingDef>
-
-
 	<!--============================== Beds ==============================-->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>ambTable</defName>
 		<label>Re-Ambulation Pod</label>
 		<Description>Warning this med-pod is calibrated for male patients only. This pod is designed for severely injured patents. By injecting bio-discardable re-constructive nano machines into the blood stream this table will fix most wounds over time, but some wounds will still require a doctor.</Description>
@@ -35,7 +24,7 @@
 			<Flammability>1.0</Flammability>
 			<BedRestEffectiveness>1.5</BedRestEffectiveness>
 			<ImmunityGainSpeedFactor>3</ImmunityGainSpeedFactor>
-			<MedicalTreatmentQualityFactor>3</MedicalTreatmentQualityFactor>
+			<MedicalTendQualityOffset>3</MedicalTendQualityOffset>
 		</statBases>
 		<Size>(1,2)</Size>
 		<stuffCategories>
@@ -52,7 +41,7 @@
 		</costList>
 		<building>
 			<Bed_ShowSleeperBody>true</Bed_ShowSleeperBody>
-			<Bed_HealTickInterval>50</Bed_HealTickInterval>
+			<bed_healPerDay>200</bed_healPerDay>
 			<bed_defaultMedical>true</bed_defaultMedical>
 		</building>
 		<comps>
@@ -89,7 +78,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>DynChair</defName>
 		<label>Dynamic Relaxation Chair</label>
 		<graphicData>
@@ -137,7 +126,7 @@
 
 	<!-- ======================== Lighting ======================= -->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>FloodLight</defName>
 		<label>Flood light</label>
 		<thingClass>Building</thingClass>

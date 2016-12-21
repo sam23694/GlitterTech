@@ -3,7 +3,25 @@
 
 	<!--=============== Titanium ====================-->
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef Name="ResourceBase_GT" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<label>unspecified resource</label>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>Titanium</defName>
 		<label>Titanium</label>
 		<description>Titanium alloy. A complex mix of rare elements, making a very strong durable material resistant to corrosion, and high velocity kinetics. Perfect for starships and Orbital space elevators...</description>
@@ -24,6 +42,7 @@
 		<thingCategories>
 			<li>ResourcesRaw</li>
 		</thingCategories>
+		<deepCommonality>1</deepCommonality>
 		<stuffProps>
 			<categories>
 				<li>Metallic</li>
@@ -43,12 +62,14 @@
 				<MeleeWeapon_Cooldown>0.5</MeleeWeapon_Cooldown>
 			</statFactors>
 		</stuffProps>
-		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>MetalFab</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--=============== AlphaPoly ====================-->
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>AlphaPoly</defName>
 		<label>Alpha Poly</label>
 		<description>The first iteration in artificially constructed, atomically assembled dense matter. This man made, and extremely rare material, only assembled in high end matter assemblers is good for building structures in the chronospheres of stars.</description>
@@ -90,12 +111,14 @@
 				<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
 			</statFactors>
 		</stuffProps>
-		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>MetalFab</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--=============== BetaPoly ====================-->
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>BetaPoly</defName>
 		<label>Beta Poly</label>
 		<description>The second iteration in artificially constructed, atomically assembled dense matter. This man made, and extremely rare material, this material is too expensive to be mass produced, and has only been used as material for indestructable space suits, unstoppable kinetic slugs and containment for miniture black holes.</description>
@@ -136,12 +159,14 @@
 				<MeleeWeapon_Cooldown>0.5</MeleeWeapon_Cooldown>
 			</statFactors>
 		</stuffProps>
-		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>MetalFab</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--=============== Components ====================-->
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>MagneticCoil</defName>
 		<label>Magnetic Coil</label>
 		<description>An advanced magnetic coil. Beyond the fabrication skills of anyone but an Electromagnetic physicist.</description>
@@ -160,7 +185,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>Silicon</defName>
 		<label>Silicon</label>
 		<description>Raw elemental Silicon, used in most electronic components.</description>
@@ -179,7 +204,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>ComputerComp</defName>
 		<label>Computer components</label>
 		<description>Advanced electronic circuit boards. Required by advanced machinery, when simple mechanics just isn't enough.</description>
@@ -198,7 +223,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>Ethanol</defName>
 		<label>Ethanol</label>
 		<description>Pure ethanol, strong alcohol used in Medicines and on most weekends...</description>
@@ -217,7 +242,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>Bandage</defName>
 		<label>Bandages</label>
 		<description>Cloth bandages, essential for binding wounds to reduce blood loss.</description>
@@ -236,7 +261,7 @@
 		</thingCategories>
 	</ThingDef>
 
-	<ThingDef ParentName="ResourceBase">
+	<ThingDef ParentName="ResourceBase_GT">
 		<defName>Serum</defName>
 		<label>Serum</label>
 		<description>Fabricated serums, used as treatments on glitterworld planets, when body reconstruction is unavailable.</description>

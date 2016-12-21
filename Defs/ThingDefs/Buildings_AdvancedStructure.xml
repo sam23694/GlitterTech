@@ -3,7 +3,7 @@
 
 	<!--========================= Doors =============================-->
 
-	<ThingDef ParentName="BuildingBase" Name="DoorBase" Abstract="True">
+	<ThingDef ParentName="BuildingBase_GT" Name="DoorBase_GT" Abstract="True">
 		<thingClass>Building_Door</thingClass>
 		<blueprintClass>Blueprint_Door</blueprintClass>
 		<category>Building</category>
@@ -46,7 +46,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="DoorBase">
+	<ThingDef ParentName="DoorBase_GT">
 		<defName>BlastDoor</defName>
 		<label>Blast Door</label>
 		<description>Divides rooms. Powered operation and incredibly strong. Designed to withstand Orbital Kinetic Bombardment...</description>
@@ -80,7 +80,7 @@
 
 	<!--========================= Walls =============================-->
 
-	<ThingDef ParentName="BuildingBase" Name="Wall">
+	<ThingDef ParentName="BuildingBase_GT" Name="Wall_GT">
     <defName>Wall</defName>
     <label>wall</label>
     <thingClass>Building</thingClass>
@@ -148,7 +148,7 @@
     </damageMultipliers>
   </ThingDef>
 
-	<ThingDef ParentName="Wall">
+	<ThingDef ParentName="Wall_GT">
 		<defName>WallWindow</defName>
 		<label>Wall window</label>
 		<description>A wall with a bullet proof window and power conduit.</description>
@@ -176,7 +176,7 @@
 
 	<!--========================= Lighted =============================-->
 
-	<ThingDef ParentName="Wall" Name="WallLight">
+	<ThingDef ParentName="Wall_GT" Name="WallLight_GT">
 		<defName>WallLight_White</defName>
 		<label>Wall light</label>
 		<description>A Wall with a light, for those awkward hallways where lamps just don't fit.</description>
@@ -212,7 +212,7 @@
 		<researchPrerequisites><li>TLights</li></researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="WallLight">
+	<ThingDef ParentName="WallLight_GT">
 		<defName>WallLight_Red</defName>
 		<label>Wall red light</label>
 		<comps>
@@ -223,7 +223,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="WallLight">
+	<ThingDef ParentName="WallLight_GT">
 		<defName>WallLight_Green</defName>
 		<label>Wall green light</label>
 		<comps>
@@ -234,7 +234,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="WallLight">
+	<ThingDef ParentName="WallLight_GT">
 		<defName>WallLight_Blue</defName>
 		<label>Wall blue light</label>
 		<comps>
@@ -245,7 +245,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="WallLight">
+	<ThingDef ParentName="WallLight_GT">
 		<defName>WallLight_Yellow</defName>
 		<label>Wall yellow light</label>
 		<comps>
@@ -256,7 +256,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="WallLight">
+	<ThingDef ParentName="WallLight_GT">
 		<defName>WallLight_Purple</defName>
 		<label>Wall purple light</label>
 		<comps>
@@ -267,7 +267,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="WallLight">
+	<ThingDef ParentName="WallLight_GT">
 		<defName>WallLight_Cyan</defName>
 		<label>Wall cyan light</label>
 		<comps>

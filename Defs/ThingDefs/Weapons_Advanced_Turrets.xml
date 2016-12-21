@@ -1,7 +1,86 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef ParentName="BaseBullet">
+	<!--		Bases		-->
+
+	<ThingDef Name="BaseGun_GT" Abstract="True">
+		<category>Item</category>
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>WeaponsRanged</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_WeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef Name="BaseBullet_GT" Abstract="True">
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Projectile</altitudeLayer>
+		<thingClass>Bullet</thingClass>
+		<label>bullet</label>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+		<graphicData>
+			<shaderType>Transparent</shaderType>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef Name="BaseArtilleryWeapon_GT" Abstract="True">
+		<category>Item</category>
+		<thingClass>ThingWithComps</thingClass>
+		<label>artillery error</label>
+		<equipmentType>Primary</equipmentType>
+		<tickerType>Never</tickerType>
+		<techLevel>Industrial</techLevel>
+		<destroyOnDrop>True</destroyOnDrop>
+		<menuHidden>True</menuHidden>
+		<tradeability>Never</tradeability>
+		<weaponTags>
+			<li>Artillery</li>
+		</weaponTags>
+		<comps>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_EMRGTurret</defName>
 		<label>Improvised turret bullet</label>
 		<graphicData>
@@ -15,7 +94,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_EMRGTurret</defName>
 		<label>EMRG Turret Gun</label>
 		<graphicData>
@@ -42,7 +121,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_EMRGTurret</projectileDef>
-				<warmupTicks>180</warmupTicks>
+				<warmupTime>0.8</warmupTime>
 				<range>60</range>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<burstShotCount>2</burstShotCount>
@@ -54,7 +133,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_CannisterTurret</defName>
 		<label>Improvised turret bullet</label>
 		<graphicData>
@@ -68,7 +147,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_CannisterTurret</defName>
 		<label>Cannister Turret Gun</label>
 		<menuHidden>true</menuHidden>
@@ -95,7 +174,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_CannisterTurret</projectileDef>
-				<warmupTicks>25</warmupTicks>
+				<warmupTime>0.15</warmupTime>
 				<range>15</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>ShotIncendiaryLauncher</soundCast>
@@ -106,7 +185,7 @@
 	</ThingDef>
 	<!-- ================= Bomb mortar ================= -->
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_AutoMortar</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
@@ -128,7 +207,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseArtilleryWeapon">
+	<ThingDef ParentName="BaseArtilleryWeapon_GT">
 		<defName>Artillery_AutoMortar</defName>
 		<label>explosive mortar</label>
 		<description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
@@ -155,7 +234,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_AutoMortar</projectileDef>
 				<forcedMissRadius>8</forcedMissRadius>
-				<warmupTicks>250</warmupTicks>
+				<warmupTime>1.2</warmupTime>
 				<minRange>30</minRange>
 				<range>500</range>
 				<burstShotCount>1</burstShotCount>
@@ -166,7 +245,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_ClusterMortar</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
@@ -188,7 +267,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseArtilleryWeapon">
+	<ThingDef ParentName="BaseArtilleryWeapon_GT">
 		<defName>Artillery_ClusterMortar</defName>
 		<label>explosive mortar</label>
 		<description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
@@ -215,7 +294,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_ClusterMortar</projectileDef>
 				<forcedMissRadius>8</forcedMissRadius>
-				<warmupTicks>250</warmupTicks>
+				<warmupTime>1.2</warmupTime>
 				<minRange>30</minRange>
 				<range>500</range>
 				<burstShotCount>12</burstShotCount>
@@ -226,7 +305,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_EMPAMortar</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
@@ -248,7 +327,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseArtilleryWeapon">
+	<ThingDef ParentName="BaseArtilleryWeapon_GT">
 		<defName>Artillery_EMPAMortar</defName>
 		<label>explosive mortar</label>
 		<description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
@@ -275,7 +354,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_EMPAMortar</projectileDef>
 				<forcedMissRadius>8</forcedMissRadius>
-				<warmupTicks>250</warmupTicks>
+				<warmupTime>1.2</warmupTime>
 				<minRange>30</minRange>
 				<range>500</range>
 				<burstShotCount>12</burstShotCount>
@@ -285,7 +364,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_MissileTurret</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
@@ -307,7 +386,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseArtilleryWeapon">
+	<ThingDef ParentName="BaseArtilleryWeapon_GT">
 		<defName>Artillery_MissileTurret</defName>
 		<label>explosive mortar</label>
 		<description>Missile launcher. Launches a large number of missiles.</description>
@@ -334,7 +413,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_MissileTurret</projectileDef>
 				<forcedMissRadius>2</forcedMissRadius>
-				<warmupTicks>100</warmupTicks>
+				<warmupTime>0.5</warmupTime>
 				<minRange>15</minRange>
 				<range>500</range>
 				<burstShotCount>36</burstShotCount>
@@ -344,7 +423,7 @@
 		</verbs>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_CMissileTurret</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
@@ -366,7 +445,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseArtilleryWeapon">
+	<ThingDef ParentName="BaseArtilleryWeapon_GT">
 		<defName>Artillery_CMissileTurret</defName>
 		<label>explosive mortar</label>
 		<description>Missile launcher. Launches a large number of missiles.</description>
@@ -393,7 +472,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_CMissileTurret</projectileDef>
 				<forcedMissRadius>2</forcedMissRadius>
-				<warmupTicks>650</warmupTicks>
+				<warmupTime>2.5</warmupTime>
 				<minRange>15</minRange>
 				<range>500</range>
 				<burstShotCount>1</burstShotCount>

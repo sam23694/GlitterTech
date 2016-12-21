@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-  <DamageDef Name="LocalInjuryBase" Abstract="True">
+  <DamageDef Name="LocalInjuryBase_GT" Abstract="True">
     <workerClass>DamageWorker_AddInjury</workerClass>
   </DamageDef>
 
-  <DamageDef ParentName="LocalInjuryBase">
+  <DamageDef ParentName="LocalInjuryBase_GT">
     <defName>PacifierStab</defName>
     <label>stab</label>
     <externalViolence>true</externalViolence>

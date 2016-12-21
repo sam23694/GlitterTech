@@ -1,42 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <HediffDefs>
 
-	<HediffDef Name="InjuryBase" Abstract="True">
+	<HediffDef Name="InjuryBase_GT" Abstract="True">
 		<hediffClass>Hediff_Injury</hediffClass>
+		<tendable>true</tendable>
 		<displayWound>true</displayWound>
 	</HediffDef>
 
 
 	<!-- Injuries -->
 
-	<HediffDef ParentName="InjuryBase">
+	<HediffDef ParentName="InjuryBase_GT">
 		<defName>HeatStab</defName>
 		<label>stab</label>
-		<naturallyHealed>true</naturallyHealed>
 		<comps>
-			<li>
-				<compClass>HediffComp_Tendable</compClass>
-				<labelTreatedWell>bandaged</labelTreatedWell>
-				<labelTreated>poorly bandaged</labelTreated>
-				<labelTreatedWellInner>sutured</labelTreatedWellInner>
-				<labelTreatedInner>poorly sutured</labelTreatedInner>
-				<labelSolidTreatedWell>set</labelSolidTreatedWell>
-				<labelSolidTreated>poorly set</labelSolidTreated>
+			<li Class="HediffCompProperties_TendDuration">
+				<labelTendedWell>bandaged</labelTendedWell>
+				<labelTendedWellInner>sutured</labelTendedWellInner>
+				<labelSolidTendedWell>set</labelSolidTendedWell>
 			</li>
-			<li>
-				<compClass>HediffComp_Infecter</compClass>
+			<li Class="HediffCompProperties_Infecter">
 				<infectionChance>0.50</infectionChance>
 			</li>
-			<li>
-				<compClass>HediffComp_GetsOld</compClass>
+			<li Class="HediffCompProperties_GetsOld">
 				<oldLabel>stab scar</oldLabel>
 			</li>
 		</comps>
 		<injuryProps>
 			<painPerSeverity>3</painPerSeverity>
 			<averagePainPerSeverityOld>0.5</averagePainPerSeverityOld>
-			<bleeding>0.8</bleeding>
-			<canMerge>true</canMerge>
+			<bleedRate>0.2</bleedRate>
+			<canMerge>false</canMerge>
 			<destroyedLabel>Melted off</destroyedLabel>
 			<destroyedOutLabel>Melted out</destroyedOutLabel>
 		</injuryProps>

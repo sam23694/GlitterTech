@@ -2,7 +2,7 @@
 <ThingDefs>
 	<!-- artificial - bionics -->
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>OCExo</defName>
 		<label>Orion Exoskeleton</label>
 		<description>A standard issue Orion Corporation exoskeleton. Equiped by most Orion security forces, this all purpose exoskeleton gives them a cheap and capable edge against their competitors.</description>

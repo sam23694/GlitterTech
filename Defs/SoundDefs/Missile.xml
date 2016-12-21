@@ -2,6 +2,7 @@
 <DefPackage-SoundDef>
 	<SoundDef>
 		<sustain>False</sustain>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>4</maxVoices>
 		<maxSimultaneous>1</maxSimultaneous>
@@ -49,6 +50,7 @@
 
 	<SoundDef>
 		<sustain>False</sustain>
+		<context>MapOnly</context>
 		<eventNames />
 		<maxVoices>4</maxVoices>
 		<maxSimultaneous>1</maxSimultaneous>

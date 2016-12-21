@@ -3,6 +3,7 @@
   <SoundDef>
     <defName>Pawn_Engine_Rev</defName>  
     <eventNames />  
+	<context>MapOnly</context>
     <subSounds>
       <li>
         <grains>
@@ -25,6 +26,7 @@
   
   <SoundDef>
     <defName>Pawn_Vehicle_Death</defName>  
+	<context>MapOnly</context>
     <eventNames />  
     <subSounds>
       <li>

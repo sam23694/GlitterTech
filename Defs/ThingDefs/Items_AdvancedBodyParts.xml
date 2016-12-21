@@ -1,8 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 	<!-- artificial - bionics -->
-	
-	<ThingDef ParentName="BodyPartArtificialBase">
+
+	<ThingDef Name="BodyPartBase_GT" Abstract="True">
+		<label>body part</label>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<tickerType>Never</tickerType>
+		<alwaysHaulable>true</alwaysHaulable>
+		<isBodyPartOrImplant>true</isBodyPartOrImplant>
+		<tradeTags>
+			<li>BodyPartOrImplant</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<pathCost>10</pathCost>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartBase_GT" Name="BodyPartArtificialBase_GT" Abstract="True">
+		<thingCategories>
+			<li>BodyPartsArtificial</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTEar</defName>
 		<label>Advanced bionic ear</label>
 		<description>The advanced version of the bionic ear. The second generation of bionic upgrades, typically reserved for top brass military forces.</description>
@@ -18,7 +47,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTEye</defName>
 		<label>Advanced bionic eye</label>
 		<description>The advanced version of the bionic eye. The second generation of bionic upgrades, typically reserved for top brass military forces.</description>
@@ -34,7 +63,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTArm</defName>
 		<label>Advanced bionic arm</label>
 		<description>The second generation of bionic upgrades, using nano fibres to produce artificial muscles. Gives the owner incredible strength. You may destroy your opponents limbs in a fist fight...not recomended for wardens.</description>
@@ -50,7 +79,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTLeg</defName>
 		<label>Advanced bionic leg</label>
 		<description>The second generation of bionic upgrades, using nano fibres to produce artificial muscles. Give the owner incredible speed</description>
@@ -66,7 +95,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTHeart</defName>
 		<label>Cybernetic heart</label>
 		<description>A powerful cardiac augmentation, replacing standard human hearts. Safely manages very high blood flow without overwhelming standard body parts.</description>
@@ -82,7 +111,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTLung</defName>
 		<label>Cybernetic lung</label>
 		<description>A powerful vascular augmentation, replacing standard human lungs. The perfect pairing with a cybernetic heart, this increases circulatory speed, increasing efficiency.</description>
@@ -98,7 +127,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTKidney</defName>
 		<label>Cybernetic kidney</label>
 		<description>A powerful abdominal augmentation, replacing standard human kidneys. Increasing blood filtration efficiency.</description>
@@ -114,7 +143,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTLiver</defName>
 		<label>Cybernetic liver</label>
 		<description>A powerful abdominal augmentation, replacing standard human livers. Increasing blood filtration efficiency and metabolic efficiency.</description>
@@ -130,7 +159,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTStomach</defName>
 		<label>Cybernetic stomach</label>
 		<description>A powerful abdominal augmentation, replacing standard human stomachs. Increasing digestion efficiency and metabolic efficiency.</description>
@@ -146,7 +175,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTHand</defName>
 		<label>Advanced bionic hand</label>
 		<description>The second generation of bionic upgrades, using nano fibres to produce artificial muscles. The more limited version of arm upgrades, just replacing hands.</description>
@@ -162,7 +191,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTFoot</defName>
 		<label>Advanced bionic foot</label>
 		<description>The second generation of bionic upgrades, using nano fibres to produce artificial muscles. The more limited version of leg upgrades, just replacing feet.</description>
@@ -178,7 +207,7 @@
 		</techHediffsTags>
 	</ThingDef>
 
-	<ThingDef ParentName="BodyPartArtificialBase">
+	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>GTDentures</defName>
 		<label>Advanced bionic dentures</label>
 		<description>The second generation of bionic upgrades, using nano machinery to break down food instantly with minimal effort.</description>

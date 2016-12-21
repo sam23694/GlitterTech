@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ThingDef Name="ApparelShieldBase" Abstract="True">
+	<ThingDef Name="ApparelShieldBase_GT" Abstract="True">
 		<thingClass>Apparel</thingClass>
 		<category>Item</category>
 		<selectable>True</selectable>
@@ -36,7 +36,7 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelShieldBase">
+	<ThingDef ParentName="ApparelShieldBase_GT">
 		<thingClass>PersonalShield</thingClass>
 		<defName>Apparel_HC1Shield</defName>
 		<label>HC-1 shield</label>
@@ -73,7 +73,7 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelShieldBase">
+	<ThingDef ParentName="ApparelShieldBase_GT">
 		<thingClass>PersonalShield</thingClass>
 		<defName>Apparel_OCShield</defName>
 		<label>Orion Corp defense shield</label>

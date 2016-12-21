@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_EMRifle</defName>
 		<label>EM bullet</label>
 		<graphicData>
@@ -15,7 +15,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_EMRifle</defName>
 		<label>EMRG-1</label>
 		<description>Electromagnetic Rail Gun. The lastest thing in long range combat. Extremely powerful.</description>
@@ -42,7 +42,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_EMRifle</projectileDef>
-				<warmupTicks>220</warmupTicks>
+				<warmupTime>1.1</warmupTime>
 				<range>60</range>
 				<soundCast>EM</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>

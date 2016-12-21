@@ -2,9 +2,83 @@
 
 <ThingDefs>
 
+	<ThingDef Name="BaseMeleeWeapon_GT" Abstract="True">
+		<category>Item</category>
+		<thingClass>ThingWithComps</thingClass>
+		<equipmentType>Primary</equipmentType>
+		<pathCost>10</pathCost>
+		<useHitPoints>True</useHitPoints>
+		<selectable>True</selectable>
+		<graphicData>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>1</DeteriorationRate>
+			<SellPriceFactor>0.5</SellPriceFactor>
+		</statBases>
+		<altitudeLayer>Item</altitudeLayer>
+		<alwaysHaulable>True</alwaysHaulable>
+		<tickerType>Never</tickerType>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+			<li>Melee</li>
+		</weaponTags>
+		<thingCategories>
+			<li>WeaponsMelee</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompEquippable</compClass>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>ArtName_WeaponMelee</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+		</comps>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+	</ThingDef>
+
+
+
+	<ThingDef Name="BaseMeleeWeapon_Sharp_GT" ParentName="BaseMeleeWeapon" Abstract="True">
+		<recipeMaker>
+			<defaultIngredientFilter>
+				<categories>
+					<li>Root</li>
+				</categories>
+				<exceptedThingDefs>
+					<li>Silver</li>
+					<li>Gold</li>
+					<li>WoodLog</li>
+				</exceptedThingDefs>
+			</defaultIngredientFilter>
+		</recipeMaker>
+	</ThingDef>
+
 	<!-- ============================================================== -->
 
-	<ThingDef ParentName="BaseMeleeWeapon_Sharp">
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_GT">
 		<defName>MeleeWeapon_GTPacifier</defName>
 		<label>Orion Corp pacifier</label>
 		<description>A staff equiped with electrodes which blast targets with heat and electrity. Designed to enforce maximum pain with moderate damage.</description>

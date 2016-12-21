@@ -1,39 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef Name="ApparelBase" Abstract="True">
-    <thingClass>Apparel</thingClass>
-    <category>Item</category>
-    <selectable>True</selectable>
-    <pathCost>10</pathCost>
-    <useHitPoints>True</useHitPoints>
-    <graphicData>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
-    </graphicData>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-      <DeteriorationRate>2</DeteriorationRate>
-      <SellPriceFactor>0.5</SellPriceFactor>
-    </statBases>
-    <altitudeLayer>Item</altitudeLayer>
-    <alwaysHaulable>True</alwaysHaulable>
-    <tickerType>Never</tickerType>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompColorable</compClass>
-      </li>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-    </comps>
-  </ThingDef>
-
 	<!-- ============= Stuff-less apparel =================-->
 
-	<ThingDef ParentName="ApparelBase">
+	<ThingDef ParentName="ApparelBase_GT">
 		<defName>Apparel_OCCombatVest</defName>
 		<label>Orion Combat vest</label>
 		<description>A standard issue Orion Corporation combat vest. Equiped with more advanced alloys then your usual vest.</description>
@@ -76,7 +46,7 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelBase">
+	<ThingDef ParentName="ApparelBase_GT">
 		<defName>Apparel_OCHelmet</defName>
 		<label>Orion Corporation helmet</label> 
 		<description>A standard issue Orion Corporation helmet. Other then the characteristic Orion blue, it is made of more advanced materials then the standard helmet.</description>
@@ -120,7 +90,7 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelBase">
+	<ThingDef ParentName="ApparelBase_GT">
 		<defName>Apparel_OCPants</defName>
 		<label>Orion Unfiorm pants</label>
 		<description>A set of Orion pants.</description>
@@ -159,7 +129,7 @@
 		</colorGenerator>
 	</ThingDef>
 
-	<ThingDef ParentName="ApparelBase">
+	<ThingDef ParentName="ApparelBase_GT">
 		<defName>Apparel_OCShirt</defName>
 		<label>Orion Uniform Shirt</label>
 		<description>A basic Orion shirt.</description>

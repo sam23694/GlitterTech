@@ -86,7 +86,7 @@
 				</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>ArtilleryShell</thingDef>
+				<thingDef>MortarShell</thingDef>
 				<price>Cheap</price>
 				<countRange>
 					<min>30</min>

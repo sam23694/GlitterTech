@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_MRGPistol</defName>
 		<label>MRG bullet</label>
 		<graphicData>
@@ -15,7 +15,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_MRGPistol</defName>
 		<label>MRG-5 Pistol</label>
 		<description>Micro rail gun mark 5. The compact counter part of the MRG-5 Rifle, this pistol is the fifth instalment of top of the line rail gun technologies.  Very accurate and powerful, this weapon will make propellant weapons seem neolithic.</description>
@@ -41,7 +41,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_MRGPistol</projectileDef>
-				<warmupTicks>25</warmupTicks>
+				<warmupTime>0.15</warmupTime>
 				<range>18</range>
 				<soundCast>EM_small</soundCast>
 				<soundCastTail>GunTail_Light</soundCastTail>
@@ -51,7 +51,7 @@
 	</ThingDef>
 
 
-	<ThingDef ParentName="BaseBullet">
+	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_MRGRifle</defName>
 		<label>MRG bullet</label>
 		<graphicData>
@@ -65,7 +65,7 @@
 		</projectile>
 	</ThingDef>
 
-	<ThingDef ParentName="BaseGun">
+	<ThingDef ParentName="BaseGun_GT">
 		<defName>Gun_MRGRifle</defName>
 		<label>MRG-5 Rifle</label>
 		<description>Micro rail gun mark 5. This Rifle is the fifth instalment of top of the line rail gun technologies.  Very accurate and powerful, this weapon will make propellant weapons seem neolithic.</description>
@@ -91,7 +91,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_MRGRifle</projectileDef>
-				<warmupTicks>25</warmupTicks>
+				<warmupTime>0.15</warmupTime>
 				<range>30</range>
 				<soundCast>EM_small</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>

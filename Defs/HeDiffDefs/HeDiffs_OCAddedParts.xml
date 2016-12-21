@@ -2,7 +2,7 @@
 <Defs>
 	<!-- Added body parts -->
 
-	<HediffDef ParentName="AddedBodyPartBase">
+	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>OCExo</defName>
 		<label>Orion Exoskeleton</label>
 		<spawnThingOnRemoved>OCExo</spawnThingOnRemoved>
@@ -26,12 +26,11 @@
 			</li>
 		</stages>
 		<comps>
-			<li>
-				<compClass>HediffComp_VerbGiver</compClass>
+			<li Class="HediffCompProperties_VerbGiver">
 				<verbs>
 					<li>
 						<verbClass>Verb_MeleeAttack</verbClass>
-						<defaultCooldownTicks>60</defaultCooldownTicks>
+						<defaultCooldownTime>1.2</defaultCooldownTime>
 						<meleeDamageBaseAmount>12</meleeDamageBaseAmount>
 						<meleeDamageDef>Blunt</meleeDamageDef>
 					</li>

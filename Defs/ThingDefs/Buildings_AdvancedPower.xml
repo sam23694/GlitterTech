@@ -3,7 +3,7 @@
 
 	<!--==================================PowerSource=====================================-->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>XenonIonTurbine</defName>
 		<label>Xenon-Ion Turbine</label>
 		<thingClass>Building</thingClass>
@@ -70,7 +70,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>PlasmaReactor</defName>
 		<label>Plasma Fusion Reactor</label>
 		<thingClass>Building</thingClass>
@@ -138,7 +138,7 @@
 
 	<!--==================================Batteries=====================================-->
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>FissionBattery</defName>
 		<label>Battery</label>
 		<thingClass>Building_Battery</thingClass>
@@ -199,7 +199,7 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase">
+	<ThingDef ParentName="BuildingBase_GT">
 		<defName>HeavyPowerConduit</defName>
 		<label>heavy power conduit</label>
 		<thingClass>Building</thingClass>
