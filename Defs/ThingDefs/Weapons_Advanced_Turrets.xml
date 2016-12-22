@@ -19,6 +19,7 @@
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>2</DeteriorationRate>
 			<SellPriceFactor>0.5</SellPriceFactor>
+			<Mass>100</Mass>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>True</alwaysHaulable>
@@ -69,6 +70,9 @@
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
 		<tradeability>Never</tradeability>
+		<statBases>
+			<Mass>100</Mass>
+		</statBases>
 		<weaponTags>
 			<li>Artillery</li>
 		</weaponTags>

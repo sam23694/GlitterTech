@@ -32,6 +32,7 @@
 			<AccuracyMedium>0.20</AccuracyMedium>
 			<AccuracyLong>0.10</AccuracyLong>
 			<RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
+                        <Mass>1.2</Mass>
 		</statBases>
 		<weaponTags>
 			<li>GlitterTech</li>
@@ -87,6 +88,7 @@
 			<AccuracyMedium>0.90</AccuracyMedium>
 			<AccuracyLong>0.80</AccuracyLong>
 			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                        <Mass>3.5</Mass>
 		</statBases>
 		<weaponTags>
 			<li>GlitterTech</li>
@@ -139,6 +141,7 @@
 			<AccuracyMedium>0.25</AccuracyMedium>
 			<AccuracyLong>0.15</AccuracyLong>
 			<RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+                        <Mass>3.5</Mass>
 		</statBases>
 		<weaponTags>
 			<li>GlitterTech</li>

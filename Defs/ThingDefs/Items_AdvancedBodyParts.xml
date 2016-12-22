@@ -41,6 +41,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGTLimb</li>
@@ -57,6 +58,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>Advanced</li>
@@ -73,6 +75,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>5</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGTLimb</li>
@@ -89,6 +92,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>8</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGTLimb</li>
@@ -105,6 +109,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>1</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGT</li>
@@ -121,6 +126,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>1</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGT</li>
@@ -137,6 +143,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>1</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGT</li>
@@ -153,6 +160,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>2</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGT</li>
@@ -169,6 +177,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>2</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGT</li>
@@ -185,6 +194,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>1</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGTLimb</li>
@@ -201,6 +211,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>2</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGTLimb</li>
@@ -217,6 +228,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>3400</MarketValue>
+                        <Mass>0.3</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>AdvancedGT</li>

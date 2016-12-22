@@ -165,6 +165,7 @@
 			<WorkToMake>1200</WorkToMake>
 			<Flammability>2.0</Flammability>
 			<Beauty>-6</Beauty>
+                        <Mass>22</Mass>
 		</statBases>
 		<description>Stores electricity and recycles charge using fission processes. Slightly more efficient and stores four times as much. Warning - charged batteries tend to explode when heated or wet.</description>
 		<size>(2,2)</size>

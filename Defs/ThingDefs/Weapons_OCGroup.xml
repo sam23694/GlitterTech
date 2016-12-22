@@ -32,6 +32,7 @@
 			<AccuracyMedium>0.60</AccuracyMedium>
 			<AccuracyLong>0.10</AccuracyLong>
 			<RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+                        <Mass>1.2</Mass>
 		</statBases>
 		<weaponTags>
 			<li>OCDefense</li>
@@ -83,6 +84,7 @@
 			<AccuracyMedium>0.65</AccuracyMedium>
 			<AccuracyLong>0.15</AccuracyLong>
 			<RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+                        <Mass>3.5</Mass>
 		</statBases>
 		<weaponTags>
 			<li>OCDefense</li>
@@ -118,6 +120,7 @@
 			<AccuracyMedium>0.92</AccuracyMedium>
 			<AccuracyLong>0.88</AccuracyLong>
 			<RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+                        <Mass>8</Mass>
 		</statBases>
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>false</destroyOnDrop>
