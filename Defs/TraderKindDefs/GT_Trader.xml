@@ -115,7 +115,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
-				<tradeTag>BodyPart</tradeTag>
+				<tradeTag>BodyPartOrImplant</tradeTag>
 				<thingDefCountRange>
 					<min>2</min>
 					<max>5</max>
