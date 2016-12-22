@@ -1,12 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <PawnKindDefs>
 
-	<PawnKindDef>
-		<defName>Commando</defName>
-		<label>Commando</label>
+	<PawnKindDef Name="ComBase" Abstract="True">
 		<race>Human</race>
-		<combatPower>70</combatPower>
 		<defaultFactionType>Commando</defaultFactionType>
+		<chemicalAddictionChance>0.7</chemicalAddictionChance>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
 		<backstoryCategory>Raider</backstoryCategory>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
@@ -17,6 +15,25 @@
 			<min>1</min>
 			<max>1.8</max>
 		</gearHealthRange>
+		<techHediffsMoney>
+			<min>3400</min>
+			<max>3400</max>
+		</techHediffsMoney>
+		<techHediffsTags>
+			<li>AdvancedGTLimb</li>
+			<li>AdvancedWeapon</li>
+		</techHediffsTags>
+		<techHediffsChance>1.0</techHediffsChance>
+		<combatEnhancingDrugsCount>
+			<min>1</min>
+			<max>2</max>
+		</combatEnhancingDrugsCount>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="ComBase">
+		<defName>Commando</defName>
+		<label>Commando</label>
+		<combatPower>170</combatPower>
 		<apparelTags>
 			<li>GlitterArmor</li>
 			<li>GlitterHelmet</li>
@@ -30,18 +47,10 @@
 			<min>1800</min>
 			<max>2200</max>
 		</weaponMoney>
+		<factionLeader>true</factionLeader>
 		<weaponTags>
 			<li>GlitterTech</li>
 		</weaponTags>
-		<techHediffsMoney>
-			<min>3400</min>
-			<max>3400</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>AdvancedGTLimb</li>
-			<li>AdvancedWeapon</li>
-		</techHediffsTags>
-		<techHediffsChance>1.0</techHediffsChance>
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
@@ -62,23 +71,11 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
-	
-	<PawnKindDef>
+
+	<PawnKindDef ParentName="ComBase">
 		<defName>CommandoH</defName>
 		<label>Commando Heavy</label>
-		<race>Human</race>
-		<combatPower>70</combatPower>
-		<defaultFactionType>Commando</defaultFactionType>
-		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<backstoryCategory>Raider</backstoryCategory>
-		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
-		<maxGenerationAge>48</maxGenerationAge>
-		<invNutrition>2</invNutrition>
-		<itemQuality>Superior</itemQuality>
-		<gearHealthRange>
-			<min>1</min>
-			<max>1.8</max>
-		</gearHealthRange>
+		<combatPower>180</combatPower>
 		<apparelTags>
 			<li>GlitterArmor</li>
 			<li>GlitterHelmet</li>
@@ -96,15 +93,6 @@
 		<weaponTags>
 			<li>GlitterTech</li>
 		</weaponTags>
-		<techHediffsMoney>
-			<min>3400</min>
-			<max>3400</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>AdvancedGTLimb</li>
-			<li>AdvancedWeapon</li>
-		</techHediffsTags>
-		<techHediffsChance>0.8</techHediffsChance>
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
@@ -125,23 +113,12 @@
 			</subOptionsChooseOne>
 		</inventoryOptions>
 	</PawnKindDef>
-	
-	<PawnKindDef>
+
+	<PawnKindDef ParentName="ComBase">
 		<defName>CommandoScout</defName>
 		<label>Commando Scout</label>
 		<race>Human</race>
-		<combatPower>70</combatPower>
-		<defaultFactionType>Commando</defaultFactionType>
-		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<backstoryCategory>Raider</backstoryCategory>
-		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
-		<maxGenerationAge>48</maxGenerationAge>
-		<invNutrition>2</invNutrition>
-		<itemQuality>Superior</itemQuality>
-		<gearHealthRange>
-			<min>1</min>
-			<max>1.8</max>
-		</gearHealthRange>
+		<combatPower>170</combatPower>
 		<apparelTags>
 			<li>GlitterArmor</li>
 			<li>GlitterHelmet</li>
@@ -160,15 +137,6 @@
 			<li>GlitterTech</li>
 			<li>GlitterTechEMRG</li>
 		</weaponTags>
-		<techHediffsMoney>
-			<min>3400</min>
-			<max>3400</max>
-		</techHediffsMoney>
-		<techHediffsTags>
-			<li>AdvancedGTLimb</li>
-			<li>AdvancedWeapon</li>
-		</techHediffsTags>
-		<techHediffsChance>1</techHediffsChance>
 		<inventoryOptions>
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>

@@ -7,7 +7,7 @@
 		<defName>OCTank</defName>
 		<label>Orion Corporation MBT</label>
 		<race>Race_Tank</race>
-		<combatPower>100</combatPower>
+		<combatPower>300</combatPower>
 		<defaultFactionType>OrionCo</defaultFactionType>
 		<aiAvoidCover>true</aiAvoidCover>
 		<lifeStages>

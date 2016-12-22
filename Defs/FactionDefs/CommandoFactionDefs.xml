@@ -6,24 +6,29 @@
 		<label>Commando Squad</label>
 		<description>A squad of commandos.</description>
 		<pawnsPlural>commandos</pawnsPlural>
+		<factionBaseSelectionWeight>0.2</factionBaseSelectionWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<raidCommonality>25</raidCommonality>
 		<canSiege>false</canSiege>
+		
+		<hidden>true</hidden>
+		
 		<canStageAttacks>true</canStageAttacks>
 		<appreciative>false</appreciative>
 		<leaderTitle>General</leaderTitle>
 		<expandingIconTexture>World/WorldObjects/Expanding/PirateOutpost</expandingIconTexture>
 		<colorSpectrum>
-			<li>(0.45, 0.03, 0.02)</li>
-			<li>(0.8, 0.08, 0.18)</li>
-			<li>(0.92, 0.62, 0.06)</li>
+			<li>(0.4, 0.4, 0.4)</li>
+			<li>(0.3, 0.3, 0.3)</li>
+			<li>(0.2, 0.2, 0.2)</li>
 		</colorSpectrum>
 		<startingGoodwill>
 			<min>-100</min>
-			<max>-90</max>
+			<max>-100</max>
 		</startingGoodwill>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
+		<factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<earliestRaidDays>180</earliestRaidDays>
 		<backstoryCategory>Raider</backstoryCategory>
@@ -34,11 +39,12 @@
 		</hairTags>
 		<naturalColonyGoodwill>
 			<min>-100</min>
-			<max>-80</max>
+			<max>-100</max>
 		</naturalColonyGoodwill>
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Normal</kindDef>
+				<commonality>100</commonality>
 				<options>
 					<Commando>20</Commando>
 					<CommandoH>10</CommandoH>

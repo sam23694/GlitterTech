@@ -6,22 +6,22 @@
 		<label>Orion Corporation</label>
 		<description>Orion Corporation</description>
 		<pawnsPlural>Orion Corp Soldiers</pawnsPlural>
+		<factionBaseSelectionWeight>0.2</factionBaseSelectionWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Orion Installation</fixedName>
 		<raidCommonality>20</raidCommonality>
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Director</leaderTitle>
-		<expandingIconTexture>World/WorldObjects/Expanding/PirateOutpost</expandingIconTexture>
+		<expandingIconTexture>World/WorldObjects/Expanding/Town</expandingIconTexture>
 		<colorSpectrum>
-			<li>(0.45, 0.03, 0.02)</li>
-			<li>(0.8, 0.08, 0.18)</li>
-			<li>(0.92, 0.62, 0.06)</li>
+			<li>(0.6, 0.6, 1)</li>
 		</colorSpectrum>
 		<startingGoodwill>
 			<min>-100</min>
 			<max>40</max>
 		</startingGoodwill>
+		<factionBaseNameMaker>NamerFactionBaseOutlander</factionBaseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<autoFlee>false</autoFlee>
@@ -40,11 +40,23 @@
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Normal</kindDef>
+				<commonality>100</commonality>
 				<options>
 					<OCSoldier>60</OCSoldier>
 					<OCPeaceKeeper>20</OCPeaceKeeper>
 					<OCHeavy>15</OCHeavy>
 					<OCTank>5</OCTank>
+					<OCDirector>20</OCDirector>
+				</options>
+			</li>
+			<li>
+				<kindDef>FactionBase</kindDef>
+				<options>
+					<OCSoldier>60</OCSoldier>
+					<OCPeaceKeeper>20</OCPeaceKeeper>
+					<OCHeavy>15</OCHeavy>
+					<OCTank>5</OCTank>
+					<OCDirector>20</OCDirector>
 				</options>
 			</li>
 		</pawnGroupMakers>
