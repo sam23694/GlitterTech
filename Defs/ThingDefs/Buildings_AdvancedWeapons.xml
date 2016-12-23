@@ -20,7 +20,7 @@
 		<passability>PassThroughOnly</passability>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
-			<WorkToMake>800</WorkToMake>
+			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -67,7 +67,7 @@
 		<passability>PassThroughOnly</passability>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
-			<WorkToMake>800</WorkToMake>
+			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -109,7 +109,7 @@
 		<passability>PassThroughOnly</passability>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
-			<WorkToMake>800</WorkToMake>
+			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<tickerType>Normal</tickerType>

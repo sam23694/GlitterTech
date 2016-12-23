@@ -9,7 +9,7 @@
 			<li>SmoothHard</li>
 		</affordances>
 		<statBases>
-			<WorkToMake>135</WorkToMake>
+			<WorkToBuild>135</WorkToBuild>
 		</statBases>
 		<designationCategory>Floors</designationCategory>
 		<Fertility>0</Fertility>
@@ -37,7 +37,7 @@
 		<Description>Titanium tiles, for that Glitter world look.</Description>
 		<color>(255,255,255)</color>
 		<statBases>
-			<WorkToMake>135</WorkToMake>
+			<WorkToBuild>135</WorkToBuild>
 			<Beauty>8</Beauty>
 		</statBases>
 		<CostList>
@@ -51,7 +51,7 @@
 		<Description>Alpha-Poly tiles, for that alien spaceship look.</Description>
 		<color>(100,60,100)</color>
 		<statBases>
-			<WorkToMake>15</WorkToMake>
+			<WorkToBuild>15</WorkToBuild>
 			<Beauty>16</Beauty>
 		</statBases>
 		<CostList>
@@ -65,7 +65,7 @@
 		<Description>Beta-Poly tiles, for that alien spaceship look.</Description>
 		<color>(100,60,60)</color>
 		<statBases>
-			<WorkToMake>100</WorkToMake>
+			<WorkToBuild>100</WorkToBuild>
 			<Beauty>30</Beauty>
 		</statBases>
 		<CostList>

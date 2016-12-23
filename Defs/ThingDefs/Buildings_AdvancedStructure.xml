@@ -52,7 +52,7 @@
 		<description>Divides rooms. Powered operation and incredibly strong. Designed to withstand Orbital Kinetic Bombardment...</description>
 		<statBases>
 			<MaxHitPoints>1500</MaxHitPoints>
-			<WorkToMake>2200</WorkToMake>
+			<WorkToBuild>2200</WorkToBuild>
 		</statBases>
 		<graphicData>
 			<texPath>Things/Building/Door/Autodoor_Mover</texPath>
@@ -80,7 +80,7 @@
 
 	<!--========================= Walls =============================-->
 
-	<ThingDef ParentName="BuildingBase_GT" Name="Wall_GT">
+	<ThingDef ParentName="BuildingBase_GT" Name="Wall_GT" Abstract="True">
     <defName>Wall</defName>
     <label>wall</label>
     <thingClass>Building</thingClass>
@@ -111,7 +111,7 @@
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
-      <WorkToMake>150</WorkToMake>
+      <WorkToBuild>150</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <costStuffCount>5</costStuffCount>
@@ -164,7 +164,7 @@
 		<uiIconPath>Things/Building/Linked/Window_MenuIcon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>1225</MaxHitPoints>
-			<WorkToMake>150</WorkToMake>
+			<WorkToBuild>150</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<costList>
@@ -192,7 +192,7 @@
 		<uiIconPath>Things/Building/Linked/Light_MenuIcon</uiIconPath>
 		<statBases>
 			<MaxHitPoints>1225</MaxHitPoints>
-			<WorkToMake>150</WorkToMake>
+			<WorkToBuild>150</WorkToBuild>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<costList>

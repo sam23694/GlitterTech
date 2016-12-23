@@ -38,7 +38,7 @@
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>
 			<Beauty>-10</Beauty>
-			<WorkToMake>360</WorkToMake>
+			<WorkToBuild>360</WorkToBuild>
 			<Flammability>0</Flammability>
 		</statBases>
 		<building>
@@ -76,7 +76,7 @@
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
-			<WorkToMake>2800</WorkToMake>
+			<WorkToBuild>2800</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-60</Beauty>
 		</statBases>
@@ -142,7 +142,7 @@
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>2800</WorkToMake>
+			<WorkToBuild>2800</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -208,7 +208,7 @@
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>3500</WorkToMake>
+			<WorkToBuild>3500</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -278,7 +278,7 @@
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>3500</WorkToMake>
+			<WorkToBuild>3500</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -346,7 +346,7 @@
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>3500</WorkToMake>
+			<WorkToBuild>3500</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -416,7 +416,7 @@
 		<statBases>
 			<MaxHitPoints>480</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>4500</WorkToMake>
+			<WorkToBuild>4500</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -486,7 +486,7 @@
 		<statBases>
 			<MaxHitPoints>480</MaxHitPoints>
 			<Flammability>1.0</Flammability>
-			<WorkToMake>4800</WorkToMake>
+			<WorkToBuild>4800</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
