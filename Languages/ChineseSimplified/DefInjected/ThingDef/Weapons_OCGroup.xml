@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_OCPistol.label>OC子弹</Bullet_OCPistol.label>
+
+  <Gun_OCPDPistol.label>OC防卫手枪</Gun_OCPDPistol.label>
+  <Gun_OCPDPistol.description>猎户座公司系个人防卫武器。轻量级手枪，恶劣环境下完美的个人防卫装备。</Gun_OCPDPistol.description>
+
+  <Bullet_OCRifle.label>OC子弹</Bullet_OCRifle.label>
+
+  <Gun_OCPDRifle.label>OC防卫步枪</Gun_OCPDRifle.label>
+  <Gun_OCPDRifle.description>猎户座公司系个人防卫武器。轻量级步枪，恶劣环境下完美的个人防卫装备。</Gun_OCPDRifle.description>
+
+  <Gun_OCRocket.label>OC火箭炮</Gun_OCRocket.label>
+  <Gun_OCRocket.description>猎户座公司标准制式反坦克武器。具有激光瞄准，比普通火箭炮更精确。</Gun_OCRocket.description>
+
+
+</LanguageData>

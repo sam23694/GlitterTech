@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Race_Tank.label>坦克</Race_Tank.label>
+  <Race_Tank.description>主战坦克。用于地面强袭的前线以及城市战当中。</Race_Tank.description>
+  <!--<Race_Tank_Leather.label>坦克皮</Race_Tank_Leather.label>-->
+  <!--<Race_Tank_Leather.description>坦克皮</Race_Tank_Leather.description>-->
+  <!--<Race_Tank_Leather.stuffProps.stuffAdjective>坦克皮</Race_Tank_Leather.stuffProps.stuffAdjective>-->
+  <Race_Tank_Meat.label>坦克肉</Race_Tank_Meat.label>
+  <Race_Tank_Meat.description>坦克肉</Race_Tank_Meat.description>
+  <Race_Tank_Corpse.label>坦克尸体</Race_Tank_Corpse.label>
+  <Race_Tank_Corpse.description>坦克尸体</Race_Tank_Corpse.description>
+
+
+</LanguageData>

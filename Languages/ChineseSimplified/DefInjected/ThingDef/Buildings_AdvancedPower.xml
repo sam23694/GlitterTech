@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- PowerSource -->
+
+  <XenonIonTurbine.label>氙离子涡轮发电机</XenonIonTurbine.label>
+  <XenonIonTurbine.description>通过收集自水中的氙气并电离成等离子体来发电。必须放置于间隙泉之上。</XenonIonTurbine.description>
+  <XenonIonTurbine_Blueprint.label>氙离子涡轮发电机（蓝图）</XenonIonTurbine_Blueprint.label>
+  <XenonIonTurbine_Frame.label>氙离子涡轮发电机（建造中）</XenonIonTurbine_Frame.label>
+
+  <PlasmaReactor.label>等离子聚变反应堆</PlasmaReactor.label>
+  <PlasmaReactor.description>通过维持过热态等离子体的电磁悬浮体来发电。类似于恒星内部的反应过程，除了更小、更热以及更有效率。由于巨大的热量，需要近乎不可毁坏的材料来建造。</PlasmaReactor.description>
+  <PlasmaReactor_Blueprint.label>等离子聚变反应堆（蓝图）</PlasmaReactor_Blueprint.label>
+  <PlasmaReactor_Frame.label>等离子聚变反应堆（建造中）</PlasmaReactor_Frame.label>
+
+
+  <!-- Batteries -->
+
+  <FissionBattery.label>核裂变电池</FissionBattery.label>
+  <FissionBattery.description>利用核裂变过程储存电力和循环充电。效率稍微提高并且能储存四倍的电力。
+  Stores electricity and recycles charge using fission processes. Slightly more efficient and stores four times as much. Warning - charged batteries tend to explode when heated or wet.</FissionBattery.description>
+  <FissionBattery_Blueprint.label>核裂变电池（蓝图）</FissionBattery_Blueprint.label>
+  <FissionBattery_Blueprint_Install.label>核裂变电池（蓝图）</FissionBattery_Blueprint_Install.label>
+  <FissionBattery_Frame.label>核裂变电池（建造中）</FissionBattery_Frame.label>
+
+  <HeavyPowerConduit.label>加固电缆</HeavyPowerConduit.label>
+  <HeavyPowerConduit.description>A set of heavy electrical cables, very strong and non-flammable</HeavyPowerConduit.description>
+  <HeavyPowerConduit_Blueprint.label>加固电缆（蓝图）</HeavyPowerConduit_Blueprint.label>
+  <HeavyPowerConduit_Frame.label>加固电缆（建造中）</HeavyPowerConduit_Frame.label>
+
+
+</LanguageData>

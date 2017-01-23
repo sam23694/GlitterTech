@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Stuff-less apparel -->
+
+  <Apparel_OCCombatVest.label>猎户座作战背心</Apparel_OCCombatVest.label>
+  <Apparel_OCCombatVest.description>猎户座公司标准制式作战背心。相较于普通的防弹背心，添加了更先进的合金。</Apparel_OCCombatVest.description>
+
+  <Apparel_OCHelmet.label>猎户座头盔</Apparel_OCHelmet.label>
+  <Apparel_OCHelmet.description>猎户座公司标准制式头盔。标志性的经典星蓝色，相较于标准的军用头盔，使用更先进的合金制成。</Apparel_OCHelmet.description>
+
+  <Apparel_OCPants.label>猎户座制式长裤</Apparel_OCPants.label>
+  <Apparel_OCPants.description>猎户座公司的长裤。</Apparel_OCPants.description>
+
+  <Apparel_OCShirt.label>猎户座制式衬衫</Apparel_OCShirt.label>
+  <Apparel_OCShirt.description>基础的猎户座公司的衬衫。</Apparel_OCShirt.description>
+
+
+</LanguageData>
