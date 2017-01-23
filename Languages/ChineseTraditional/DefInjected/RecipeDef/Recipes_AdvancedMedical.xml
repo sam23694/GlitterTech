@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <InstallGTEar.label>安裝高級仿生耳</InstallGTEar.label>
+  <InstallGTEar.description>安裝高級仿生耳。</InstallGTEar.description>
+  <InstallGTEar.jobString>正在安裝高級仿生耳。</InstallGTEar.jobString>
+
+  <InstallGTEye.label>安裝高級仿生眼</InstallGTEye.label>
+  <InstallGTEye.description>安裝高級仿生眼。</InstallGTEye.description>
+  <InstallGTEye.jobString>正在安裝高級仿生眼。</InstallGTEye.jobString>
+
+  <InstallGTArm.label>安裝高級仿生臂</InstallGTArm.label>
+  <InstallGTArm.description>安裝高級仿生臂。</InstallGTArm.description>
+  <InstallGTArm.jobString>正在安裝高級仿生臂。</InstallGTArm.jobString>
+
+  <InstallGTHand.label>安裝高級仿生手</InstallGTHand.label>
+  <InstallGTHand.description>安裝高級仿生手。</InstallGTHand.description>
+  <InstallGTHand.jobString>正在安裝高級仿生手。</InstallGTHand.jobString>
+
+  <InstallGTLeg.label>安裝高級仿生腿</InstallGTLeg.label>
+  <InstallGTLeg.description>安裝高級仿生腿。</InstallGTLeg.description>
+  <InstallGTLeg.jobString>正在安裝高級仿生腿。</InstallGTLeg.jobString>
+
+  <InstallGTFoot.label>安裝高級仿生足</InstallGTFoot.label>
+  <InstallGTFoot.description>安裝高級仿生足。</InstallGTFoot.description>
+  <InstallGTFoot.jobString>正在安裝高級仿生足。</InstallGTFoot.jobString>
+
+  <InstallGTHeart.label>安裝神經機械心</InstallGTHeart.label>
+  <InstallGTHeart.description>安裝神經機械心。</InstallGTHeart.description>
+  <InstallGTHeart.jobString>正在安裝神經機械心。</InstallGTHeart.jobString>
+
+  <InstallGTLung.label>安裝神經機械肺</InstallGTLung.label>
+  <InstallGTLung.description>安裝神經機械肺。</InstallGTLung.description>
+  <InstallGTLung.jobString>正在安裝神經機械肺。</InstallGTLung.jobString>
+
+  <InstallGTKidney.label>安裝神經機械腎</InstallGTKidney.label>
+  <InstallGTKidney.description>安裝神經機械腎。</InstallGTKidney.description>
+  <InstallGTKidney.jobString>正在安裝神經機械腎。</InstallGTKidney.jobString>
+
+  <InstallGTLiver.label>安裝神經機械肝</InstallGTLiver.label>
+  <InstallGTLiver.description>安裝神經機械肝。</InstallGTLiver.description>
+  <InstallGTLiver.jobString>正在安裝神經機械肝。</InstallGTLiver.jobString>
+
+  <InstallGTStomach.label>安裝神經機械胃</InstallGTStomach.label>
+  <InstallGTStomach.description>安裝神經機械胃。</InstallGTStomach.description>
+  <InstallGTStomach.jobString>正在安裝神經機械胃。</InstallGTStomach.jobString>
+
+  <InstallGTDentures.label>安裝高級仿生齒</InstallGTDentures.label>
+  <InstallGTDentures.description>安裝高級仿生齒。</InstallGTDentures.description>
+  <InstallGTDentures.jobString>正在安裝高級仿生齒。</InstallGTDentures.jobString>
+
+
+</LanguageData>

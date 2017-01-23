@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MetalFab.label>GT：金屬建造</MetalFab.label>
+  <MetalFab.description>解鎖建造高級合金牆。確切來說是使用像鈦合金這類複合材料。</MetalFab.description>
+
+  <AdvancedArmor.label>GT：高級裝甲</AdvancedArmor.label>
+  <AdvancedArmor.description>學習如何在結構建築上使用堅固的裝甲。解鎖建造「防爆門」。</AdvancedArmor.description>
+
+  <TWindows.label>GT：帶窗戶的牆</TWindows.label>
+  <TWindows.description>解鎖在鈦合金牆體上建造窗戶，能透過光線而不會破壞超光速旅行時星際飛船外殼的完整性……</TWindows.description>
+
+  <TLights.label>GT：帶壁燈的牆</TLights.label>
+  <TLights.description>解鎖在鈦合金牆體上建造壁燈。</TLights.description>
+
+  <EMRGDefense.label>GT：電磁拆解</EMRGDefense.label>
+  <EMRGDefense.description>解鎖使用EMRG-1步槍建造自動炮塔。</EMRGDefense.description>
+
+  <DynElect.label>GT：動態電磁學</DynElect.label>
+  <DynElect.description>解鎖使用電磁部件建造高級建築。解鎖更高級發電設備和閃耀世界發明的設備中的技術。</DynElect.description>
+
+  <ElectroPlasmatics.label>GT：電子電離學</ElectroPlasmatics.label>
+  <ElectroPlasmatics.description>解鎖使用電磁立場定向電離子。解鎖使用極高能量的電離子的非常高級的技術。</ElectroPlasmatics.description>
+
+  <AdvancedFact.label>GT：高級因子化</AdvancedFact.label>
+  <AdvancedFact.description>高級人工合成方法的第一步，讓你的殖民地接觸最新的裝配機器。</AdvancedFact.description>
+
+  <RoboticEngineering.label>GT：自動化工程</RoboticEngineering.label>
+  <RoboticEngineering.description>解鎖複雜的自動化工程，在複合精確裝配機器和大多數閃耀世界發明的大多數機器中非常有用。</RoboticEngineering.description>
+
+  <Electrolysis.label>GT：電解</Electrolysis.label>
+  <Electrolysis.description>解鎖建造電解機，將化合物拆解為基本元素。</Electrolysis.description>
+
+  <AtomicD.label>GT：原子拆解</AtomicD.label>
+  <AtomicD.description>原子合成方程式的第一部分，確切來說是控制將物質拆解成亞原子級的方程式。</AtomicD.description>
+
+  <AtomicA.label>GT：原子組裝</AtomicA.label>
+  <AtomicA.description>原子合成方程式的最後部分。在亞原子級上如何合成物質的知識。雖然從電力需求方面大部分方程式遙不可及，但有些工業上的可選內容還是可信的。</AtomicA.description>
+
+  <Pharmaceuticals.label>GT：製藥</Pharmaceuticals.label>
+  <Pharmaceuticals.description>解鎖合成、混合生產高級藥物，而不再需要依賴自然的、低效的草藥替代品。</Pharmaceuticals.description>
+
+
+</LanguageData>

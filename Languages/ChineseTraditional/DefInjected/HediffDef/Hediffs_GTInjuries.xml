@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Injuries -->
+
+  <HeatStab.label>刺傷</HeatStab.label>
+  <HeatStab.comps.0.labelTendedWell>已包紮</HeatStab.comps.0.labelTendedWell>
+  <HeatStab.comps.0.labelTendedWellInner>已縫合</HeatStab.comps.0.labelTendedWellInner>
+  <HeatStab.comps.0.labelSolidTendedWell>已固定</HeatStab.comps.0.labelSolidTendedWell>
+  <HeatStab.comps.2.oldLabel>刺傷疤痕</HeatStab.comps.2.oldLabel>
+  <HeatStab.injuryProps.destroyedLabel>被熔化</HeatStab.injuryProps.destroyedLabel>
+  <HeatStab.injuryProps.destroyedOutLabel>被熔化</HeatStab.injuryProps.destroyedOutLabel>
+
+
+</LanguageData>

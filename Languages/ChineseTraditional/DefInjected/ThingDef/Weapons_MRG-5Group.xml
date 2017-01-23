@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_MRGPistol.label>MRG子彈</Bullet_MRGPistol.label>
+
+  <Gun_MRGPistol.label>MRG-5手槍</Gun_MRGPistol.label>
+  <Gun_MRGPistol.description>微型軌道槍5型。MRG-5步槍的組成部分，頂級線型軌道槍技術的第五代產品。非常精準且威力強大，和這種武器相比，火藥武器看起來就像石器時代一樣。</Gun_MRGPistol.description>
+
+  <Bullet_MRGRifle.label>MRG子彈</Bullet_MRGRifle.label>
+
+  <Gun_MRGRifle.label>MRG-5步槍</Gun_MRGRifle.label>
+  <Gun_MRGRifle.description>微型轨道枪5型。頂級線型軌道槍技術的第五代產品。非常精準且威力強大，和這種武器相比，火藥武器看起來就像石器時代一樣。</Gun_MRGRifle.description>
+
+
+</LanguageData>

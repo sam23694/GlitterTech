@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Work tables -->
+
+  <PharmaTable.label>配藥桌</PharmaTable.label>
+  <PharmaTable.description>調配生產藥品的桌子。</PharmaTable.description>
+  <PharmaTable_Blueprint.label>配藥桌（藍圖）</PharmaTable_Blueprint.label>
+  <PharmaTable_Frame.label>配藥桌（建造中）</PharmaTable_Frame.label>
+
+
+  <!-- Matter fabricator -->
+
+  <Matterfab.label>物質合成機</Matterfab.label>
+  <Matterfab.description>量子熱力學和等離子光譜學的最前沿技術，這臺機器能將原子拆解成基本亞原子粒子並且重新組裝成強大的人造元素。</Matterfab.description>
+  <Matterfab_Blueprint.label>物質合成機（藍圖）</Matterfab_Blueprint.label>
+  <Matterfab_Frame.label>物質合成機（建造中）</Matterfab_Frame.label>
+
+
+  <!-- Electrolyzer -->
+
+  <Electrolyzer.label>電解機</Electrolyzer.label>
+  <Electrolyzer.description>通過直流電電解分離原子並且驅動非自然的化學反應的機器。生產人造材料。</Electrolyzer.description>
+  <Electrolyzer_Blueprint.label>電解機（藍圖）</Electrolyzer_Blueprint.label>
+  <Electrolyzer_Frame.label>電解機（建造中）</Electrolyzer_Frame.label>
+
+
+  <!-- Robotic assembler -->
+
+  <RobAssem.label>自動化裝配機</RobAssem.label>
+  <RobAssem.description>應用最先進技術的機器人的機器，不會偷工減料地使用廢棄金屬進行裝配，用於製造對於人的手而言太過複雜的機械零部件。</RobAssem.description>
+  <RobAssem_Blueprint.label>自動化裝配機（藍圖）</RobAssem_Blueprint.label>
+  <RobAssem_Frame.label>自動化裝配機（建造中）</RobAssem_Frame.label>
+
+
+</LanguageData>
