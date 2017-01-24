@@ -17,8 +17,7 @@
   <!-- Batteries -->
 
   <FissionBattery.label>核裂變電池</FissionBattery.label>
-  <FissionBattery.description>利用核裂變過程儲存電力和循環充電。效率稍微提高並且能儲存四倍的電力。
-  Stores electricity and recycles charge using fission processes. Slightly more efficient and stores four times as much. Warning - charged batteries tend to explode when heated or wet.</FissionBattery.description>
+  <FissionBattery.description>利用核裂變過程儲存電力和循環充電。效率稍微提高並且能儲存四倍的電力。警告：高溫或潮濕環境會導致電池爆炸。</FissionBattery.description>
   <FissionBattery_Blueprint.label>核裂變電池（藍圖）</FissionBattery_Blueprint.label>
   <FissionBattery_Blueprint_Install.label>核裂變電池（藍圖）</FissionBattery_Blueprint_Install.label>
   <FissionBattery_Frame.label>核裂變電池（建造中）</FissionBattery_Frame.label>

@@ -27,8 +27,8 @@
   <MagneticCoil.label>电磁线圈</MagneticCoil.label>
   <MagneticCoil.description>先进的电磁线圈。超出任何人的制作技能，除了电磁物理学家。</MagneticCoil.description>
 
-  <Silicon.label>矽</Silicon.label>
-  <Silicon.description>元素矽单质，使用于大多数电子元件。</Silicon.description>
+  <Silicon.label>硅</Silicon.label>
+  <Silicon.description>元素硅单质，使用于大多数电子元件。</Silicon.description>
 
   <ComputerComp.label>电脑元件</ComputerComp.label>
   <ComputerComp.description>先进的电路板。制作高级的机械所必须的。</ComputerComp.description>
