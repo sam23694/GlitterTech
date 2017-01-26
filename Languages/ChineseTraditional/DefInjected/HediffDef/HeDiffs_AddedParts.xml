@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Added body parts -->
+
+  <GTHeart.label>神經機械心</GTHeart.label>
+  <GTLung.label>神經機械肺</GTLung.label>
+  <GTKidney.label>神經機械腎</GTKidney.label>
+  <GTLiver.label>神經機械肝</GTLiver.label>
+  <GTStomach.label>神經機械胃</GTStomach.label>
+  <GTDentures.label>高級仿生齒</GTDentures.label>
+  <GTArm.label>高級仿生臂</GTArm.label>
+  <GTHand.label>高級仿生手</GTHand.label>
+  <GTLeg.label>高級仿生腿</GTLeg.label>
+  <GTFoot.label>高級仿生足</GTFoot.label>
+  <GTEye.label>高級仿生眼</GTEye.label>
+  <GTEar.label>高級仿生耳</GTEar.label>
+
+
+</LanguageData>

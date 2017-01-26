@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SearchComponents.label>從電子零件中找尋電腦元件</SearchComponents.label>
+  <SearchComponents.description>在眾多的雜亂部件中尋找稀有的電腦元件。</SearchComponents.description>
+  <SearchComponents.jobString>正在從電子零件中找尋電腦元件。</SearchComponents.jobString>
+
+
+  <!-- Polys -->
+
+  <ProduceAPoly.label>人工合成阿爾法纖維</ProduceAPoly.label>
+  <ProduceAPoly.description>使用高熱和強磁場將鈦合金和鈾合成為人造元素。</ProduceAPoly.description>
+  <ProduceAPoly.jobString>正在將鈦合金合成為阿爾法纖維。</ProduceAPoly.jobString>
+
+  <ProduceBPoly.label>人工合成貝塔纖維</ProduceBPoly.label>
+  <ProduceBPoly.description>使用高熱和強磁場將阿爾法纖維、鈾和矽合成為人造元素。</ProduceBPoly.description>
+  <ProduceBPoly.jobString>正在合成貝塔纖維。</ProduceBPoly.jobString>
+
+  <ProducePlasteel.label>製作塑鋼</ProducePlasteel.label>
+  <ProducePlasteel.description>製作塑鋼。</ProducePlasteel.description>
+  <ProducePlasteel.jobString>正在製作塑鋼。</ProducePlasteel.jobString>
+
+
+  <!-- Electrolyzer -->
+
+  <ProduceSilicon.label>從岩石提取矽</ProduceSilicon.label>
+  <ProduceSilicon.description>從岩石提取矽。</ProduceSilicon.description>
+  <ProduceSilicon.jobString>正在從岩石提取矽。</ProduceSilicon.jobString>
+
+  <ProduceTitanium.label>從塑鋼提取鈦合金</ProduceTitanium.label>
+  <ProduceTitanium.description>從塑鋼提取鈦合金。</ProduceTitanium.description>
+  <ProduceTitanium.jobString>正在從塑鋼提取鈦合金。</ProduceTitanium.jobString>
+
+  <ProduceEthanol.label>從草莓提取乙醇</ProduceEthanol.label>
+  <ProduceEthanol.description>從草莓提取乙醇。</ProduceEthanol.description>
+  <ProduceEthanol.jobString>在從草莓提取乙醇。</ProduceEthanol.jobString>
+
+  <ProduceSerum.label>合成血清</ProduceSerum.label>
+  <ProduceSerum.description>合成血清。</ProduceSerum.description>
+  <ProduceSerum.jobString>正在合成血清。</ProduceSerum.jobString>
+
+
+  <!-- Robotic Assembler -->
+
+  <BuildComputerComp.label>裝配電腦元件</BuildComputerComp.label>
+  <BuildComputerComp.description>裝配電腦元件。</BuildComputerComp.description>
+  <BuildComputerComp.jobString>正在裝配電腦元件。</BuildComputerComp.jobString>
+
+  <BuildMagneticCoil.label>裝配電磁線圈</BuildMagneticCoil.label>
+  <BuildMagneticCoil.description>裝配電磁線圈。</BuildMagneticCoil.description>
+  <BuildMagneticCoil.jobString>正在裝配電磁線圈。</BuildMagneticCoil.jobString>
+
+
+</LanguageData>

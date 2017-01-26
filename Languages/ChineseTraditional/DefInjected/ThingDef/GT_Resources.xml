@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Titanium -->
+
+  <Titanium.label>鈦合金</Titanium.label>
+  <Titanium.description>鈦合金。融合稀有元素，製作非常堅固耐用的金屬，抗腐蝕，並且抗高速衝擊。對於星艦和軌道空間升降梯而言是完美的材料……</Titanium.description>
+  <Titanium.stuffProps.stuffAdjective>鈦合金</Titanium.stuffProps.stuffAdjective>
+
+
+  <!-- AlphaPoly -->
+
+  <AlphaPoly.label>阿爾法纖維</AlphaPoly.label>
+  <AlphaPoly.description>人工構建原子級組合的緻密物質的第一次迭代產物。這種人造的、極其稀有的金屬，只能由物質合成機生產，適合在恒星色球層建造結構體。</AlphaPoly.description>
+  <AlphaPoly.stuffProps.stuffAdjective>阿爾法</AlphaPoly.stuffProps.stuffAdjective>
+
+
+  <!-- BetaPoly -->
+
+  <BetaPoly.label>貝塔纖維</BetaPoly.label>
+  <BetaPoly.description>人工構建原子級組合的緻密物質的第二次迭代產物。這種人造的、極其稀有的金屬，太過昂貴而無法大規模生產，作為材料僅被用於不可毀壞的太空服、無法防禦的動能彈頭和控制微型黑洞。</BetaPoly.description>
+  <BetaPoly.stuffProps.stuffAdjective>貝塔</BetaPoly.stuffProps.stuffAdjective>
+
+
+  <!-- Components -->
+
+  <MagneticCoil.label>電磁線圈</MagneticCoil.label>
+  <MagneticCoil.description>先進的電磁線圈。超出任何人的製作技能，除了電磁物理學家。</MagneticCoil.description>
+
+  <Silicon.label>矽</Silicon.label>
+  <Silicon.description>元素矽單質，使用於大多數電子元件。</Silicon.description>
+
+  <ComputerComp.label>電腦元件</ComputerComp.label>
+  <ComputerComp.description>先進的電路板。製作高級的機械所必須的。</ComputerComp.description>
+
+  <Ethanol.label>乙醇</Ethanol.label>
+  <Ethanol.description>純乙醇，用於藥品的烈性酒精，以及大多數週末……</Ethanol.description>
+
+  <Bandage.label>繃帶</Bandage.label>
+  <Bandage.description>布繃帶，包紮傷口止血的必需品。</Bandage.description>
+
+  <Serum.label>血清</Serum.label>
+  <Serum.description>人造血清，在閃耀世界行星上，當身體復原不可用時被用於治療。</Serum.description>
+
+
+</LanguageData>

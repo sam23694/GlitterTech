@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <EMPCharge.label>EMPD-1 炸彈</EMPCharge.label>
+  <EMPCharge.description>EMP防禦炸彈，遙控引爆。造成大範圍覆蓋的強大的電磁能爆炸。用於防衛機械威脅，有時候也能把人嚇跑。</EMPCharge.description>
+  <EMPCharge_Blueprint.label>EMPD-1 炸彈（藍圖）</EMPCharge_Blueprint.label>
+  <EMPCharge_Frame.label>EMPD-1 炸彈（建造中）</EMPCharge_Frame.label>
+
+  <DepletedEMPCharge.label>已刪除的 EMPD-1 炸彈</DepletedEMPCharge.label>
+  <DepletedEMPCharge.description>已刪除的 EMPD-1 炸彈。</DepletedEMPCharge.description>
+
+  <FissionBomb.label>EMPD-1 炸彈</FissionBomb.label>
+  <FissionBomb.description>EMP防禦炸彈，遙控引爆。造成大範圍覆蓋的強大的電磁能爆炸。用於防衛機械威脅，有時候也能把人嚇跑。</FissionBomb.description>
+  <FissionBomb_Blueprint.label>EMPD-1 炸彈（藍圖）</FissionBomb_Blueprint.label>
+  <FissionBomb_Frame.label>EMPD-1 炸彈（建造中）</FissionBomb_Frame.label>
+
+
+</LanguageData>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Titanium -->
+
+  <Titanium.label>钛合金</Titanium.label>
+  <Titanium.description>钛合金。融合稀有元素，制作非常坚固耐用的金属，抗腐蚀，并且抗高速冲击。对于星舰和轨道空间升降梯而言是完美的材料……</Titanium.description>
+  <Titanium.stuffProps.stuffAdjective>钛合金</Titanium.stuffProps.stuffAdjective>
+
+
+  <!-- AlphaPoly -->
+
+  <AlphaPoly.label>阿尔法纤维</AlphaPoly.label>
+  <AlphaPoly.description>人工构建原子级组合的致密物质的第一次迭代产物。这种人造的、极其稀有的金属，只能由物质合成机生产，适合在恒星色球层建造结构体。</AlphaPoly.description>
+  <AlphaPoly.stuffProps.stuffAdjective>阿尔法</AlphaPoly.stuffProps.stuffAdjective>
+
+
+  <!-- BetaPoly -->
+
+  <BetaPoly.label>贝塔纤维</BetaPoly.label>
+  <BetaPoly.description>人工构建原子级组合的致密物质的第二次迭代产物。这种人造的、极其稀有的金属，太过昂贵而无法大规模生产，作为材料仅被用于不可毁坏的太空服、无法防御的动能弹头和控制微型黑洞。</BetaPoly.description>
+  <BetaPoly.stuffProps.stuffAdjective>贝塔</BetaPoly.stuffProps.stuffAdjective>
+
+
+  <!-- Components -->
+
+  <MagneticCoil.label>电磁线圈</MagneticCoil.label>
+  <MagneticCoil.description>先进的电磁线圈。超出任何人的制作技能，除了电磁物理学家。</MagneticCoil.description>
+
+  <Silicon.label>硅</Silicon.label>
+  <Silicon.description>元素硅单质，使用于大多数电子元件。</Silicon.description>
+
+  <ComputerComp.label>电脑元件</ComputerComp.label>
+  <ComputerComp.description>先进的电路板。制作高级的机械所必须的。</ComputerComp.description>
+
+  <Ethanol.label>乙醇</Ethanol.label>
+  <Ethanol.description>纯乙醇，用于药品的烈性酒精，以及大多数周末……</Ethanol.description>
+
+  <Bandage.label>绷带</Bandage.label>
+  <Bandage.description>布绷带，包扎伤口止血的必需品。</Bandage.description>
+
+  <Serum.label>血清</Serum.label>
+  <Serum.description>人造血清，在闪耀世界行星上，当身体复原不可用时被用于治疗。</Serum.description>
+
+
+</LanguageData>

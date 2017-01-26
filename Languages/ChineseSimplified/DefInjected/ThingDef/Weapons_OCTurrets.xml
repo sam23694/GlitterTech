@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bomb mortar -->
+
+  <Bullet_OCTankShell.label>加农炮弹</Bullet_OCTankShell.label>
+
+  <Gun_OCTurret.label>地狱火加农炮</Gun_OCTurret.label>
+  <Gun_OCTurret.description>安装于猎户座公司主战坦克上的火炮。</Gun_OCTurret.description>
+
+
+</LanguageData>

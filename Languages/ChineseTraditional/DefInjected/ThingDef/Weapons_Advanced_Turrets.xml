@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Bases -->
+
+  <Bullet_EMRGTurret.label>EMRG步槍子彈</Bullet_EMRGTurret.label>
+
+  <Gun_EMRGTurret.label>EMRG步枪</Gun_EMRGTurret.label>
+  <Gun_EMRGTurret.description>安裝於炮塔的EMRG步槍。</Gun_EMRGTurret.description>
+
+  <Bullet_CannisterTurret.label>速射霰彈</Bullet_CannisterTurret.label>
+
+  <Gun_CannisterTurret.label>速射霰彈槍</Gun_CannisterTurret.label>
+  <Gun_CannisterTurret.description>安裝於炮塔的速射機槍和霰彈槍的結合產物。</Gun_CannisterTurret.description>
+
+
+  <!-- Bomb mortar -->
+
+  <Bullet_AutoMortar.label>高爆迫擊炮彈</Bullet_AutoMortar.label>
+
+  <Artillery_AutoMortar.label>自動迫擊炮</Artillery_AutoMortar.label>
+  <Artillery_AutoMortar.description>迫擊炮。可以越牆拋射炮彈。精度非常差但是射程非常遠。</Artillery_AutoMortar.description>
+
+  <Bullet_ClusterMortar.label>高爆迫擊炮彈</Bullet_ClusterMortar.label>
+
+  <Artillery_ClusterMortar.label>自動集束迫擊炮</Artillery_ClusterMortar.label>
+  <Artillery_ClusterMortar.description>迫擊炮。可以越牆拋射炮彈。精度非常差但是射程非常遠。</Artillery_ClusterMortar.description>
+
+  <Bullet_EMPAMortar.label>EMP迫擊炮彈</Bullet_EMPAMortar.label>
+
+  <Artillery_EMPAMortar.label>自動EMP迫擊炮</Artillery_EMPAMortar.label>
+  <Artillery_EMPAMortar.description>迫擊炮。可以越牆拋射炮彈。精度非常差但是射程非常遠。</Artillery_EMPAMortar.description>
+
+  <Bullet_MissileTurret.label>長程導彈</Bullet_MissileTurret.label>
+
+  <Artillery_MissileTurret.label>長程導彈發射裝置</Artillery_MissileTurret.label>
+  <Artillery_MissileTurret.description>導彈發射裝置。發射大量的導彈。</Artillery_MissileTurret.description>
+
+  <Bullet_CMissileTurret.label>巡航導彈</Bullet_CMissileTurret.label>
+
+  <Artillery_CMissileTurret.label>巡航導彈發射裝置</Artillery_CMissileTurret.label>
+  <Artillery_CMissileTurret.description>導彈發射裝置。發射單顆大型巡航導彈。</Artillery_CMissileTurret.description>
+
+
+</LanguageData>

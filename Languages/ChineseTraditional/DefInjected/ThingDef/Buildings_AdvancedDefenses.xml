@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Shield.label>防護板</Shield.label>
+  <Shield.description>優秀的槍戰掩體。</Shield.description>
+  <Shield_Blueprint.label>防護板（藍圖）</Shield_Blueprint.label>
+  <Shield_Frame.label>防護板（建造中）</Shield_Frame.label>
+
+  <EMTurret.label>EMRG炮塔</EMTurret.label>
+  <EMTurret.description>裝載有EMRG（電磁軌道槍）步槍的哨戒炮組件，自動對附近的敵人開火。損毀時會發生爆炸。</EMTurret.description>
+  <EMTurret_Blueprint.label>電磁軌道炮塔（藍圖）</EMTurret_Blueprint.label>
+  <EMTurret_Frame.label>電磁軌道炮塔（建造中）</EMTurret_Frame.label>
+
+  <CannisterTurret.label>速射霰彈炮塔</CannisterTurret.label>
+  <CannisterTurret.description>威力強勁的速射霰彈炮塔，自動對附近的敵人開火。適合狹窄的室內，損毀時會發生爆炸。</CannisterTurret.description>
+  <CannisterTurret_Blueprint.label>速射霰彈炮塔（藍圖）</CannisterTurret_Blueprint.label>
+  <CannisterTurret_Frame.label>速射霰彈炮塔（建造中）</CannisterTurret_Frame.label>
+
+
+  <!-- Mortar turret -->
+
+  <AutoMortar.label>自動迫擊炮</AutoMortar.label>
+  <AutoMortar.description>自動迫擊炮。損毀時會發生爆炸。</AutoMortar.description>
+  <AutoMortar_Blueprint.label>自動迫擊炮（藍圖）</AutoMortar_Blueprint.label>
+  <AutoMortar_Frame.label>自動迫擊炮（建造中）</AutoMortar_Frame.label>
+
+  <ClusterMortar.label>自動集束迫擊炮</ClusterMortar.label>
+  <ClusterMortar.description>自動迫擊炮。發射集束炮彈來製造公平的局面。損毀時會發生爆炸。</ClusterMortar.description>
+  <ClusterMortar_Blueprint.label>自動集束迫擊炮（藍圖）</ClusterMortar_Blueprint.label>
+  <ClusterMortar_Frame.label>自動集束迫擊炮（建造中）</ClusterMortar_Frame.label>
+
+  <EMPAMortar.label>自動EMP迫擊炮</EMPAMortar.label>
+  <EMPAMortar.description>自動迫擊炮。發射集束炮彈來製造公平的局面。損毀時會發生爆炸。</EMPAMortar.description>
+  <EMPAMortar_Blueprint.label>自動EMP迫擊炮（藍圖）</EMPAMortar_Blueprint.label>
+  <EMPAMortar_Frame.label>自動EMP迫擊炮（建造中）</EMPAMortar_Frame.label>
+
+
+  <!-- Missile turret -->
+
+  <MissileTurret.label>長程導彈炮塔</MissileTurret.label>
+  <MissileTurret.description>自動導彈炮塔。發射導彈，精準且威力強勁。損毀時會發生爆炸。</MissileTurret.description>
+  <MissileTurret_Blueprint.label>長程導彈炮塔（藍圖）</MissileTurret_Blueprint.label>
+  <MissileTurret_Frame.label>長程導彈炮塔（建造中）</MissileTurret_Frame.label>
+
+  <CMissileTurret.label>巡航導彈炮塔</CMissileTurret.label>
+  <CMissileTurret.description>自動巡航導彈炮塔。發射單發大型導彈。損毀時會發生爆炸。</CMissileTurret.description>
+  <CMissileTurret_Blueprint.label>巡航導彈炮塔（藍圖）</CMissileTurret_Blueprint.label>
+  <CMissileTurret_Frame.label>巡航導彈炮塔（建造中）</CMissileTurret_Frame.label>
+
+
+</LanguageData>

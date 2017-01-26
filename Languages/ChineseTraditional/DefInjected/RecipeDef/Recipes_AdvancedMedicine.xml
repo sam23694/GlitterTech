@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BuildBandages.label>製作繃帶</BuildBandages.label>
+  <BuildBandages.description>製作繃帶。</BuildBandages.description>
+  <BuildBandages.jobString>正在製作繃帶。</BuildBandages.jobString>
+
+  <BuildMedicine.label>製作醫療包</BuildMedicine.label>
+  <BuildMedicine.description>製作醫療包。</BuildMedicine.description>
+  <BuildMedicine.jobString>正在製作醫療包。</BuildMedicine.jobString>
+
+  <BuildGlitterworldMedicine.label>製作高科技醫療包</BuildGlitterworldMedicine.label>
+  <BuildGlitterworldMedicine.description>製作高科技醫療包。</BuildGlitterworldMedicine.description>
+  <BuildGlitterworldMedicine.jobString>正在製作高科技醫療包。</BuildGlitterworldMedicine.jobString>
+
+
+</LanguageData>

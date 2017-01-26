@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_HC1Shield.label>HC-1护盾</Apparel_HC1Shield.label>
+  <Apparel_HC1Shield.description>大容量能量护盾。最顶级的单人护盾，1型将能量上限提升至十倍，但护盾恢复速度减慢。</Apparel_HC1Shield.description>
+
+  <Apparel_OCShield.label>猎户座公司防护盾</Apparel_OCShield.label>
+  <Apparel_OCShield.description>猎户座公司专利单人护盾。标准的能量上限，但护盾恢复速度远快于其他竞争对手。</Apparel_OCShield.description>
+
+
+</LanguageData>
