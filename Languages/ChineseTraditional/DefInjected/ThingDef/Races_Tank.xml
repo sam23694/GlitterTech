@@ -3,10 +3,10 @@
 
   <Race_Tank.label>坦克</Race_Tank.label>
   <Race_Tank.description>主戰坦克。用於地面強襲的前線以及城市戰當中。</Race_Tank.description>
-  <Race_Tank_Leather.label>坦克皮</Race_Tank_Leather.label>
+  <!--<Race_Tank_Leather.label>坦克皮</Race_Tank_Leather.label>-->
   <!--<Race_Tank_Leather.description>坦克皮</Race_Tank_Leather.description>-->
   <!--<Race_Tank_Leather.stuffProps.stuffAdjective>坦克皮</Race_Tank_Leather.stuffProps.stuffAdjective>-->
-  <!--<Race_Tank_Meat.label>坦克肉</Race_Tank_Meat.label>-->
+  <Race_Tank_Meat.label>坦克肉</Race_Tank_Meat.label>
   <Race_Tank_Meat.description>坦克肉</Race_Tank_Meat.description>
   <Race_Tank_Corpse.label>坦克屍體</Race_Tank_Corpse.label>
   <Race_Tank_Corpse.description>坦克屍體</Race_Tank_Corpse.description>

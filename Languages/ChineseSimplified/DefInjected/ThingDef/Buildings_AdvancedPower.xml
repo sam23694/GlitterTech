@@ -23,7 +23,7 @@
   <FissionBattery_Frame.label>核裂变电池（建造中）</FissionBattery_Frame.label>
 
   <HeavyPowerConduit.label>加固电缆</HeavyPowerConduit.label>
-  <HeavyPowerConduit.description>A set of heavy electrical cables, very strong and non-flammable</HeavyPowerConduit.description>
+  <HeavyPowerConduit.description>一组沉重的电缆，非常坚固且不可燃。</HeavyPowerConduit.description>
   <HeavyPowerConduit_Blueprint.label>加固电缆（蓝图）</HeavyPowerConduit_Blueprint.label>
   <HeavyPowerConduit_Frame.label>加固电缆（建造中）</HeavyPowerConduit_Frame.label>
 
