@@ -31,9 +31,9 @@
   <ProduceTitanium.description>從塑鋼提取鈦合金。</ProduceTitanium.description>
   <ProduceTitanium.jobString>正在從塑鋼提取鈦合金。</ProduceTitanium.jobString>
 
-  <ProduceEthanol.label>從草莓提取乙醇</ProduceEthanol.label>
-  <ProduceEthanol.description>從草莓提取乙醇。</ProduceEthanol.description>
-  <ProduceEthanol.jobString>在從草莓提取乙醇。</ProduceEthanol.jobString>
+  <ProduceEthanol.label>從莓果提取乙醇</ProduceEthanol.label>
+  <ProduceEthanol.description>從莓果提取乙醇。</ProduceEthanol.description>
+  <ProduceEthanol.jobString>在從莓果提取乙醇。</ProduceEthanol.jobString>
 
   <ProduceSerum.label>合成血清</ProduceSerum.label>
   <ProduceSerum.description>合成血清。</ProduceSerum.description>

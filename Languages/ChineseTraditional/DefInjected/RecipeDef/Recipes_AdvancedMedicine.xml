@@ -9,9 +9,9 @@
   <BuildMedicine.description>製作醫療包。</BuildMedicine.description>
   <BuildMedicine.jobString>正在製作醫療包。</BuildMedicine.jobString>
 
-  <BuildGlitterworldMedicine.label>製作高科技醫療包</BuildGlitterworldMedicine.label>
-  <BuildGlitterworldMedicine.description>製作高科技醫療包。</BuildGlitterworldMedicine.description>
-  <BuildGlitterworldMedicine.jobString>正在製作高科技醫療包。</BuildGlitterworldMedicine.jobString>
+  <BuildGlitterworldMedicine.label>製作高科技藥品</BuildGlitterworldMedicine.label>
+  <BuildGlitterworldMedicine.description>製作高科技藥品。</BuildGlitterworldMedicine.description>
+  <BuildGlitterworldMedicine.jobString>正在製作高科技藥品。</BuildGlitterworldMedicine.jobString>
 
 
 </LanguageData>
