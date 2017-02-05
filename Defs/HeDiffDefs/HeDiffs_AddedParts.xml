@@ -252,7 +252,7 @@
 
 	<HediffDef ParentName="AddedBodyPartBase_GT">
 		<defName>GTEye</defName>
-		<label>Advanced bionic eye</label>
+		<label>Glitterworld bionic eye</label>
 		<spawnThingOnRemoved>GTEye</spawnThingOnRemoved>
 		<addedPartProps>
 			<isBionic>true</isBionic>
