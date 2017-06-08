@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ImpactionCharge.label>衝擊炸彈</ImpactionCharge.label>
+  <ImpactionCharge.description>遙控引爆。造成沖入岩床的等離子定向爆炸。用於小行星開採和地下資源勘探。</ImpactionCharge.description>
+  <ImpactionCharge_Blueprint.label>衝擊炸彈（藍圖）</ImpactionCharge_Blueprint.label>
+  <ImpactionCharge_Frame.label>衝擊炸彈（建造中）</ImpactionCharge_Frame.label>
+
+
+</LanguageData>

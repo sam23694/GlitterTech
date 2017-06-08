@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Stuff-less apparel -->
+
+  <Apparel_OCCombatVest.label>獵戶座作戰背心</Apparel_OCCombatVest.label>
+  <Apparel_OCCombatVest.description>獵戶座公司標準制式作戰背心。相較於普通的防彈背心，添加了更先進的合金。</Apparel_OCCombatVest.description>
+
+  <Apparel_OCHelmet.label>獵戶座頭盔</Apparel_OCHelmet.label>
+  <Apparel_OCHelmet.description>獵戶座公司標準制式頭盔。標誌性的經典星藍色，相較於標準的軍用頭盔，使用更先進的合金製成。</Apparel_OCHelmet.description>
+
+  <Apparel_OCPants.label>獵戶座制式長褲</Apparel_OCPants.label>
+  <Apparel_OCPants.description>獵戶座公司的長褲。</Apparel_OCPants.description>
+
+  <Apparel_OCShirt.label>獵戶座制式襯衫</Apparel_OCShirt.label>
+  <Apparel_OCShirt.description>基礎的獵戶座公司的襯衫。</Apparel_OCShirt.description>
+
+
+</LanguageData>

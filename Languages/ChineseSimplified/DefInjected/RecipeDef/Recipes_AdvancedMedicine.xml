@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BuildBandages.label>制作绷带</BuildBandages.label>
+  <BuildBandages.description>制作绷带。</BuildBandages.description>
+  <BuildBandages.jobString>正在制作绷带。</BuildBandages.jobString>
+
+  <BuildMedicine.label>制作药物</BuildMedicine.label>
+  <BuildMedicine.description>制作药物。</BuildMedicine.description>
+  <BuildMedicine.jobString>正在制作药物。</BuildMedicine.jobString>
+
+  <BuildGlitterworldMedicine.label>制作闪耀世界药物</BuildGlitterworldMedicine.label>
+  <BuildGlitterworldMedicine.description>制作闪耀世界药物。</BuildGlitterworldMedicine.description>
+  <BuildGlitterworldMedicine.jobString>正在制作闪耀世界药物。</BuildGlitterworldMedicine.jobString>
+
+
+</LanguageData>

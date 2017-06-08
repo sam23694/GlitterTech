@@ -37,28 +37,28 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelShieldBase_GT">
-		<thingClass>PersonalShield</thingClass>
+		<thingClass>ShieldBelt</thingClass>
 		<defName>Apparel_HC1Shield</defName>
 		<label>HC-1 shield</label>
 		<description>A high capacity energy shield device. The top teir class of personal shields, the mark 1 increases energy capacity by a factor of ten, but recycles the shield slower. </description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PersonalShield/PersonalShield</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<MarketValue>2400</MarketValue>
-			<PersonalShieldRechargeRate>0.4</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>10</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
 		</statBases>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
+				<li>Waist</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Accessory</li>
+				<li>Belt</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>GTShield</li>
 			</tags>
@@ -74,28 +74,28 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelShieldBase_GT">
-		<thingClass>PersonalShield</thingClass>
+		<thingClass>ShieldBelt</thingClass>
 		<defName>Apparel_OCShield</defName>
 		<label>Orion Corp defense shield</label>
 		<description>An Orion corp patented personal defense shield. Standard capacity, but recycles the shield much faster then all of the competitors.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/PersonalShield/PersonalShield</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<MarketValue>2100</MarketValue>
-			<PersonalShieldRechargeRate>1</PersonalShieldRechargeRate>
-			<PersonalShieldEnergyMax>1</PersonalShieldEnergyMax>
+			<EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
 		</statBases>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
-				<li>Torso</li>
+				<li>Waist</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Accessory</li>
+				<li>Belt</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>OCShield</li>
 			</tags>

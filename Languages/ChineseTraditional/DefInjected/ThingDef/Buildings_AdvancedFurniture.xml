@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Beds -->
+
+  <ambTable.label>修復艙</ambTable.label>
+  <ambTable.description>為嚴重傷員而設計的醫療艙。通過將生物可降解的重構納米機器人注入到血液中，在一段時間內可修復大多數傷，但有些傷扔需要一名醫生。警告：這種醫療艙已調校為男性患者專用。</ambTable.description>
+  <ambTable_Blueprint.label>修復艙（藍圖）</ambTable_Blueprint.label>
+  <ambTable_Frame.label>修復艙（建造中）</ambTable_Frame.label>
+
+  <DynChair.label>動態休閒椅</DynChair.label>
+  <DynChair.description>能動態重構形狀的大型椅子，不僅能讓仍何人舒適，還能感應到特定的不舒適的區域并提供溫和或強力的按摩。就缺一個酒吧冰箱了……</DynChair.description>
+  <DynChair_Blueprint.label>動態休閒椅（藍圖）</DynChair_Blueprint.label>
+  <DynChair_Frame.label>動態休閒椅（建造中）</DynChair_Frame.label>
+
+
+  <!-- Lighting -->
+
+  <FloodLight.label>泛光燈</FloodLight.label>
+  <FloodLight.description>泛光燈能照亮一大片區域，但耗電更高。</FloodLight.description>
+  <FloodLight_Blueprint.label>泛光燈（藍圖）</FloodLight_Blueprint.label>
+  <FloodLight_Blueprint_Install.label>泛光燈（藍圖）</FloodLight_Blueprint_Install.label>
+  <FloodLight_Frame.label>泛光燈（建造中）</FloodLight_Frame.label>
+
+
+</LanguageData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- artificial - bionics -->
+
+  <GTEar.label>高级仿生耳</GTEar.label>
+  <GTEar.description>仿生耳的高级版。第二代仿生学升级，通常专供高层军事力量。/GTEar.description>
+
+  <GTEye.label>高级仿生眼</GTEye.label>
+  <GTEye.description>仿生耳的高级版。第二代仿生学升级，通常专供高层军事力量。</GTEye.description>
+
+  <GTArm.label>高级仿生臂</GTArm.label>
+  <GTArm.description>第二代仿生学升级，使用纳米纤维制作的人造肌肉。给予拥有者不可思议的力量。你第一次打架的时候有可能把你对手的四肢打没了……不推荐给监狱长用。</GTArm.description>
+
+  <GTLeg.label>高级仿生腿</GTLeg.label>
+  <GTLeg.description>第二代仿生学升级，使用纳米纤维制作的人造肌肉。给予拥有者不可思议的速度。</GTLeg.description>
+
+  <GTHeart.label>神经机械心</GTHeart.label>
+  <GTHeart.description>强悍的心脏强化，代替普通的人类心脏。安全地提供极高的血液流量，不会对普通的身体部件造成负担。</GTHeart.description>
+
+  <GTLung.label>神经机械肺</GTLung.label>
+  <GTLung.description>强悍的肺脏强化，代替普通的人类肺脏。完美配合神经机械心，提升血液循环的速度和效率。</GTLung.description>
+
+  <GTKidney.label>神经机械肾</GTKidney.label>
+  <GTKidney.description>强悍的肾脏强化，代替普通的人类肾脏。提升血液过滤效率。</GTKidney.description>
+
+  <GTLiver.label>神经机械肝</GTLiver.label>
+  <GTLiver.description>强悍的肝脏强化，代替普通的人类肝脏。提升血液过滤效率和新陈代谢效率。</GTLiver.description>
+
+  <GTStomach.label>神经机械胃</GTStomach.label>
+  <GTStomach.description>强悍的胃部强化，代替普通的人类未。提升消化效率和新陈代谢效率。</GTStomach.description>
+
+  <GTHand.label>高级仿生手</GTHand.label>
+  <GTHand.description>第二代仿生学升级，使用纳米纤维制作的人造肌肉。手臂升级的受限版本，只替换手。</GTHand.description>
+
+  <GTFoot.label>高级仿生足</GTFoot.label>
+  <GTFoot.description>第二代仿生学升级，使用纳米纤维制作的人造肌肉。腿足升级的受限版本，只替换脚。</GTFoot.description>
+
+  <GTDentures.label>高级仿生齿</GTDentures.label>
+  <GTDentures.description>第二代仿生学升级，使用纳米机械轻轻一下瞬间就能嚼碎食物。</GTDentures.description>
+
+
+</LanguageData>

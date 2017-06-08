@@ -21,8 +21,9 @@
 			<MoveSpeed>-0.02</MoveSpeed>
 		</equippedStatOffsets>
 		<thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -31,7 +32,6 @@
 			<layers>
 				<li>Middle</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>OCArmor</li>
 			</tags>
@@ -51,7 +51,7 @@
 		<label>Orion Corporation helmet</label> 
 		<description>A standard issue Orion Corporation helmet. Other then the characteristic Orion blue, it is made of more advanced materials then the standard helmet.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/MilitaryHelmet/MilitaryHelmet</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
@@ -65,17 +65,17 @@
 			<PsychicSensitivity>-0.45</PsychicSensitivity>
 		</equippedStatOffsets>
 		<thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>Things/Pawn/Humanlike/Apparel/MilitaryHelmet/MilitaryHelmet</worngraphicPath>
+			<worngraphicPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</worngraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>OCArmor</li>
 			</tags>
@@ -105,8 +105,9 @@
 			<Insulation_Cold>-10</Insulation_Cold>
 		</statBases>
 		<thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Legs</li>
@@ -114,7 +115,6 @@
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>OCFatigues</li>
 			</tags>
@@ -144,8 +144,9 @@
 			<Insulation_Cold>-10</Insulation_Cold>
 		</statBases>
 		<thingCategories>
-      <li>Apparel</li>
-    </thingCategories>
+			<li>Apparel</li>
+		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<bodyPartGroups>
 				<li>Torso</li>
@@ -154,7 +155,6 @@
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>OCFatigues</li>
 			</tags>

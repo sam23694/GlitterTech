@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
 <!--
-	<activities>
+	<tags>
 		<li>Manipulation_way1</li>
-	</activities>
+	</tags>
 	
 	means that this body part is responsible for Manipulation activity in group "way1".
 	Efficiency of Pawn activity X is minimum of all X activity groups efficiency values.
@@ -56,12 +56,12 @@
 		<skinCovered>true</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
-		<activities>
-			<li>BloodPumping</li>
-			<li>BloodFiltration</li>
-			<li>Metabolism</li>
-			<li>Breathing</li>
-		</activities>
+		<tags>
+			<li>BloodPumpingSource</li>
+			<li>BloodFiltrationKidney</li>
+			<li>MetabolismSource</li>
+			<li>BreathingSource</li>
+		</tags>
 	</BodyPartDef>
 	
 	<BodyPartDef>
@@ -70,11 +70,11 @@
 		<hitPoints>40</hitPoints>
 		<frostbiteVulnerability>5</frostbiteVulnerability>
 		<oldInjuryBaseChance>0</oldInjuryBaseChance>
-		<activities>
-			<li>Consciousness_brain</li>
-			<li>Sight_source</li>
-			<li>Hearing_source</li>
-		</activities>
+		<tags>
+			<li>ConsciousnessSource</li>
+			<li>SightSource</li>
+			<li>HearingSource</li>
+		</tags>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -125,9 +125,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
-		<activities>
-			<li>Moving_leftWay</li>
-		</activities>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -138,9 +138,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
-		<activities>
-			<li>Moving_rightWay</li>
-		</activities>
+		<tags>
+			<li>MovingLimbCore</li>
+		</tags>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -151,9 +151,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
-		<activities>
-			<li>Moving_tool</li>
-		</activities>
+		<tags>
+			<li>MovingLimbSegment</li>
+		</tags>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -174,9 +174,9 @@
 		<skinCovered>false</skinCovered>
 		<isSolid>true</isSolid>
 		<isAlive>false</isAlive>
-		<activities>
-			<li>Manipulation_way</li>
-		</activities>
+		<tags>
+			<li>ManipulationLimbCore</li>
+		</tags>
 	</BodyPartDef>
 
 </BodyPartDefs>

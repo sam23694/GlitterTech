@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PacifierStab.label>刺</PacifierStab.label>
+  <PacifierStab.deathMessage>{0}被平定匕首刺死了。</PacifierStab.deathMessage>
+
+
+</LanguageData>

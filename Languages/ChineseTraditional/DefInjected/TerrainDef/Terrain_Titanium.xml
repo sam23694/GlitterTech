@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tile -->
+
+  <TitaniumTile.label>鈦合金地磚</TitaniumTile.label>
+  <TitaniumTile.description>鈦合金地磚，給人閃耀世界的感覺。</TitaniumTile.description>
+
+  <AlphaTile.label>阿爾法纖維地磚</AlphaTile.label>
+  <AlphaTile.description>阿爾法纖維地磚，給人外星人飛船的感覺。</AlphaTile.description>
+
+  <BetaTile.label>貝塔纖維地磚</BetaTile.label>
+  <BetaTile.description>貝塔纖維地磚，給人外星人飛船的感覺。</BetaTile.description>
+
+
+</LanguageData>

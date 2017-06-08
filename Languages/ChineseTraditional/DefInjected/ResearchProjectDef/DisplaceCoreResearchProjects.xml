@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--[Core] <TransportPod.label>transport pod</TransportPod.label>-->
+  <!--[Core] <TransportPod.description>Construct launchable transport pods that you can use to launch people and supplies long distances across the planet's surface.</TransportPod.description>-->
+
+  <!--[Core] <HospitalBed.label>hospital bed</HospitalBed.label>-->
+  <!--[Core] <HospitalBed.description>Allows colonists to construct hospital beds which increase chance of successful medical work.</HospitalBed.description>-->
+
+  <!--[Core] <MultiAnalyzer.label>multi-analyzer</MultiAnalyzer.label>-->
+  <!--[Core] <MultiAnalyzer.description>Allows colonists to build multi-analyzers which increase research speed, and allow higher-level research projects, if placed near a research bench.</MultiAnalyzer.description>-->
+
+  <!--[Core] <VitalsMonitor.label>vitals monitor</VitalsMonitor.label>-->
+  <!--[Core] <VitalsMonitor.description>Allows colonists to build vitals monitors which increase patients treatment quality if placed next to medical beds.</VitalsMonitor.description>-->
+
+  <!--[Core] <GroundPenetratingScanner.label>ground-penetrating scanner</GroundPenetratingScanner.label>-->
+  <!--[Core] <GroundPenetratingScanner.description>Allows you to build ground-penetrating scanners that can detect drillable resources deep under the surface.</GroundPenetratingScanner.description>-->
+
+  <!--[Core] <DeepDrilling.label>deep drilling</DeepDrilling.label>-->
+  <!--[Core] <DeepDrilling.description>Allows you to build deep drills for extracting resources from deep underground. You'll need a ground-penetrating scanner to find the resources.</DeepDrilling.description>-->
+
+  <!--[Core] <ShipBasics.label>shipbuilding basics</ShipBasics.label>-->
+  <!--[Core] <ShipBasics.description>Allows you to start researching more advanced shipbuilding technologies and eventually build a ship to escape the planet.</ShipBasics.description>-->
+
+
+</LanguageData>

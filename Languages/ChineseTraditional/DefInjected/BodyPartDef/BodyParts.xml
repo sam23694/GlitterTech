@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- TankChassis -->
+
+  <TChassis.label>坦克底盤</TChassis.label>
+  <THull.label>外殼</THull.label>
+  <TFrame.label>框架</TFrame.label>
+  <Engine.label>引擎</Engine.label>
+  <Crew.label>乘員</Crew.label>
+  <TurretActuator.label>炮塔驅動機</TurretActuator.label>
+  <CannonLoader.label>加農炮裝載機</CannonLoader.label>
+  <AmmoRack.label>彈藥架</AmmoRack.label>
+  <TurretHull.label>炮塔外殼</TurretHull.label>
+  <LeftTrack.label>左履帶</LeftTrack.label>
+  <RightTrack.label>右履帶</RightTrack.label>
+  <TrackChain.label>履帶鏈</TrackChain.label>
+  <Fender.label>履帶擋泥板</Fender.label>
+  <WheelSystem.label>輪組系統</WheelSystem.label>
+
+
+</LanguageData>

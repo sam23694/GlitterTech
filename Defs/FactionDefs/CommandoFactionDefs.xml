@@ -6,7 +6,7 @@
 		<label>Commando Squad</label>
 		<description>A squad of commandos.</description>
 		<pawnsPlural>commandos</pawnsPlural>
-		<factionBaseSelectionWeight>0.2</factionBaseSelectionWeight>
+		<baseSelectionWeight>0.2</baseSelectionWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
 		<raidCommonality>25</raidCommonality>
@@ -28,7 +28,7 @@
 			<max>-100</max>
 		</startingGoodwill>
 		<factionNameMaker>NamerFactionPirate</factionNameMaker>
-		<factionBaseNameMaker>NamerFactionBasePirate</factionBaseNameMaker>
+		<baseNameMaker>NamerFactionBasePirate</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<earliestRaidDays>180</earliestRaidDays>
 		<backstoryCategory>Raider</backstoryCategory>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_NanoSuit.label>纳米服</Apparel_NanoSuit.label>
+  <Apparel_NanoSuit.description>利用纳米技术增强的动力装甲，通常专供来自先进的闪耀世界行星的突击队。配备的电磁屏障能防护大部分动能武器的火力。</Apparel_NanoSuit.description>
+
+  <Apparel_NanoSuitHelmet.label>纳米头盔</Apparel_NanoSuitHelmet.label>
+  <Apparel_NanoSuitHelmet.description>纳米服的集成头盔。配有闪亮的预警显示屏。内置最新的神经机械抗干扰程式（防护心灵波）。</Apparel_NanoSuitHelmet.description>
+
+  <Apparel_Reactive.label>反应式附甲</Apparel_Reactive.label>
+  <Apparel_Reactive.description>动力反应式附甲。非常沉重，但能防护大量的武器火力。</Apparel_Reactive.description>
+
+  <Apparel_NanoSkin.label>纤维紧身衣</Apparel_NanoSkin.label>
+  <Apparel_NanoSkin.description>轻薄的纳米技术紧身衣。耐久不如完整的纳米服，但足够贴身，能穿在其他衣物之内，包括纳米服。这种护甲通常由高级的超级战士穿着，或者由高价值目标穿着来抵御刺杀。非常昂贵且稀有，但能提高穿著者的速度和防御能力。在装备了纳米服反应式装甲后，再在里层穿一件纤维紧身衣是最合适的。</Apparel_NanoSkin.description>
+
+  <Apparel_NanoSpeed.label>高速紧身衣</Apparel_NanoSpeed.label>
+  <Apparel_NanoSpeed.description>轻薄的纳米技术紧身衣。结构与碳纤维紧身衣结构相似，但以反应式金属液晶体编织而成，能同时大幅加强速度和机动。通过牺牲防御性能大幅提升速度。</Apparel_NanoSpeed.description>
+
+
+</LanguageData>

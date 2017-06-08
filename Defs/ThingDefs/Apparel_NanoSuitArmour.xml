@@ -55,12 +55,12 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSuit/Nano</worngraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>GlitterArmor</li>
 			</tags>
@@ -144,12 +144,12 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSuitHelmet/NanoSuitHelmet</worngraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>GlitterHelmet</li>
 			</tags>
@@ -230,12 +230,12 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<generateCommonality>2</generateCommonality>
 		<apparel>
 			<worngraphicPath>Things/Pawn/Humanoid/Apparel/Reactive/Reactive</worngraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
-			<commonality>2</commonality>
 			<tags>
 				<li>GlitterArmorR</li>
 			</tags>
@@ -292,12 +292,12 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSkin/NS</worngraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>GlitterArmorSkin</li>
 			</tags>
@@ -355,12 +355,12 @@
 		<thingCategories>
 			<li>Apparel</li>
 		</thingCategories>
+		<generateCommonality>1</generateCommonality>
 		<apparel>
 			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSkin/NS</worngraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
-			<commonality>1</commonality>
 			<tags>
 				<li>GlitterArmorSpeed</li>
 			</tags>

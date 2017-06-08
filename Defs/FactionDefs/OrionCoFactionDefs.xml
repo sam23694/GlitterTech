@@ -6,7 +6,7 @@
 		<label>Orion Corporation</label>
 		<description>Orion Corporation</description>
 		<pawnsPlural>Orion Corp Soldiers</pawnsPlural>
-		<factionBaseSelectionWeight>0.2</factionBaseSelectionWeight>
+		<baseSelectionWeight>0.2</baseSelectionWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Orion Installation</fixedName>
 		<raidCommonality>20</raidCommonality>
@@ -21,7 +21,7 @@
 			<min>-100</min>
 			<max>40</max>
 		</startingGoodwill>
-		<factionBaseNameMaker>NamerFactionBaseOutlander</factionBaseNameMaker>
+		<baseNameMaker>NamerFactionBaseOutlander</baseNameMaker>
 		<techLevel>Spacer</techLevel>
 		<backstoryCategory>Raider</backstoryCategory>
 		<autoFlee>false</autoFlee>

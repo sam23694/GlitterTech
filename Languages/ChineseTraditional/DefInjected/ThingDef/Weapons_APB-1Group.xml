@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_APBPistol.label>陰離子粒子束</Bullet_APBPistol.label>
+
+  <Gun_APB-1Pistol.label>APB-1手槍</Gun_APB-1Pistol.label>
+  <Gun_APB-1Pistol.description>陰離子粒子束手槍1型。APB-1步槍的組成部分，這種手槍透過氫氣發射陰離子，產生能在原子層面上湮滅物質的中性帶電動能彈頭。精準且威力強大，可點燃大多數目標。</Gun_APB-1Pistol.description>
+
+  <Bullet_APBProjector.label>陰離子粒子束</Bullet_APBProjector.label>
+
+  <Gun_APB-1Projector.label>APB-1粒子炮</Gun_APB-1Projector.label>
+  <Gun_APB-1Projector.description>陰離子粒子束粒子炮1型。最新式的反空軍與反坦克武器，這種粒子炮透過氫氣發射陰離子，產生能在原子層面上湮滅物質的中性帶電動能彈頭。製造毀精準且威力強大的毀滅性的爆炸。</Gun_APB-1Projector.description>
+
+  <Bullet_APBRifle.label>陰離子粒子束</Bullet_APBRifle.label>
+
+  <Gun_APB-1Rifle.label>APB-1步槍</Gun_APB-1Rifle.label>
+  <Gun_APB-1Rifle.description>陰離子粒子束步槍1型。最前沿的反人員武器，這種步槍透過氫氣發射陰離子，產生能在原子層面上湮滅物質的中性帶電動能彈頭。精準且威力強大，可點燃大多數目標。</Gun_APB-1Rifle.description>
+
+
+</LanguageData>

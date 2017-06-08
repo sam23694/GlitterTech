@@ -55,7 +55,7 @@
 						</li>
 						<li>
 							<def>TurretHull</def>
-							<coverage>0.9</coverage>
+							<coverage>0.8</coverage>
 							<depth>Outside</depth>
 						</li>
 					</parts>

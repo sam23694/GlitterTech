@@ -9,7 +9,6 @@
     <defName>PacifierStab</defName>
     <label>stab</label>
     <externalViolence>true</externalViolence>
-    <battleWound>true</battleWound>
     <deathMessage>{0} has been pacified to death.</deathMessage>
     <hediff>HeatStab</hediff>
     <hediffSolid>Crack</hediffSolid>

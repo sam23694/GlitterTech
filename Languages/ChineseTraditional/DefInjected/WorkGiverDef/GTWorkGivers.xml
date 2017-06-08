@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Fabricating -->
+
+  <DoBillsMatterfab.label>操作物質合成機</DoBillsMatterfab.label>
+  <DoBillsMatterfab.verb>合成</DoBillsMatterfab.verb>
+  <DoBillsMatterfab.gerund>合成</DoBillsMatterfab.gerund>
+
+  <DoBillsElectrolysis.label>操作電解機</DoBillsElectrolysis.label>
+  <DoBillsElectrolysis.verb>電解</DoBillsElectrolysis.verb>
+  <DoBillsElectrolysis.gerund>電解</DoBillsElectrolysis.gerund>
+
+  <DoBillsRobassem.label>操作自動化裝配機</DoBillsRobassem.label>
+  <DoBillsRobassem.verb>裝配</DoBillsRobassem.verb>
+  <DoBillsRobassem.gerund>裝配</DoBillsRobassem.gerund>
+
+  <DoBillsPharma.label>操作配藥桌</DoBillsPharma.label>
+  <DoBillsPharma.verb>生產</DoBillsPharma.verb>
+  <DoBillsPharma.gerund>生產</DoBillsPharma.gerund>
+
+
+</LanguageData>
