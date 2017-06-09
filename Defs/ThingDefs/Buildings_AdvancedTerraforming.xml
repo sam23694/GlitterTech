@@ -22,6 +22,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
+                        <Mass>50</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<description>Detonates on command. Creates a directed blast of plasma, which impacts right into the bedrock. Used for asteroid mining and acessing underground resources.</description>
@@ -48,6 +49,5 @@
 		<designationCategory>Security</designationCategory>
 		<researchPrerequisites><li>ElectroPlasmatics</li></researchPrerequisites>
 	</ThingDef>
-
 
 </Buildings>

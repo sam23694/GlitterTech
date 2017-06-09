@@ -12,6 +12,7 @@
 		</graphicData>
 		<statBases>
 			<MarketValue>4500</MarketValue>
+                        <Mass>10</Mass>
 		</statBases>
 		<techHediffsTags>
 			<li>OCBodyParts</li>

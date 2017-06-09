@@ -40,6 +40,7 @@
 			<AccuracyMedium>0.18</AccuracyMedium>
 			<AccuracyLong>0.06</AccuracyLong>
 			<RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+			<Mass>30</Mass>
 		</statBases>
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>

@@ -22,6 +22,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
+                        <Mass>25</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<description>EMP Defense charge that detonates on command. Creates a powerful blast of electromagnetic enery, which blankets a large radius. Used for defense against robotic threats, and sometimes makes humans run in terror.</description>
@@ -69,6 +70,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
+                        <Mass>20</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<description>A depleted EMPD-1 charge.</description>
@@ -111,6 +113,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>800</WorkToBuild>
 			<Flammability>1.0</Flammability>
+                        <Mass>25</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<description>EMP Defense charge that detonates on command. Creates a powerful blast of electromagnetic enery, which blankets a large radius. Used for defense against robotic threats, and sometimes makes humans run in terror.</description>
@@ -134,6 +137,5 @@
 		<designationCategory>Security</designationCategory>
 		<researchPrerequisites><li>ElectroPlasmatics</li></researchPrerequisites>
 	</ThingDef>
-
 
 </Buildings>

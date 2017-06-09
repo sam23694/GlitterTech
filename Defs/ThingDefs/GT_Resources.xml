@@ -179,6 +179,7 @@
 		<statBases>
 			<MarketValue>1200</MarketValue>
 			<Flammability>1.0</Flammability>
+                        <Mass>2.5</Mass>
 		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>
@@ -198,6 +199,7 @@
 		<statBases>
 			<MarketValue>1</MarketValue>
 			<Flammability>1.0</Flammability>
+                        <Mass>0.10</Mass>
 		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>
@@ -217,6 +219,7 @@
 		<statBases>
 			<MarketValue>350</MarketValue>
 			<Flammability>1.0</Flammability>
+                        <Mass>0.15</Mass>
 		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>
@@ -236,6 +239,7 @@
 		<statBases>
 			<MarketValue>250</MarketValue>
 			<Flammability>1.0</Flammability>
+                        <Mass>0.08</Mass>
 		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>
@@ -255,6 +259,7 @@
 		<statBases>
 			<MarketValue>250</MarketValue>
 			<Flammability>1.0</Flammability>
+                        <Mass>0.05</Mass>
 		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>
@@ -274,6 +279,7 @@
 		<statBases>
 			<MarketValue>250</MarketValue>
 			<Flammability>1.0</Flammability>
+                        <Mass>0.03</Mass>
 		</statBases>
 		<thingCategories>
 			<li>Manufactured</li>

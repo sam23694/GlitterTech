@@ -99,6 +99,7 @@
 			<WorkToMake>45000</WorkToMake>
 			<MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
 			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+                        <Mass>1.2</Mass>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<stuffCategories>

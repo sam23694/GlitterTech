@@ -79,6 +79,7 @@
 			<WorkToBuild>2800</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-60</Beauty>
+                        <Mass>110</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -144,6 +145,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>2800</WorkToBuild>
 			<Beauty>-60</Beauty>
+                        <Mass>110</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -210,6 +212,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>3500</WorkToBuild>
 			<Beauty>-60</Beauty>
+                        <Mass>120</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -280,6 +283,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>3500</WorkToBuild>
 			<Beauty>-60</Beauty>
+                        <Mass>120</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -348,6 +352,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>3500</WorkToBuild>
 			<Beauty>-60</Beauty>
+                        <Mass>120</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -418,6 +423,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>4500</WorkToBuild>
 			<Beauty>-60</Beauty>
+                        <Mass>150</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>
@@ -488,6 +494,7 @@
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>4800</WorkToBuild>
 			<Beauty>-60</Beauty>
+                        <Mass>150</Mass>
 		</statBases>
 		<tickerType>Normal</tickerType>
 		<comps>

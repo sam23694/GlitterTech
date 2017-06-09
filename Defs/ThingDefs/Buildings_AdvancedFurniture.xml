@@ -25,6 +25,7 @@
 			<BedRestEffectiveness>1.5</BedRestEffectiveness>
 			<ImmunityGainSpeedFactor>3</ImmunityGainSpeedFactor>
 			<MedicalTendQualityOffset>3</MedicalTendQualityOffset>
+                        <Mass>60</Mass>
 		</statBases>
 		<Size>(1,2)</Size>
 		<stuffCategories>
@@ -102,6 +103,7 @@
 			<Flammability>1.0</Flammability>
 			<Beauty>10</Beauty>
 			<Comfort>8</Comfort>
+                        <Mass>30</Mass>
 		</statBases>
 		<description>A large, chair that dynamically reforms to not only comfort each person, but sense areas of specific discomfort and provide mild or intensive massaging. All it needs is a bar fridge...</description>
 		<socialPropernessMatters>true</socialPropernessMatters>
@@ -149,6 +151,7 @@
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>115</WorkToBuild>
 			<Flammability>1.0</Flammability>
+                        <Mass>5</Mass>
 		</statBases>
 		<selectable>true</selectable>
 		<fillPercent>0.20</fillPercent>
@@ -174,13 +177,5 @@
 		<designationCategory>Furniture</designationCategory>
 		<rotatable>false</rotatable>
 	</ThingDef>
-
-
-
-
-
-
-
-
 
 </Buildings>

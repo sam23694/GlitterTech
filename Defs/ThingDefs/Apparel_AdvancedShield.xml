@@ -16,6 +16,7 @@
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>1</DeteriorationRate>
 			<SellPriceFactor>0.5</SellPriceFactor>
+                        <Mass>3</Mass>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<alwaysHaulable>True</alwaysHaulable>
