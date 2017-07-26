@@ -122,7 +122,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<projectileDef>Bullet_EMRGTurret</projectileDef>
 				<warmupTime>0.8</warmupTime>
-				<range>60</range>
+				<range>40</range>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
 				<burstShotCount>2</burstShotCount>
 				<soundCast>EM</soundCast>
