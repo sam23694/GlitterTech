@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 	<!-- artificial - bionics -->
-
+	
 	<ThingDef ParentName="BodyPartArtificialBase_GT">
 		<defName>OCExo</defName>
 		<label>Orion Exoskeleton</label>
@@ -18,4 +18,4 @@
 		</techHediffsTags>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

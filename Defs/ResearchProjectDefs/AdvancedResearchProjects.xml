@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ResearchProjectDefs>
+<Defs>
 
 	<ResearchProjectDef>
 		<defName>MetalFab</defName>
@@ -211,4 +211,4 @@
 		<researchViewY>2</researchViewY>
 	</ResearchProjectDef>
 
-</ResearchProjectDefs>
+</Defs>

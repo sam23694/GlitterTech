@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DefPackage-SoundDef>
+<Defs>
 	<SoundDef>
     <defName>OCDRifle</defName>  
 	<context>MapOnly</context>
@@ -69,4 +69,4 @@
       </li>
     </subSounds>
   </SoundDef>
-</DefPackage-SoundDef>
+</Defs>

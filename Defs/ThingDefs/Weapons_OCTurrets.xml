@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<!-- ================= Bomb mortar ================= -->
 
@@ -7,7 +7,7 @@
 		<defName>Bullet_OCTankShell</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
-			<texPath>Things/Projectile/ShellBomb</texPath>
+			<texPath>Things/Projectile/ShellHighExplosive</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -51,9 +51,9 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_OCTankShell</projectileDef>
+				<defaultProjectile>Bullet_OCTankShell</defaultProjectile>
 				<forcedMissRadius>3.5</forcedMissRadius>
-				<ai_IsIncendiary>true</ai_IsIncendiary>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 				<warmupTime>1.0</warmupTime>
 				<range>120</range>
 				<burstShotCount>1</burstShotCount>
@@ -67,4 +67,4 @@
 		</verbs>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

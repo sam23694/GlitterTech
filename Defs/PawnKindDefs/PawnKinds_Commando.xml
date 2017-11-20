@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
 	<PawnKindDef Name="ComBase" Abstract="True">
 		<race>Human</race>
@@ -158,4 +158,4 @@
 		</inventoryOptions>
 	</PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DefPackage-SoundDef>
+<Defs>
 	<SoundDef>
 		<sustain>False</sustain>
 		<context>MapOnly</context>
@@ -47,4 +47,4 @@
 		</subSounds>
 		<defName>TCannon</defName>
 	</SoundDef>
-</DefPackage-SoundDef>
+</Defs>

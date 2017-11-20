@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
 	<FactionDef>
 		<defName>Commando</defName>
@@ -9,7 +9,7 @@
 		<baseSelectionWeight>0.2</baseSelectionWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<canMakeRandomly>true</canMakeRandomly>
-		<raidCommonality>25</raidCommonality>
+
 		<canSiege>false</canSiege>
 		
 		<hidden>true</hidden>
@@ -44,7 +44,6 @@
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Normal</kindDef>
-				<commonality>100</commonality>
 				<options>
 					<Commando>20</Commando>
 					<CommandoH>10</CommandoH>
@@ -55,4 +54,4 @@
 		<homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
 	</FactionDef>
 
-</FactionDefs>
+</Defs>

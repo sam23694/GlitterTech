@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<!--============================== Beds ==============================-->
 
 	<ThingDef ParentName="BuildingBase_GT">
 		<defName>ambTable</defName>
 		<label>Re-Ambulation Pod</label>
-		<Description>Warning this med-pod is calibrated for male patients only. This pod is designed for severely injured patents. By injecting bio-discardable re-constructive nano machines into the blood stream this table will fix most wounds over time, but some wounds will still require a doctor.</Description>
-		<ThingClass>Building_Bed</ThingClass>
+		<description>Warning this med-pod is calibrated for male patients only. This pod is designed for severely injured patents. By injecting bio-discardable re-constructive nano machines into the blood stream this table will fix most wounds over time, but some wounds will still require a doctor.</description>
+		<thingClass>Building_Bed</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Furniture/Bed/HospitalBed</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -17,7 +17,7 @@
 				<rect>(0,0.05,1,1.95)</rect>
 			</damageData>
 		</graphicData>
-		<AltitudeLayer>Building</AltitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>3200</WorkToBuild>
@@ -26,7 +26,7 @@
 			<ImmunityGainSpeedFactor>3</ImmunityGainSpeedFactor>
 			<MedicalTendQualityOffset>3</MedicalTendQualityOffset>
 		</statBases>
-		<Size>(1,2)</Size>
+		<size>(1,2)</size>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -40,7 +40,7 @@
 			<Component>6</Component>
 		</costList>
 		<building>
-			<Bed_ShowSleeperBody>true</Bed_ShowSleeperBody>
+			<bed_showSleeperBody>true</bed_showSleeperBody>
 			<bed_healPerDay>200</bed_healPerDay>
 			<bed_defaultMedical>true</bed_defaultMedical>
 		</building>
@@ -64,12 +64,12 @@
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
 		<fillPercent>0.4</fillPercent>
-		<PathCost>60</PathCost>
-		<LeaveResourcesWhenKilled>True</LeaveResourcesWhenKilled>
-		<StaticSunShadowHeight>0.17</StaticSunShadowHeight>
-		<CastEdgeShadows>True</CastEdgeShadows>
-		<Passability>PassThroughOnly</Passability>
-		<DrawGUIOverlay>True</DrawGUIOverlay>
+		<pathCost>60</pathCost>
+		<leaveResourcesWhenKilled>True</leaveResourcesWhenKilled>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<passability>PassThroughOnly</passability>
+		<drawGUIOverlay>True</drawGUIOverlay>
 		<researchPrerequisites><li>Pharmaceuticals</li></researchPrerequisites>
 		<designationCategory>Furniture</designationCategory>
 		<placeWorkers>
@@ -157,6 +157,9 @@
 			<Titanium>15</Titanium>
 			<Uranium>1</Uranium>
 		</costList>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
 		<comps>
@@ -183,4 +186,4 @@
 
 
 
-</Buildings>
+</Defs>

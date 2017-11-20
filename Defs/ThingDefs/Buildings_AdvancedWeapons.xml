@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<ThingDef ParentName="BuildingBase_GT">
 		<defName>EMPCharge</defName>
@@ -10,11 +10,11 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(1,1)</drawSize>
 			<damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -41,12 +41,18 @@
 			<MagneticCoil>1</MagneticCoil>
 			<ComputerComp>5</ComputerComp>			
 		</costList>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
 		<killedLeavings>
 			<DepletedEMPCharge>1</DepletedEMPCharge>
 		</killedLeavings>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
-		<researchPrerequisites><li>ElectroPlasmatics</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>ElectroPlasmatics</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase_GT">
@@ -57,11 +63,11 @@
 			<texPath>Things/Building/Terraforming/ImpactionCharge</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -84,11 +90,17 @@
 			<MagneticCoil>1</MagneticCoil>
 			<ComputerComp>5</ComputerComp>			
 		</costList>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
 		<filthLeaving>BuildingRubble</filthLeaving>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<!--<designationCategory>Security</designationCategory>-->
-		<researchPrerequisites><li>ElectroPlasmatics</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>ElectroPlasmatics</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase_GT">
@@ -99,11 +111,11 @@
 			<texPath>Things/Building/Terraforming/ImpactionCharge</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>
@@ -130,10 +142,16 @@
 			<MagneticCoil>1</MagneticCoil>
 			<ComputerComp>5</ComputerComp>			
 		</costList>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<isInert>true</isInert>
+		</building>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
-		<researchPrerequisites><li>ElectroPlasmatics</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>ElectroPlasmatics</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 
-</Buildings>
+</Defs>

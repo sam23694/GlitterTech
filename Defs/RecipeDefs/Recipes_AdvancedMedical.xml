@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Abstract="True" Name="GTSurgery">
 		<effectWorking>Surgery</effectWorking>
@@ -488,4 +488,4 @@
 		<addsHediff>GTDentures</addsHediff>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

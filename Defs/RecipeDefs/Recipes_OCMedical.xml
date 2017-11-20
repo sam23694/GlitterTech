@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef ParentName="GTSurgery">
 		<defName>InstallOCExo</defName>
@@ -37,7 +37,7 @@
 		<appliedOnFixedBodyParts>
 			<li>Spine</li>
 		</appliedOnFixedBodyParts>
-		<addsHeDiff>OCExo</addsHeDiff>
+		<addsHediff>OCExo</addsHediff>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>

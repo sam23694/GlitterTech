@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
+<Defs>
 
 	<!-- ============= Fabricating ============= -->
 	<WorkGiverDef Name="GTWorkGiver" Abstract="True">
@@ -52,4 +52,4 @@
 		<gerund>producing</gerund>
 	</WorkGiverDef>
 
-</WorkGivers>
+</Defs>

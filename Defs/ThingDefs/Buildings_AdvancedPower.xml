@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<!--==================================PowerSource=====================================-->
 
@@ -58,8 +58,9 @@
 		<designationCategory>Power</designationCategory>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<building>
+			<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>XITurbine</soundAmbient>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
+			
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<placeWorkers>
@@ -127,8 +128,9 @@
 		<designationCategory>Power</designationCategory>
 		<staticSunShadowHeight>2.0</staticSunShadowHeight>
 		<building>
+			<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>PlasmaTurbine</soundAmbient>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
+			
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -169,7 +171,8 @@
 		<description>Stores electricity and recycles charge using fission processes. Slightly more efficient and stores four times as much. Warning - charged batteries tend to explode when heated or wet.</description>
 		<size>(2,2)</size>
 		<building>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
+			<ai_chillDestination>false</ai_chillDestination>
+			
 		</building>
 		<costList>
 			<Steel>150</Steel>
@@ -220,8 +223,9 @@
 		</blueprintGraphicData>
 		<uiIconPath>Things/Building/Linked/PowerConduit_MenuIcon</uiIconPath>
 		<building>
+			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
+			
 			<isEdifice>false</isEdifice>
 		</building>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -258,4 +262,4 @@
 		<constructEffect>ConstructMetal</constructEffect>
 	</ThingDef>
 
-</Buildings>
+</Defs>

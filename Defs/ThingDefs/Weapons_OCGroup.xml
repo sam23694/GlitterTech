@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef ParentName="BaseBullet_GT">
 		<defName>Bullet_OCPistol</defName>
@@ -40,7 +40,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_OCPistol</projectileDef>
+				<defaultProjectile>Bullet_OCPistol</defaultProjectile>
 				<warmupTime>0.19</warmupTime>
 				<range>24</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -91,7 +91,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_OCRifle</projectileDef>
+				<defaultProjectile>Bullet_OCRifle</defaultProjectile>
 				<warmupTime>0.4</warmupTime>
 				<range>35</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
@@ -128,7 +128,7 @@
 			<li>
 				<verbClass>Verb_ShootOneUse</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_Rocket</projectileDef>
+				<defaultProjectile>Bullet_Rocket</defaultProjectile>
 				<forcedMissRadius>1.0</forcedMissRadius>
 				<warmupTime>1.0</warmupTime>
 				<range>60</range>
@@ -142,4 +142,4 @@
 		</verbs>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<!-- ============= Stuff-less apparel =================-->
 
@@ -28,7 +28,7 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-			<worngraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -72,7 +72,7 @@
 			<bodyPartGroups>
 				<li>UpperHead</li>
 			</bodyPartGroups>
-			<worngraphicPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/AdvancedHelmet/AdvancedHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -151,7 +151,7 @@
 			<bodyPartGroups>
 				<li>Torso</li>
 			</bodyPartGroups>
-			<worngraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanlike/Apparel/ShirtBasic/ShirtBasic</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -169,4 +169,4 @@
 		</colorGenerator>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

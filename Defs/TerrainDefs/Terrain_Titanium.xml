@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TerrainDefs>
+<Defs>
 
 	<TerrainDef Name="FloorBase_GT" Abstract="True">
 		<layerable>true</layerable>
@@ -12,9 +12,9 @@
 			<WorkToBuild>135</WorkToBuild>
 		</statBases>
 		<designationCategory>Floors</designationCategory>
-		<Fertility>0</Fertility>
+		<fertility>0</fertility>
 		<constructEffect>ConstructDirt</constructEffect>
-		<AcceptTerrainSourceFilth>True</AcceptTerrainSourceFilth>
+		<acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 	</TerrainDef>
 
@@ -22,55 +22,55 @@
 	<!-- ================= Tile ================= -->
 
 	<TerrainDef  ParentName="FloorBase_GT" Name="GTTile" Abstract="True">
-		<RenderPrecedence>240</RenderPrecedence>
-		<Description>Tiles, for that Glitter world look.</Description>
+		<renderPrecedence>240</renderPrecedence>
+		<description>Tiles, for that Glitter world look.</description>
 		<texturePath>Terrain/Surfaces/GenericFloorTile</texturePath>
 		<color>(255,255,255)</color>
-		<EdgeType>Hard</EdgeType>
+		<edgeType>Hard</edgeType>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites><li>MetalFab</li></researchPrerequisites>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="GTTile">
-		<DefName>TitaniumTile</DefName>
-		<Label>Titanium tile</Label>
-		<Description>Titanium tiles, for that Glitter world look.</Description>
+		<defName>TitaniumTile</defName>
+		<label>Titanium tile</label>
+		<description>Titanium tiles, for that Glitter world look.</description>
 		<color>(255,255,255)</color>
 		<statBases>
 			<WorkToBuild>135</WorkToBuild>
 			<Beauty>8</Beauty>
 		</statBases>
-		<CostList>
+		<costList>
 			<Titanium>3</Titanium>
-		</CostList>
+		</costList>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="GTTile">
-		<DefName>AlphaTile</DefName>
-		<Label>Alpha-Poly tile</Label>
-		<Description>Alpha-Poly tiles, for that alien spaceship look.</Description>
+		<defName>AlphaTile</defName>
+		<label>Alpha-Poly tile</label>
+		<description>Alpha-Poly tiles, for that alien spaceship look.</description>
 		<color>(100,60,100)</color>
 		<statBases>
 			<WorkToBuild>15</WorkToBuild>
 			<Beauty>16</Beauty>
 		</statBases>
-		<CostList>
+		<costList>
 			<AlphaPoly>3</AlphaPoly>
-		</CostList>
+		</costList>
 	</TerrainDef>
 
 	<TerrainDef  ParentName="GTTile">
-		<DefName>BetaTile</DefName>
-		<Label>Beta-Poly tile</Label>
-		<Description>Beta-Poly tiles, for that alien spaceship look.</Description>
+		<defName>BetaTile</defName>
+		<label>Beta-Poly tile</label>
+		<description>Beta-Poly tiles, for that alien spaceship look.</description>
 		<color>(100,60,60)</color>
 		<statBases>
 			<WorkToBuild>100</WorkToBuild>
 			<Beauty>30</Beauty>
 		</statBases>
-		<CostList>
+		<costList>
 			<BetaPoly>3</BetaPoly>
-		</CostList>
+		</costList>
 	</TerrainDef>
 
-</TerrainDefs>
+</Defs>

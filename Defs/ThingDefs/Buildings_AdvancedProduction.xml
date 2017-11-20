@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 	<!-- ========================= Work tables ==========================-->
 
 	<ThingDef ParentName="BuildingBase_GT">
-		<DefName>PharmaTable</DefName>
+		<defName>PharmaTable</defName>
 		<label>pharmaceutical table</label>
-		<ThingClass>Building_WorkTable_HeatPush</ThingClass>
-		<Description>A table and tools for mixing and producing drugs and medicine.</Description>
+		<thingClass>Building_WorkTable_HeatPush</thingClass>
+		<description>A table and tools for mixing and producing drugs and medicine.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/TablePharmaceutical</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -18,15 +18,15 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<CostList>
+		<costList>
 			<Steel>120</Steel>
 			<Titanium>40</Titanium>
 			<Silicon>40</Silicon>
 			<ComputerComp>5</ComputerComp>
 			<Ethanol>10</Ethanol>
 			<Component>4</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
@@ -34,9 +34,9 @@
 			<MaxHitPoints>220</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<Size>(3,1)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>PassThroughOnly</Passability>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
 		<pathCost>60</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -79,10 +79,10 @@
 
 	<!-- ========================= Matter fabricator ==========================-->
 	<ThingDef ParentName="BuildingBase_GT">
-		<DefName>Matterfab</DefName>
+		<defName>Matterfab</defName>
 		<label>Matter fabricator</label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>The forefront of quantum thermodynamics and plasma spectrometry, this machine disassembles elements into base subatomic particles and re-assembles them into powerful artificial elements.</Description>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>The forefront of quantum thermodynamics and plasma spectrometry, this machine disassembles elements into base subatomic particles and re-assembles them into powerful artificial elements.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/MatterFab</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -94,15 +94,15 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
 		</graphicData>
-		<CostList>
+		<costList>
 			<Steel>650</Steel>
 			<Titanium>150</Titanium>
 			<Uranium>5</Uranium>
 			<MagneticCoil>12</MagneticCoil>
 			<ComputerComp>35</ComputerComp>
 			<Component>12</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
@@ -110,9 +110,9 @@
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<Size>(7,2)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>Impassable</Passability>
+		<size>(7,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
@@ -148,10 +148,10 @@
 	<!-- ========================= Electrolyzer ==========================-->
 
 	<ThingDef ParentName="BuildingBase_GT">
-		<DefName>Electrolyzer</DefName>
+		<defName>Electrolyzer</defName>
 		<label>Electrolyzer</label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A machine that induces electrolysis, separating elements by applying a direct electric current and driving non-spontaneous chemical reactions. Produces manufactored materials.</Description>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A machine that induces electrolysis, separating elements by applying a direct electric current and driving non-spontaneous chemical reactions. Produces manufactored materials.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/Electrolyzer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -164,13 +164,13 @@
       </damageData>
 		</graphicData>
 		<constructEffect>ConstructMetal</constructEffect>
-		<CostList>
+		<costList>
 			<Steel>540</Steel>
 			<Titanium>120</Titanium>
 			<ComputerComp>10</ComputerComp>
 			<Component>6</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
@@ -178,9 +178,9 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<Size>(3,2)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>Impassable</Passability>
+		<size>(3,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
@@ -215,10 +215,10 @@
 	<!-- ========================= Robotic assembler ==========================-->
 
 	<ThingDef ParentName="BuildingBase_GT">
-		<DefName>RobAssem</DefName>
+		<defName>RobAssem</defName>
 		<label>Robotic Assembler</label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A machine that applies state of the art robotics, not jerry rigged with scrap metal, to construct machine Component too intricate for simple human hands.</Description>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A machine that applies state of the art robotics, not jerry rigged with scrap metal, to construct machine Component too intricate for simple human hands.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/RobAssem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -231,13 +231,13 @@
       </damageData>
 		</graphicData>
 		<constructEffect>ConstructMetal</constructEffect>
-		<CostList>
+		<costList>
 			<Steel>480</Steel>
 			<Titanium>120</Titanium>
 			<ComputerComp>12</ComputerComp>
 			<Component>12</Component>
-		</CostList>
-		<AltitudeLayer>Building</AltitudeLayer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
@@ -245,9 +245,9 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<Size>(5,2)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>Impassable</Passability>
+		<size>(5,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>Impassable</passability>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<surfaceType>Item</surfaceType>
@@ -279,4 +279,4 @@
 		<researchPrerequisites><li>RoboticEngineering</li></researchPrerequisites>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

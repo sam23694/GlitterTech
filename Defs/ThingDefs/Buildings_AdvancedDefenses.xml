@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BuildingBase_GT" Abstract="True">
 		<category>Building</category>
@@ -42,6 +42,7 @@
 			<Flammability>0</Flammability>
 		</statBases>
 		<building>
+			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
 		</building>
 		<description>Excellent cover from gunfire.</description>
@@ -118,7 +119,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_EMRGTurret</turretGunDef>
 			<turretBurstCooldownTime>10</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/EMRGTurret_Top</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/EMRGTurret_Top</turretTopGraphicPath>
 		</building>
 		<researchPrerequisites>
 			<li>EMRGDefense</li>
@@ -184,7 +185,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_CannisterTurret</turretGunDef>
 			<turretBurstCooldownTime>12</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/EMRGTurret_Top</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/EMRGTurret_Top</turretTopGraphicPath>
 		</building>
 		<researchPrerequisites>
 			<li>EMRGDefense</li>
@@ -248,7 +249,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_AutoMortar</turretGunDef>
 			<turretBurstCooldownTime>18</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/AutoMortarTop</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/AutoMortarTop</turretTopGraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
 			</buildingTags>
@@ -317,7 +318,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_ClusterMortar</turretGunDef>
 			<turretBurstCooldownTime>18</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/AutoMortarTop</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/AutoMortarTop</turretTopGraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
 			</buildingTags>
@@ -385,7 +386,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_EMPAMortar</turretGunDef>
 			<turretBurstCooldownTime>18</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/AutoMortarTop</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/AutoMortarTop</turretTopGraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
 			</buildingTags>
@@ -457,7 +458,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_MissileTurret</turretGunDef>
 			<turretBurstCooldownTime>18</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/AutoMissileTop</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/AutoMissileTop</turretTopGraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
 			</buildingTags>
@@ -528,7 +529,7 @@
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_CMissileTurret</turretGunDef>
 			<turretBurstCooldownTime>50</turretBurstCooldownTime>
-			<turretTopgraphicPath>Things/Building/Turret/AutoCMissileTop</turretTopgraphicPath>
+			<turretTopGraphicPath>Things/Building/Turret/AutoCMissileTop</turretTopGraphicPath>
 			<buildingTags>
 				<li>GTArtillery</li>
 			</buildingTags>
@@ -541,4 +542,4 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

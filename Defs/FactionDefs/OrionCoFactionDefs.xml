@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
 	<FactionDef>
 		<defName>OrionCo</defName>
@@ -9,7 +9,6 @@
 		<baseSelectionWeight>0.2</baseSelectionWeight>
 		<requiredCountAtGameStart>1</requiredCountAtGameStart>
 		<fixedName>Orion Installation</fixedName>
-		<raidCommonality>20</raidCommonality>
 		<canSiege>false</canSiege>
 		<canStageAttacks>true</canStageAttacks>
 		<leaderTitle>Director</leaderTitle>
@@ -40,7 +39,6 @@
 		<pawnGroupMakers>
 			<li>
 				<kindDef>Normal</kindDef>
-				<commonality>100</commonality>
 				<options>
 					<OCSoldier>60</OCSoldier>
 					<OCPeaceKeeper>20</OCPeaceKeeper>
@@ -63,4 +61,4 @@
 		<homeIconPath>World/WorldObjects/DefaultFactionBase</homeIconPath>
 	</FactionDef>
 
-</FactionDefs>
+</Defs>

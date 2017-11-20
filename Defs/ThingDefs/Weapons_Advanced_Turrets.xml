@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<!--		Bases		-->
 
@@ -120,7 +120,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_EMRGTurret</projectileDef>
+				<defaultProjectile>Bullet_EMRGTurret</defaultProjectile>
 				<warmupTime>0.8</warmupTime>
 				<range>60</range>
 				<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
@@ -173,7 +173,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_CannisterTurret</projectileDef>
+				<defaultProjectile>Bullet_CannisterTurret</defaultProjectile>
 				<warmupTime>0.15</warmupTime>
 				<range>15</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
@@ -189,7 +189,7 @@
 		<defName>Bullet_AutoMortar</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
-			<texPath>Things/Projectile/ShellBomb</texPath>
+			<texPath>Things/Projectile/ShellHighExplosive</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -232,7 +232,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_AutoMortar</projectileDef>
+				<defaultProjectile>Bullet_AutoMortar</defaultProjectile>
 				<forcedMissRadius>8</forcedMissRadius>
 				<warmupTime>1.2</warmupTime>
 				<minRange>30</minRange>
@@ -249,7 +249,7 @@
 		<defName>Bullet_ClusterMortar</defName>
 		<label>explosive mortar shell</label>
 		<graphicData>
-			<texPath>Things/Projectile/ShellBomb</texPath>
+			<texPath>Things/Projectile/ShellHighExplosive</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>TransparentPostLight</shaderType>
 		</graphicData>
@@ -292,7 +292,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_ClusterMortar</projectileDef>
+				<defaultProjectile>Bullet_ClusterMortar</defaultProjectile>
 				<forcedMissRadius>8</forcedMissRadius>
 				<warmupTime>1.2</warmupTime>
 				<minRange>30</minRange>
@@ -352,7 +352,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_EMPAMortar</projectileDef>
+				<defaultProjectile>Bullet_EMPAMortar</defaultProjectile>
 				<forcedMissRadius>8</forcedMissRadius>
 				<warmupTime>1.2</warmupTime>
 				<minRange>30</minRange>
@@ -411,7 +411,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_MissileTurret</projectileDef>
+				<defaultProjectile>Bullet_MissileTurret</defaultProjectile>
 				<forcedMissRadius>2</forcedMissRadius>
 				<warmupTime>0.5</warmupTime>
 				<minRange>15</minRange>
@@ -470,7 +470,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 				<hasStandardCommand>true</hasStandardCommand>
-				<projectileDef>Bullet_CMissileTurret</projectileDef>
+				<defaultProjectile>Bullet_CMissileTurret</defaultProjectile>
 				<forcedMissRadius>2</forcedMissRadius>
 				<warmupTime>2.5</warmupTime>
 				<minRange>15</minRange>
@@ -482,4 +482,4 @@
 		</verbs>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

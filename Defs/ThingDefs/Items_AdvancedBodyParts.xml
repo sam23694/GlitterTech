@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 	<!-- artificial - bionics -->
 
 	<ThingDef Name="BodyPartBase_GT" Abstract="True">
@@ -223,4 +223,4 @@
 		</techHediffsTags>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

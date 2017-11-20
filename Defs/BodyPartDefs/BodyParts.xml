@@ -13,7 +13,7 @@
 	then Manipulation efficiency is min(avg((1)Manipulation_foo, (2)Manipulation_foo), avg((1)Manipulation_bar, (2)Manipulation_bar))
 -->
 
-<BodyPartDefs>
+<Defs>
 
 	<!--TankChassis====================================================================-->
 
@@ -179,4 +179,4 @@
 		</tags>
 	</BodyPartDef>
 
-</BodyPartDefs>
+</Defs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
 	<TraderKindDef>
 		<defName>BlackMarket</defName>
@@ -55,13 +55,6 @@
 					<max>60</max>
 				</countRange>
 			</li>
-			<li Class="StockGenerator_SingleDef">
-				<thingDef>AIPersonaCore</thingDef>
-				<countRange>
-					<min>-1</min>
-					<max>1</max>
-				</countRange>
-			</li>
 			<li Class="StockGenerator_Category">
 				<categoryDef>ResourcesRaw</categoryDef>
 				<thingDefCountRange>
@@ -86,11 +79,27 @@
 				</totalPriceRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>MortarShell</thingDef>
+				<thingDef>Shell_HighExplosive</thingDef>
 				<price>Cheap</price>
 				<countRange>
-					<min>30</min>
-					<max>60</max>
+					<min>10</min>
+					<max>30</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Shell_Incendiary</thingDef>
+				<price>Cheap</price>
+				<countRange>
+					<min>10</min>
+					<max>30</max>
+				</countRange>
+			</li>
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Shell_EMP</thingDef>
+				<price>Cheap</price>
+				<countRange>
+					<min>10</min>
+					<max>30</max>
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Armor">
@@ -126,7 +135,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>Neurotrainer</thingDef>
+				<thingDef>MechSerumNeurotrainer</thingDef>
 				<countRange>
 					<min>-2</min>
 					<max>2</max>
@@ -141,4 +150,4 @@
 		</stockGenerators>
 	</TraderKindDef>
 
-</DefPackage-TraderKindDef>
+</Defs>

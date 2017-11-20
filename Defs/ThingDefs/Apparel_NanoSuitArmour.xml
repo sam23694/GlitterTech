@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="ApparelBase_GT" Abstract="True">
 		<thingClass>Apparel</thingClass>
@@ -57,7 +57,7 @@
 		</thingCategories>
 		<generateCommonality>1</generateCommonality>
 		<apparel>
-			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSuit/Nano</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanoid/Apparel/NanoSuit/Nano</wornGraphicPath>
 			<layers>
 				<li>Middle</li>
 			</layers>
@@ -146,7 +146,7 @@
 		</thingCategories>
 		<generateCommonality>1</generateCommonality>
 		<apparel>
-			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSuitHelmet/NanoSuitHelmet</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanoid/Apparel/NanoSuitHelmet/NanoSuitHelmet</wornGraphicPath>
 			<layers>
 				<li>Overhead</li>
 			</layers>
@@ -232,7 +232,7 @@
 		</thingCategories>
 		<generateCommonality>2</generateCommonality>
 		<apparel>
-			<worngraphicPath>Things/Pawn/Humanoid/Apparel/Reactive/Reactive</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanoid/Apparel/Reactive/Reactive</wornGraphicPath>
 			<layers>
 				<li>Shell</li>
 			</layers>
@@ -294,7 +294,7 @@
 		</thingCategories>
 		<generateCommonality>1</generateCommonality>
 		<apparel>
-			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSkin/NS</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanoid/Apparel/NanoSkin/NS</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -357,7 +357,7 @@
 		</thingCategories>
 		<generateCommonality>1</generateCommonality>
 		<apparel>
-			<worngraphicPath>Things/Pawn/Humanoid/Apparel/NanoSkin/NS</worngraphicPath>
+			<wornGraphicPath>Things/Pawn/Humanoid/Apparel/NanoSkin/NS</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -379,4 +379,4 @@
 			</options>
 		</colorGenerator>
 	</ThingDef>
-</ThingDefs>
+</Defs>

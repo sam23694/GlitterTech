@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BaseMeleeWeapon_GT" Abstract="True">
 		<category>Item</category>
@@ -39,7 +39,7 @@
 			</li>
 			<li Class="CompProperties_Art">
 				<nameMaker>ArtName_WeaponMelee</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<descriptionMaker>Artdescription_WeaponMelee</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
 		</comps>
@@ -86,7 +86,7 @@
 			<texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractPistol</soundInteract>
+		<soundInteract>InteractAutopistol</soundInteract>
 		<weaponTags>
 			<li>OCMelee</li>
 		</weaponTags>
@@ -97,13 +97,23 @@
 		</costList>
 		<statBases>
 			<WorkToMake>45000</WorkToMake>
-			<MeleeWeapon_DamageAmount>10</MeleeWeapon_DamageAmount>
-			<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+			<Mass>1.0</Mass>
+			<Weapon_Bulk>0.5</Weapon_Bulk>
 		</statBases>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
+		<tools>
+			<li>
+				<label>prod</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.8</cooldownTime>
+			</li>
+		</tools>
 		<verbs>
 			<li>
 				<verbClass>Verb_MeleeAttack</verbClass>
@@ -113,4 +123,4 @@
 		</verbs>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

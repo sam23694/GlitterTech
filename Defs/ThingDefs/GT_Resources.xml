@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Resources>
+<Defs>
 
 	<!--=============== Titanium ====================-->
 
@@ -59,7 +59,7 @@
 				<DoorOpenSpeed>3</DoorOpenSpeed>
 				<BedRestEffectiveness>1.5</BedRestEffectiveness>
 				<WorkToMake>10.0</WorkToMake>
-				<MeleeWeapon_Cooldown>0.5</MeleeWeapon_Cooldown>
+				<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 		<researchPrerequisites>
@@ -108,7 +108,7 @@
 				<DoorOpenSpeed>5</DoorOpenSpeed>
 				<BedRestEffectiveness>3.0</BedRestEffectiveness>
 				<WorkToMake>15.0</WorkToMake>
-				<MeleeWeapon_Cooldown>1.0</MeleeWeapon_Cooldown>
+				<MeleeWeapon_CooldownMultiplier>1.0</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 		<researchPrerequisites>
@@ -156,7 +156,7 @@
 				<Beauty>30</Beauty>
 				<WorkToMake>100</WorkToMake>
 				<DoorOpenSpeed>5</DoorOpenSpeed>
-				<MeleeWeapon_Cooldown>0.5</MeleeWeapon_Cooldown>
+				<MeleeWeapon_CooldownMultiplier>0.5</MeleeWeapon_CooldownMultiplier>
 			</statFactors>
 		</stuffProps>
 		<researchPrerequisites>
@@ -280,4 +280,4 @@
 		</thingCategories>
 	</ThingDef>
 
-</Resources>
+</Defs>

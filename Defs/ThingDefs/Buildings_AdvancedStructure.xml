@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<!--========================= Doors =============================-->
 
@@ -34,11 +34,11 @@
 		<blockLight>true</blockLight>
 		<drawerType>RealtimeOnly</drawerType>
 		<building>
+			<isInert>true</isInert>
 			<soundDoorOpenPowered>DoorOpenPowered</soundDoorOpenPowered>
 			<soundDoorClosePowered>DoorClosePowered</soundDoorClosePowered>
 			<soundDoorOpenManual>DoorOpenManual</soundDoorOpenManual>
 			<soundDoorCloseManual>DoorCloseManual</soundDoorCloseManual>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<comps>
@@ -138,7 +138,6 @@
     </stuffCategories>
     <building>
       <isInert>true</isInert>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
     </building>
     <damageMultipliers>
       <li>
@@ -278,4 +277,4 @@
 		</comps>
 	</ThingDef>
 
-</Buildings>
+</Defs>
