@@ -74,11 +74,13 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
 			<WorkToBuild>2800</WorkToBuild>
 			<Flammability>1.0</Flammability>
+			<Mass>100</Mass>
 			<Beauty>-60</Beauty>
 		</statBases>
 		<tickerType>Normal</tickerType>
@@ -86,6 +88,7 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>2.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.2</chanceNeverExplodeFromDamage>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Power">
@@ -114,7 +117,6 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
-		<!--<specialDisplayRadius>24.9</specialDisplayRadius>-->
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_EMRGTurret</turretGunDef>
@@ -139,6 +141,7 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
@@ -151,6 +154,7 @@
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>1.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
+				<chanceNeverExplodeFromDamage>0.2</chanceNeverExplodeFromDamage>
 			</li>
 			<li Class="CompProperties_Forbiddable"/>
 			<li Class="CompProperties_Flickable"/>
@@ -180,7 +184,7 @@
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Security</designationCategory>
-		<!--<specialDisplayRadius>24.9</specialDisplayRadius>-->
+		<specialDisplayRadius>15.9</specialDisplayRadius>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Gun_CannisterTurret</turretGunDef>
@@ -192,27 +196,38 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-	<!--=============== Mortar turret ===============-->
-	<ThingDef ParentName="BuildingBase_GT">
-		<defName>AutoMortar</defName>
-		<label>Automatic mortar</label>
+	<ThingDef Name="BaseArtilleryBuilding_GT" ParentName="BuildingBase_GT" Abstract="True">
 		<thingClass>Building_TurretGun</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Turret/AutoMortarBase</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(4,4)</drawSize>
 			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
+				<rect>(0.38,0.2,0.56375,0.8)</rect>
+				<cornerTL>Damage/Corner</cornerTL>
 			</damageData>
 		</graphicData>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<minifiedDef>MinifiedFurniture</minifiedDef>
 		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>240</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<WorkToBuild>3500</WorkToBuild>
-			<Beauty>-60</Beauty>
-		</statBases>
+		<stealable>false</stealable>
+		<size>(2,2)</size>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<fillPercent>0.4</fillPercent>
+		<castEdgeShadows>true</castEdgeShadows>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Titanium>80</Titanium>
+			<ComputerComp>12</ComputerComp>
+			<Component>6</Component>
+		</costList>
 		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<designationCategory>Security</designationCategory>
 		<comps>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>7.9</explosiveRadius>
@@ -226,28 +241,15 @@
 				<basePowerConsumption>350</basePowerConsumption>
 			</li>
 		</comps>
-		<description>An automatic mortar turret. Explodes when damaged</description>
-		<size>(2,2)</size>
-		<passability>PassThroughOnly</passability>
-
-		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.4</fillPercent>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
-		<costList>
-			<Titanium>80</Titanium>
-			<ComputerComp>12</ComputerComp>
-			<Component>6</Component>
-		</costList>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<WorkToBuild>3500</WorkToBuild>
+			<Mass>100</Mass>
+			<Beauty>-60</Beauty>
+		</statBases>
 		<building>
 			<ai_combatDangerous>true</ai_combatDangerous>
-			<turretGunDef>Artillery_AutoMortar</turretGunDef>
 			<turretBurstCooldownTime>18</turretBurstCooldownTime>
 			<turretTopGraphicPath>Things/Building/Turret/AutoMortarTop</turretTopGraphicPath>
 			<buildingTags>
@@ -262,187 +264,54 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<!--=============== Mortar turret ===============-->
+	<ThingDef ParentName="BaseArtilleryBuilding_GT">
+		<defName>AutoMortar</defName>
+		<label>Automatic mortar</label>
+		<description>An automatic mortar turret. Explodes when damaged</description>
+		<building>
+			<turretGunDef>Artillery_AutoMortar</turretGunDef>
+		</building>
+	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase_GT">
+
+	<ThingDef ParentName="BaseArtilleryBuilding_GT">
 		<defName>ClusterMortar</defName>
 		<label>Automatic cluster mortar</label>
-		<thingClass>Building_TurretGun</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Turret/AutoMortarBase</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>240</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<WorkToBuild>3500</WorkToBuild>
-			<Beauty>-60</Beauty>
-		</statBases>
-		<tickerType>Normal</tickerType>
-		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>7.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>450</basePowerConsumption>
-			</li>
-		</comps>
 		<description>An automatic mortar turret. Fires cluster projectiles to level the playing field. Explodes when damaged</description>
-		<size>(2,2)</size>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.4</fillPercent>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
-		<costList>
-			<Titanium>80</Titanium>
-			<ComputerComp>12</ComputerComp>
-			<Component>6</Component>
-		</costList>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
 		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_ClusterMortar</turretGunDef>
-			<turretBurstCooldownTime>18</turretBurstCooldownTime>
-			<turretTopGraphicPath>Things/Building/Turret/AutoMortarTop</turretTopGraphicPath>
-			<buildingTags>
-				<li>GTArtillery</li>
-			</buildingTags>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
-		</placeWorkers>
-		<researchPrerequisites>
-			<li>Mortars</li>
-		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase_GT">
+	<ThingDef ParentName="BaseArtilleryBuilding_GT">
 		<defName>EMPAMortar</defName>
 		<label>Automatic EMP mortar</label>
-		<thingClass>Building_TurretGun</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Turret/AutoMortarBase</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
-		<statBases>
-			<MaxHitPoints>240</MaxHitPoints>
-			<Flammability>1.0</Flammability>
-			<WorkToBuild>3500</WorkToBuild>
-			<Beauty>-60</Beauty>
-		</statBases>
-		<tickerType>Normal</tickerType>
-		<comps>
-			<li Class="CompProperties_Explosive">
-				<explosiveRadius>7.9</explosiveRadius>
-				<explosiveDamageType>Bomb</explosiveDamageType>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>450</basePowerConsumption>
-			</li>
-		</comps>
 		<description>An automatic mortar turret. Fires cluster projectiles to level the playing field. Explodes when damaged</description>
-		<size>(2,2)</size>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.4</fillPercent>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
-		<costList>
-			<Titanium>80</Titanium>
-			<ComputerComp>12</ComputerComp>
-			<Component>6</Component>
-		</costList>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
 		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_EMPAMortar</turretGunDef>
-			<turretBurstCooldownTime>18</turretBurstCooldownTime>
-			<turretTopGraphicPath>Things/Building/Turret/AutoMortarTop</turretTopGraphicPath>
-			<buildingTags>
-				<li>GTArtillery</li>
-			</buildingTags>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
-		</placeWorkers>
-		<researchPrerequisites>
-			<li>Mortars</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 
 	<!--=============== Missile turret ===============-->
-	<ThingDef ParentName="BuildingBase_GT">
+	<ThingDef ParentName="BaseArtilleryBuilding_GT">
 		<defName>MissileTurret</defName>
 		<label>Long range missile turret</label>
-		<thingClass>Building_TurretGun</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Turret/AutoMortarBase</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>480</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>4500</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>9.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>550</basePowerConsumption>
-			</li>
 		</comps>
 		<description>An automatic Missile turret. Fires missiles, accurate and powerful. Explodes when damaged</description>
 		<size>(3,3)</size>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.4</fillPercent>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<costStuffCount>100</costStuffCount>
 		<costList>
 			<Titanium>120</Titanium>
@@ -451,68 +320,30 @@
 			<MagneticCoil>4</MagneticCoil>
 			<Component>6</Component>
 		</costList>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
 		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_MissileTurret</turretGunDef>
-			<turretBurstCooldownTime>18</turretBurstCooldownTime>
 			<turretTopGraphicPath>Things/Building/Turret/AutoMissileTop</turretTopGraphicPath>
-			<buildingTags>
-				<li>GTArtillery</li>
-			</buildingTags>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
-		</placeWorkers>
-		<researchPrerequisites>
-			<li>Mortars</li>
-		</researchPrerequisites>
 	</ThingDef>
 
-	<ThingDef ParentName="BuildingBase_GT">
+	<ThingDef ParentName="BaseArtilleryBuilding_GT">
 		<defName>CMissileTurret</defName>
 		<label>Cruise missile turret</label>
 		<thingClass>Building_TurretGun</thingClass>
-		<graphicData>
-			<texPath>Things/Building/Turret/AutoMortarBase</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(4,4)</drawSize>
-			<damageData>
-				<rect>(0.2,0.2,0.6,0.6)</rect>
-			</damageData>
-		</graphicData>
-		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>480</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 			<WorkToBuild>4800</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
-		<tickerType>Normal</tickerType>
 		<comps>
 			<li Class="CompProperties_Explosive">
 				<explosiveRadius>9.9</explosiveRadius>
 				<explosiveDamageType>Bomb</explosiveDamageType>
 			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Power">
-				<compClass>CompPowerTrader</compClass>
-				<basePowerConsumption>550</basePowerConsumption>
-			</li>
 		</comps>
 		<description>An automatic Cruise Missile turret. Fires a single very large missile. Explodes when damaged</description>
 		<size>(3,3)</size>
-		<passability>PassThroughOnly</passability>
-		<pathCost>50</pathCost>
-		<castEdgeShadows>true</castEdgeShadows>
-		<fillPercent>0.4</fillPercent>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
 		<costStuffCount>100</costStuffCount>
 		<costList>
 			<Titanium>140</Titanium>
@@ -522,24 +353,11 @@
 			<AlphaPoly>1</AlphaPoly>
 			<Component>6</Component>
 		</costList>
-		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		<designationCategory>Security</designationCategory>
 		<building>
-			<ai_combatDangerous>true</ai_combatDangerous>
 			<turretGunDef>Artillery_CMissileTurret</turretGunDef>
 			<turretBurstCooldownTime>50</turretBurstCooldownTime>
 			<turretTopGraphicPath>Things/Building/Turret/AutoCMissileTop</turretTopGraphicPath>
-			<buildingTags>
-				<li>GTArtillery</li>
-			</buildingTags>
 		</building>
-		<placeWorkers>
-			<li>PlaceWorker_NotUnderRoof</li>
-		</placeWorkers>
-		<researchPrerequisites>
-			<li>Mortars</li>
-		</researchPrerequisites>
 	</ThingDef>
 
 </Defs>
