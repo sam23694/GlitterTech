@@ -7,8 +7,7 @@
 		<label>Orion Exoskeleton</label>
 		<spawnThingOnRemoved>OCExo</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+			<solid>true</solid>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
 		<stages>

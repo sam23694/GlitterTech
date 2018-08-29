@@ -24,7 +24,7 @@
 			<Silicon>40</Silicon>
 			<ComputerComp>5</ComputerComp>
 			<Ethanol>10</Ethanol>
-			<Component>4</Component>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -52,7 +52,7 @@
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
-				<startElectricalFires>true</startElectricalFires>
+				<shortCircuitInRain>true</shortCircuitInRain>
 				<basePowerConsumption>1200</basePowerConsumption>
 			</li>
 			<li Class="CompProperties_Flickable"/>
@@ -100,7 +100,7 @@
 			<Uranium>5</Uranium>
 			<MagneticCoil>12</MagneticCoil>
 			<ComputerComp>35</ComputerComp>
-			<Component>12</Component>
+			<ComponentIndustrial>12</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -128,7 +128,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>65000</basePowerConsumption>
-				<startElectricalFires>true</startElectricalFires>
+				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
@@ -168,7 +168,7 @@
 			<Steel>540</Steel>
 			<Titanium>120</Titanium>
 			<ComputerComp>10</ComputerComp>
-			<Component>6</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -196,7 +196,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>1100</basePowerConsumption>
-				<startElectricalFires>true</startElectricalFires>
+				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Glower">
@@ -235,7 +235,7 @@
 			<Steel>480</Steel>
 			<Titanium>120</Titanium>
 			<ComputerComp>12</ComputerComp>
-			<Component>12</Component>
+			<ComponentIndustrial>12</ComponentIndustrial>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
@@ -263,7 +263,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>1350</basePowerConsumption>
-				<startElectricalFires>true</startElectricalFires>
+				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>

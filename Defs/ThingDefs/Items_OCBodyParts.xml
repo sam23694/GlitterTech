@@ -7,7 +7,7 @@
 		<label>Orion Exoskeleton</label>
 		<description>A standard issue Orion Corporation exoskeleton. Equiped by most Orion security forces, this all purpose exoskeleton gives them a cheap and capable edge against their competitors.</description>
 		<graphicData>
-			<texPath>Things/Item/BodyPart/ArtificialOrgan</texPath>
+			<texPath>Things/Item/Health/HealthItemProsthetic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>

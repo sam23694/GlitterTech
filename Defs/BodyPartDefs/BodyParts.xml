@@ -21,30 +21,33 @@
 		<defName>TChassis</defName>
 		<label>tank chassis</label>
 		<hitPoints>160</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>THull</defName>
 		<label>hull</label>
 		<hitPoints>100</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>TFrame</defName>
 		<label>frame</label>
 		<hitPoints>80</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
@@ -52,10 +55,11 @@
 		<label>engine</label>
 		<hitPoints>40</hitPoints>
 		<frostbiteVulnerability>5</frostbiteVulnerability>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 		<tags>
 			<li>BloodPumpingSource</li>
 			<li>BloodFiltrationKidney</li>
@@ -69,7 +73,7 @@
 		<label>crew</label>
 		<hitPoints>40</hitPoints>
 		<frostbiteVulnerability>5</frostbiteVulnerability>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<tags>
 			<li>ConsciousnessSource</li>
 			<li>SightSource</li>
@@ -81,50 +85,55 @@
 		<defName>TurretActuator</defName>
 		<label>turret actuator</label>
 		<hitPoints>40</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>CannonLoader</defName>
 		<label>cannon loader</label>
 		<hitPoints>40</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>AmmoRack</defName>
 		<label>ammo rack</label>
 		<hitPoints>60</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>true</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>TurretHull</defName>
 		<label>turret hull</label>
 		<hitPoints>100</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>LeftTrack</defName>
 		<label>left track</label>
 		<hitPoints>80</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
@@ -134,10 +143,11 @@
 		<defName>RightTrack</defName>
 		<label>right track</label>
 		<hitPoints>80</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 		<tags>
 			<li>MovingLimbCore</li>
 		</tags>
@@ -147,10 +157,11 @@
 		<defName>TrackChain</defName>
 		<label>track chain</label>
 		<hitPoints>60</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 		<tags>
 			<li>MovingLimbSegment</li>
 		</tags>
@@ -160,20 +171,22 @@
 		<defName>Fender</defName>
 		<label>track fender</label>
 		<hitPoints>100</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 	</BodyPartDef>
 
 	<BodyPartDef>
 		<defName>WheelSystem</defName>
 		<label>wheel system</label>
 		<hitPoints>60</hitPoints>
-		<oldInjuryBaseChance>0</oldInjuryBaseChance>
+		<permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
 		<skinCovered>false</skinCovered>
-		<isSolid>true</isSolid>
-		<isAlive>false</isAlive>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+		<alive>false</alive>
 		<tags>
 			<li>ManipulationLimbCore</li>
 		</tags>

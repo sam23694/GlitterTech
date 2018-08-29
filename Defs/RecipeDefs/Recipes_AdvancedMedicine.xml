@@ -44,7 +44,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HerbalMedicine</li>
+						<li>MedicineHerbal</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
@@ -67,11 +67,11 @@
 			</li>
 		</ingredients>
 		<products>
-			<Medicine>1</Medicine>
+			<MedicineIndustrial>1</MedicineIndustrial>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>HerbalMedicine</li>
+				<li>MedicineHerbal</li>
 				<li>Ethanol</li>
 				<li>Bandage</li>
 			</thingDefs>
@@ -92,7 +92,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Medicine</li>
+						<li>MedicineIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -100,7 +100,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>HerbalMedicine</li>
+						<li>MedicineHerbal</li>
 					</thingDefs>
 				</filter>
 				<count>8</count>
@@ -131,12 +131,12 @@
 			</li>
 		</ingredients>
 		<products>
-			<GlitterworldMedicine>1</GlitterworldMedicine>
+			<MedicineUltratech>1</MedicineUltratech>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Medicine</li>
-				<li>HerbalMedicine</li>
+				<li>MedicineIndustrial</li>
+				<li>MedicineHerbal</li>
 				<li>Ethanol</li>
 				<li>Bandage</li>
 				<li>Serum</li>

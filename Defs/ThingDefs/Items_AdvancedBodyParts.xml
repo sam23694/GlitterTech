@@ -10,14 +10,15 @@
 		<selectable>true</selectable>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>1</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<altitudeLayer>Item</altitudeLayer>
 		<tickerType>Never</tickerType>
 		<alwaysHaulable>true</alwaysHaulable>
-		<isBodyPartOrImplant>true</isBodyPartOrImplant>
+		<isTechHediff>true</isTechHediff>
 		<tradeTags>
-			<li>BodyPartOrImplant</li>
+			<li>TechHediff</li>
 		</tradeTags>
 		<comps>
 			<li Class="CompProperties_Forbiddable"/>

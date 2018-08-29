@@ -14,6 +14,7 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Mass>1</Mass>
 			<DeteriorationRate>2</DeteriorationRate>
 			<SellPriceFactor>0.5</SellPriceFactor>
 		</statBases>
@@ -45,7 +46,6 @@
 			<ArmorRating_Blunt>0.55</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.85</ArmorRating_Sharp>
 			<ArmorRating_Heat>1</ArmorRating_Heat>
-			<ArmorRating_Electric>0.55</ArmorRating_Electric>
 			<Insulation_Cold>-45</Insulation_Cold>
 		</statBases>
 		<equippedStatOffsets>
@@ -123,7 +123,7 @@
 	<ThingDef ParentName="ApparelBase_GT">
 		<defName>Apparel_NanoSuitHelmet</defName>
 		<label>Nano Suit helmet</label>
-		<description>The Intergrated Helmet with a Nano Suit. Complete with a shiny Heads-Up Display. Includes the latest neural-cybernetic-counter-intrusion software(protection against psychic effects) </description>
+		<description>The Intergrated Helmet with a Nano Suit. Complete with a shiny Heads-Up Display. Includes the latest neural-cybernetic-counter-intrusion software(protection against psychic effects)</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanoid/Apparel/NanoSuitHelmet/NanoSuitHelmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

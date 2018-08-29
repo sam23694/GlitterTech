@@ -33,11 +33,11 @@
 		<costStuffCount>80</costStuffCount>
 		<costList>
 			<Titanium>80</Titanium>
-			<GlitterworldMedicine>10</GlitterworldMedicine>
+			<MedicineUltratech>10</MedicineUltratech>
 			<MagneticCoil>2</MagneticCoil>
 			<ComputerComp>4</ComputerComp>
 			<Serum>1</Serum>
-			<Component>6</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<building>
 			<bed_showSleeperBody>true</bed_showSleeperBody>
@@ -49,8 +49,6 @@
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>350</basePowerConsumption>
 				<shortCircuitInRain>false</shortCircuitInRain>
-				<soundPowerOn>PowerOnSmall</soundPowerOn>
-				<soundPowerOff>PowerOffSmall</soundPowerOff>
 			</li>
 			<li Class="CompProperties_AffectedByFacilities">
 				<linkableFacilities>
@@ -114,7 +112,7 @@
 			<Titanium>40</Titanium>
 			<ComputerComp>4</ComputerComp>
 			<Uranium>1</Uranium>
-			<Component>2</Component>
+			<ComponentIndustrial>2</ComponentIndustrial>
 		</costList>
 		<pathCost>30</pathCost>
 		<fillPercent>0.40</fillPercent>
@@ -131,7 +129,10 @@
 		<label>Flood light</label>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsFurniture</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Building/Furniture/LampStanding</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -148,6 +149,7 @@
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
 			<WorkToBuild>115</WorkToBuild>
+			<Mass>50</Mass>
 			<Flammability>1.0</Flammability>
 		</statBases>
 		<selectable>true</selectable>
@@ -161,7 +163,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 		</building>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<comps>
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>

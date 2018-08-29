@@ -49,7 +49,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_SingleDef">
-				<thingDef>Medicine</thingDef>
+				<thingDef>MedicineIndustrial</thingDef>
 				<countRange>
 					<min>40</min>
 					<max>60</max>
@@ -124,7 +124,7 @@
 				</countRange>
 			</li>
 			<li Class="StockGenerator_Tag">
-				<tradeTag>BodyPartOrImplant</tradeTag>
+				<tradeTag>TechHediff</tradeTag>
 				<thingDefCountRange>
 					<min>2</min>
 					<max>5</max>

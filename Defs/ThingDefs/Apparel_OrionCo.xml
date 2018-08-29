@@ -8,12 +8,13 @@
 		<label>Orion Combat vest</label>
 		<description>A standard issue Orion Corporation combat vest. Equiped with more advanced alloys then your usual vest.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/VestPlate/VestPlate</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/FlakVest/FlakVest</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
 			<MaxHitPoints>200</MaxHitPoints>
 			<MarketValue>800</MarketValue>
+			<Mass>1</Mass>
 			<ArmorRating_Blunt>0.40</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.80</ArmorRating_Sharp>
 		</statBases>
@@ -95,7 +96,7 @@
 		<label>Orion Unfiorm pants</label>
 		<description>A set of Orion pants.</description>
 		<graphicData>
-			<texPath>Things/Pawn/Humanlike/Apparel/Various/Pants_OnMap</texPath>
+			<texPath>Things/Pawn/Humanlike/Apparel/Pants/Pants</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>

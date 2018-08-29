@@ -24,7 +24,7 @@
 			<texPath>Things/Item/Equipment/misc/APB-1Pistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 		<statBases>
 			<MarketValue>1800</MarketValue>
 			<AccuracyTouch>0.45</AccuracyTouch>
@@ -78,7 +78,7 @@
 			<texPath>Things/Item/Equipment/misc/APB-1Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 
 		<statBases>
 			<MarketValue>2200</MarketValue>
@@ -130,7 +130,7 @@
 			<texPath>Things/Item/Equipment/misc/APB-1Rifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 
 		<statBases>
 			<MarketValue>1900</MarketValue>

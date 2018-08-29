@@ -23,7 +23,7 @@
 			<texPath>Things/Item/Equipment/OrionCorp/OCDPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 
 		<statBases>
 			<MarketValue>800</MarketValue>
@@ -74,7 +74,7 @@
 			<texPath>Things/Item/Equipment/OrionCorp/OCDRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 
 		<statBases>
 			<MarketValue>1000</MarketValue>

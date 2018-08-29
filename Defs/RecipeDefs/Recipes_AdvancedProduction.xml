@@ -17,19 +17,19 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Component</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
 			</li>
 		</ingredients>
 		<products>
-			<Component>7</Component>
+			<ComponentIndustrial>7</ComponentIndustrial>
 			<ComputerComp>1</ComputerComp>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Component</li>
+				<li>ComponentIndustrial</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<workSkill>Crafting</workSkill>

@@ -5,8 +5,9 @@
 		<layerable>true</layerable>
 		<affordances>
 			<li>Light</li>
+			<li>Medium</li>
 			<li>Heavy</li>
-			<li>SmoothHard</li>
+			<li>SmoothableStone</li>
 		</affordances>
 		<statBases>
 			<WorkToBuild>135</WorkToBuild>

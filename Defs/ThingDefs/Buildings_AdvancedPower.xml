@@ -34,7 +34,7 @@
 			<Titanium>80</Titanium>
 			<Uranium>12</Uranium>
 			<MagneticCoil>8</MagneticCoil>
-			<Component>8</Component>
+			<ComponentIndustrial>8</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Power">
@@ -60,7 +60,7 @@
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>XITurbine</soundAmbient>
-			
+
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<placeWorkers>
@@ -102,7 +102,7 @@
 			<Titanium>320</Titanium>
 			<Uranium>14</Uranium>
 			<MagneticCoil>48</MagneticCoil>
-			<Component>24</Component>
+			<ComponentIndustrial>24</ComponentIndustrial>
 			<AlphaPoly>24</AlphaPoly>
 			<BetaPoly>8</BetaPoly>
 		</costList>
@@ -130,7 +130,7 @@
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<soundAmbient>PlasmaTurbine</soundAmbient>
-			
+
 		</building>
 		<constructEffect>ConstructMetal</constructEffect>
 		<researchPrerequisites>
@@ -161,10 +161,14 @@
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
 		<tickerType>Normal</tickerType>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+      <li>BuildingsPower</li>
+    </thingCategories>
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>1200</WorkToBuild>
+			<Mass>20</Mass>
 			<Flammability>2.0</Flammability>
 			<Beauty>-6</Beauty>
 		</statBases>
@@ -172,19 +176,19 @@
 		<size>(2,2)</size>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
-			
+
 		</building>
 		<costList>
 			<Steel>150</Steel>
 			<Uranium>1</Uranium>
 			<MagneticCoil>1</MagneticCoil>
-			<Component>4</Component>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Battery">
 				<storedEnergyMax>4000</storedEnergyMax>
 				<efficiency>0.7</efficiency>
-				<startElectricalFires>true</startElectricalFires>
+				<shortCircuitInRain>true</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
 			</li>
 			<li Class="CompProperties_Glower">
@@ -218,14 +222,13 @@
 				<rect>(0,0.35,1,0.3)</rect>
 			</damageData>
 		</graphicData>
-		<blueprintGraphicData>
-			<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
-		</blueprintGraphicData>
 		<uiIconPath>Things/Building/Linked/PowerConduit_MenuIcon</uiIconPath>
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
-			
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/PowerConduit_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
 			<isEdifice>false</isEdifice>
 		</building>
 		<altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -256,7 +259,7 @@
 		<rotatable>false</rotatable>
 		<selectable>true</selectable>
 		<neverMultiSelect>true</neverMultiSelect>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Power</designationCategory>
 		<constructEffect>ConstructMetal</constructEffect>

@@ -17,6 +17,7 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Mass>1.2</Mass>
 			<DeteriorationRate>2</DeteriorationRate>
 			<SellPriceFactor>0.5</SellPriceFactor>
 		</statBases>
@@ -39,7 +40,7 @@
 				<compClass>CompQuality</compClass>
 			</li>
 			<li Class="CompProperties_Art">
-				<nameMaker>ArtName_WeaponGun</nameMaker>
+				<nameMaker>NamerArtWeaponGun</nameMaker>
 				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
 				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
@@ -68,7 +69,7 @@
 		<techLevel>Industrial</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<weaponTags>
 			<li>Artillery</li>
 		</weaponTags>
@@ -103,9 +104,9 @@
 		</graphicData>
 		<menuHidden>true</menuHidden>
 		<description>Jury-rigged EMRG Rifle attached to a turret.</description>
-		<soundInteract>InteractRifle</soundInteract>
-		<canBeSpawningInventory>false</canBeSpawningInventory>
-		<tradeability>Never</tradeability>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<destroyOnDrop>false</destroyOnDrop>
+		<tradeability>None</tradeability>
 		<statBases>
 			<AccuracyTouch>0.90</AccuracyTouch>
 			<AccuracyShort>0.98</AccuracyShort>
@@ -160,9 +161,9 @@
 			<texPath>Things/Building/Turret/EMRGTurret_Top</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractRifle</soundInteract>
-		<canBeSpawningInventory>false</canBeSpawningInventory>
-		<tradeability>Never</tradeability>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<destroyOnDrop>false</destroyOnDrop>
+		<tradeability>None</tradeability>
 		<weaponTags>
 			<li>CannisterTurretGun</li>
 		</weaponTags>
@@ -181,7 +182,7 @@
 				<warmupTime>0.15</warmupTime>
 				<range>15</range>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>ShotIncendiaryLauncher</soundCast>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>
 				<requireLineOfSight>false</requireLineOfSight>
@@ -208,7 +209,7 @@
 			<speed>41</speed>
 			<explosionRadius>4.5</explosionRadius>
 			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -222,7 +223,7 @@
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1500</MarketValue>
 			<AccuracyTouch>0.79</AccuracyTouch>
@@ -272,7 +273,7 @@
 			<speed>41</speed>
 			<explosionRadius>1.9</explosionRadius>
 			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -286,7 +287,7 @@
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1500</MarketValue>
 			<AccuracyTouch>0.79</AccuracyTouch>
@@ -336,7 +337,7 @@
 			<speed>65</speed>
 			<explosionRadius>3.9</explosionRadius>
 			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>Explosion_EMP</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -350,7 +351,7 @@
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1500</MarketValue>
 			<AccuracyTouch>0.79</AccuracyTouch>
@@ -399,7 +400,7 @@
 			<speed>35</speed>
 			<explosionRadius>1.9</explosionRadius>
 			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -413,7 +414,7 @@
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1500</MarketValue>
 			<AccuracyTouch>0.85</AccuracyTouch>
@@ -462,7 +463,7 @@
 			<speed>35</speed>
 			<explosionRadius>25.9</explosionRadius>
 			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -476,7 +477,7 @@
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
-		<tradeability>Never</tradeability>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1500</MarketValue>
 			<AccuracyTouch>0.85</AccuracyTouch>

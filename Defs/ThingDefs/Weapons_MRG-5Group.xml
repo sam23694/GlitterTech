@@ -23,7 +23,7 @@
 		<texPath>Things/Item/Equipment/misc/MRG-5Pistol</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 
 		<statBases>
 			<MarketValue>2300</MarketValue>
@@ -73,7 +73,7 @@
 		<texPath>Things/Item/Equipment/misc/MRG-5Rifle</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<soundInteract>InteractChargeRifle</soundInteract>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
 
 		<statBases>
 			<MarketValue>2600</MarketValue>

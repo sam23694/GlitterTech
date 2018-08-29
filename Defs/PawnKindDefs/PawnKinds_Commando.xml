@@ -6,7 +6,9 @@
 		<defaultFactionType>Commando</defaultFactionType>
 		<chemicalAddictionChance>0.7</chemicalAddictionChance>
 		<baseRecruitDifficulty>1</baseRecruitDifficulty>
-		<backstoryCategory>Raider</backstoryCategory>
+		<backstoryCategories>
+			<li>Raider</li>
+		</backstoryCategories>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
 		<maxGenerationAge>48</maxGenerationAge>
 		<invNutrition>2</invNutrition>
@@ -42,7 +44,7 @@
 			<min>6800</min>
 			<max>6800</max>
 		</apparelMoney>
-		<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>1800</min>
 			<max>2200</max>
@@ -62,7 +64,7 @@
 					</countRange>
 				</li>
 				<li>
-					<thingDef>Medicine</thingDef>
+					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>
@@ -85,7 +87,7 @@
 			<min>8600</min>
 			<max>8600</max>
 		</apparelMoney>
-		<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>1800</min>
 			<max>2200</max>
@@ -104,7 +106,7 @@
 					</countRange>
 				</li>
 				<li>
-					<thingDef>GlitterworldMedicine</thingDef>
+					<thingDef>MedicineUltratech</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>
@@ -128,7 +130,7 @@
 			<min>9600</min>
 			<max>9600</max>
 		</apparelMoney>
-		<apparelAllowHeadwearChance>1</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
 		<weaponMoney>
 			<min>1500</min>
 			<max>2200</max>
@@ -148,7 +150,7 @@
 					</countRange>
 				</li>
 				<li>
-					<thingDef>Medicine</thingDef>
+					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>

@@ -9,7 +9,7 @@
 		<altitudeLayer>Pawn</altitudeLayer>
 		<useHitPoints>false</useHitPoints>
 		<hasTooltip>true</hasTooltip>
-		<soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
 		<inspectorTabs>
 			<li>ITab_Pawn_Health</li>
 			<li>ITab_Pawn_Needs</li>
@@ -29,7 +29,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BasePawn_GT" Name="BaseGTVehicle" Abstract="True">
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<statBases>
 			<PsychicSensitivity>0</PsychicSensitivity>
 			<Flammability>0</Flammability>

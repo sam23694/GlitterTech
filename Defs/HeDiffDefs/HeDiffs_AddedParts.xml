@@ -13,8 +13,8 @@
 		<label>Cybernetic heart</label>
 		<spawnThingOnRemoved>GTHeart</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -34,8 +34,8 @@
 		<label>Cybernetic lung</label>
 		<spawnThingOnRemoved>GTLung</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -55,8 +55,8 @@
 		<label>Cybernetic kidney</label>
 		<spawnThingOnRemoved>GTKidney</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -76,8 +76,8 @@
 		<label>Cybernetic liver</label>
 		<spawnThingOnRemoved>GTLiver</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -101,8 +101,8 @@
 		<label>Cybernetic stomach</label>
 		<spawnThingOnRemoved>GTStomach</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -126,8 +126,8 @@
 		<label>Advanced bionic dentures</label>
 		<spawnThingOnRemoved>GTDentures</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -147,8 +147,8 @@
 		<label>Advanced bionic arm</label>
 		<spawnThingOnRemoved>GTArm</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -180,8 +180,8 @@
 		<label>Advanced bionic hand</label>
 		<spawnThingOnRemoved>GTHand</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -213,8 +213,8 @@
 		<label>Advanced bionic leg</label>
 		<spawnThingOnRemoved>GTLeg</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -234,8 +234,8 @@
 		<label>Advanced bionic foot</label>
 		<spawnThingOnRemoved>GTFoot</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -255,8 +255,8 @@
 		<label>Advanced bionic eye</label>
 		<spawnThingOnRemoved>GTEye</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2.0</partEfficiency>
 		</addedPartProps>
 		<stages>
@@ -276,8 +276,8 @@
 		<label>Advanced bionic ear</label>
 		<spawnThingOnRemoved>GTEar</spawnThingOnRemoved>
 		<addedPartProps>
-			<isBionic>true</isBionic>
-			<isSolid>true</isSolid>
+
+			<solid>true</solid>
 			<partEfficiency>2.0</partEfficiency>
 		</addedPartProps>
 		<stages>

@@ -4,13 +4,13 @@
 	<ThingDef Name="BuildingBase_GT" Abstract="True">
 		<category>Building</category>
 		<thingClass>Building</thingClass>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<selectable>true</selectable>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<repairEffect>Repair</repairEffect>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 	</ThingDef>
 
 	<ThingDef ParentName="BuildingBase_GT">
@@ -26,9 +26,6 @@
 				<li>Wall</li>
 			</linkFlags>
 		</graphicData>
-		<blueprintGraphicData>
-			<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-		</blueprintGraphicData>
 		<uiIconPath>Things/Building/Linked/Shield_MenuIcon</uiIconPath>
 		<altitudeLayer>Building</altitudeLayer>
 		<pathCost>60</pathCost>
@@ -44,6 +41,9 @@
 		<building>
 			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
 		</building>
 		<description>Excellent cover from gunfire.</description>
 		<placingDraggableDimensions>1</placingDraggableDimensions>
@@ -74,7 +74,10 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>240</MaxHitPoints>
@@ -112,7 +115,7 @@
 			<Titanium>55</Titanium>
 			<ComputerComp>2</ComputerComp>
 			<Gun_EMRifle>1</Gun_EMRifle>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -141,11 +144,15 @@
 				<rect>(0.2,0.2,0.6,0.6)</rect>
 			</damageData>
 		</graphicData>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
 		<altitudeLayer>Building</altitudeLayer>
 		<statBases>
 			<MaxHitPoints>160</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Mass>100</Mass>
 			<WorkToBuild>2800</WorkToBuild>
 			<Beauty>-60</Beauty>
 		</statBases>
@@ -179,7 +186,7 @@
 			<Titanium>40</Titanium>
 			<Silicon>20</Silicon>
 			<ComputerComp>2</ComputerComp>
-			<Component>3</Component>
+			<ComponentIndustrial>3</ComponentIndustrial>
 		</costList>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -208,7 +215,10 @@
 			</damageData>
 		</graphicData>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		<minifiedDef>MinifiedFurniture</minifiedDef>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsSecurity</li>
+		</thingCategories>
 		<altitudeLayer>Building</altitudeLayer>
 		<stealable>false</stealable>
 		<size>(2,2)</size>
@@ -223,7 +233,7 @@
 		<costList>
 			<Titanium>80</Titanium>
 			<ComputerComp>12</ComputerComp>
-			<Component>6</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<tickerType>Normal</tickerType>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -318,7 +328,7 @@
 			<ComputerComp>24</ComputerComp>
 			<Silicon>12</Silicon>
 			<MagneticCoil>4</MagneticCoil>
-			<Component>6</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<building>
 			<turretGunDef>Artillery_MissileTurret</turretGunDef>
@@ -351,7 +361,7 @@
 			<Silicon>24</Silicon>
 			<MagneticCoil>6</MagneticCoil>
 			<AlphaPoly>1</AlphaPoly>
-			<Component>6</Component>
+			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
 		<building>
 			<turretGunDef>Artillery_CMissileTurret</turretGunDef>

@@ -5,7 +5,9 @@
 		<race>Human</race>
 		<defaultFactionType>OrionCo</defaultFactionType>
 		<baseRecruitDifficulty>0.80</baseRecruitDifficulty>
-		<backstoryCategory>Civil</backstoryCategory>
+		<backstoryCategories>
+			<li>Civil</li>
+		</backstoryCategories>
 		<backstoryCryptosleepCommonality>0.4</backstoryCryptosleepCommonality>
 		<maxGenerationAge>50</maxGenerationAge>
 		<invNutrition>0</invNutrition>
@@ -22,7 +24,7 @@
 			<min>4000</min>
 			<max>4000</max>
 		</apparelMoney>
-		<apparelAllowHeadwearChance>0.8</apparelAllowHeadwearChance>
+		<apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
 		<techHediffsMoney>
 			<min>4500</min>
 			<max>4500</max>
@@ -52,7 +54,7 @@
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Medicine</thingDef>
+					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>
@@ -77,7 +79,7 @@
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Medicine</thingDef>
+					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>
@@ -111,7 +113,7 @@
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Medicine</thingDef>
+					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>
@@ -144,7 +146,7 @@
 			<skipChance>0.4</skipChance>
 			<subOptionsChooseOne>
 				<li>
-					<thingDef>Medicine</thingDef>
+					<thingDef>MedicineIndustrial</thingDef>
 					<countRange>
 						<min>1</min>
 						<max>4</max>

@@ -46,8 +46,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftEar</li>
-			<li>RightEar</li>
+			<li>Ear</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTEar</addsHediff>
 	</RecipeDef>
@@ -86,8 +85,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftEye</li>
-			<li>RightEye</li>
+			<li>Eye</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTEye</addsHediff>
 	</RecipeDef>
@@ -126,8 +124,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftShoulder</li>
-			<li>RightShoulder</li>
+			<li>Shoulder</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTArm</addsHediff>
 	</RecipeDef>
@@ -166,8 +163,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftHand</li>
-			<li>RightHand</li>
+			<li>Hand</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTHand</addsHediff>
 	</RecipeDef>
@@ -206,8 +202,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftLeg</li>
-			<li>RightLeg</li>
+			<li>Leg</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTLeg</addsHediff>
 	</RecipeDef>
@@ -246,8 +241,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftFoot</li>
-			<li>RightFoot</li>
+			<li>Foot</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTFoot</addsHediff>
 	</RecipeDef>
@@ -325,8 +319,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftLung</li>
-			<li>RightLung</li>
+			<li>Lung</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTLung</addsHediff>
 	</RecipeDef>
@@ -365,8 +358,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>LeftKidney</li>
-			<li>RightKidney</li>
+			<li>Kidney</li>
 		</appliedOnFixedBodyParts>
 		<addsHediff>GTKidney</addsHediff>
 	</RecipeDef>

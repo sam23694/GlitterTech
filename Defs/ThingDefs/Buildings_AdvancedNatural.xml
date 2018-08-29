@@ -5,7 +5,7 @@
 		<category>Building</category>
 		<selectable>true</selectable>
 		<drawerType>MapMeshOnly</drawerType>
-		<filthLeaving>RockRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleRock</filthLeaving>
 	</ThingDef>
 
 	<ThingDef Name="RockBase_GT" ParentName="BuildingNaturalBase_GT" Abstract="True" >

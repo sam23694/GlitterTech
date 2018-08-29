@@ -94,7 +94,7 @@
 			<ai_chillDestination>false</ai_chillDestination>
 			<isInert>true</isInert>
 		</building>
-		<filthLeaving>BuildingRubble</filthLeaving>
+		<filthLeaving>Filth_RubbleBuilding</filthLeaving>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<!--<designationCategory>Security</designationCategory>-->

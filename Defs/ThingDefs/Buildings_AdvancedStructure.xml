@@ -5,11 +5,7 @@
 
 	<ThingDef ParentName="BuildingBase_GT" Name="DoorBase_GT" Abstract="True">
 		<thingClass>Building_Door</thingClass>
-		<blueprintClass>Blueprint_Door</blueprintClass>
 		<category>Building</category>
-		<blueprintGraphicData>
-			<texPath>Things/Building/Door/Door_Blueprint</texPath>
-		</blueprintGraphicData>
 		<altitudeLayer>DoorMoveable</altitudeLayer>
 		<fillPercent>1</fillPercent>
 		<useHitPoints>true</useHitPoints>
@@ -26,7 +22,7 @@
 		<selectable>true</selectable>
 		<tickerType>Normal</tickerType>
 		<rotatable>false</rotatable>
-		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
 		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
 		<designationCategory>Structure</designationCategory>
 		<holdsRoof>true</holdsRoof>
@@ -35,10 +31,14 @@
 		<drawerType>RealtimeOnly</drawerType>
 		<building>
 			<isInert>true</isInert>
-			<soundDoorOpenPowered>DoorOpenPowered</soundDoorOpenPowered>
-			<soundDoorClosePowered>DoorClosePowered</soundDoorClosePowered>
-			<soundDoorOpenManual>DoorOpenManual</soundDoorOpenManual>
-			<soundDoorCloseManual>DoorCloseManual</soundDoorCloseManual>
+			<blueprintClass>Blueprint_Door</blueprintClass>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Door/Door_Blueprint</texPath>
+			</blueprintGraphicData>
+			<soundDoorOpenPowered>Door_OpenPowered</soundDoorOpenPowered>
+			<soundDoorClosePowered>Door_ClosePowered</soundDoorClosePowered>
+			<soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+			<soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
 			<canPlaceOverWall>true</canPlaceOverWall>
 		</building>
 		<comps>
@@ -65,7 +65,7 @@
 		<costList>
 			<Titanium>100</Titanium>
 			<MagneticCoil>1</MagneticCoil>
-			<Component>4</Component>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<costStuffCount>120</costStuffCount>
 		<comps>
@@ -75,77 +75,79 @@
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<researchPrerequisites><li>AdvancedArmor</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>AdvancedArmor</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--========================= Walls =============================-->
 
 	<ThingDef ParentName="BuildingBase_GT" Name="Wall_GT" Abstract="True">
-    <defName>Wall</defName>
-    <label>wall</label>
-    <thingClass>Building</thingClass>
-    <category>Building</category>
-    <description>An impassable wall. Capable of holding up a roof.</description>
-    <graphicData>
-      <texPath>Things/Building/Linked/Wall</texPath>
-      <graphicClass>Graphic_Appearances</graphicClass>
-      <linkType>CornerFiller</linkType>
-      <linkFlags>
-        <li>Wall</li>
-        <li>Rock</li>
-      </linkFlags>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-        <edgeTop>Damage/Edge</edgeTop>
-        <edgeBot>Damage/Edge</edgeBot>
-        <edgeLeft>Damage/Edge</edgeLeft>
-        <edgeRight>Damage/Edge</edgeRight>
-      </damageData>
-    </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
-    <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
-    <statBases>
-      <MaxHitPoints>350</MaxHitPoints>
-      <WorkToBuild>150</WorkToBuild>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <costStuffCount>5</costStuffCount>
-    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <altitudeLayer>Building</altitudeLayer>
-    <passability>Impassable</passability>
-    <castEdgeShadows>true</castEdgeShadows>
-    <fillPercent>1</fillPercent>
-    <coversFloor>true</coversFloor>
-    <placingDraggableDimensions>1</placingDraggableDimensions>
-    <tickerType>Never</tickerType>
-    <rotatable>false</rotatable>
-    <selectable>true</selectable>
-    <neverMultiSelect>true</neverMultiSelect>
-    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <holdsRoof>true</holdsRoof>
-    <designationCategory>Structure</designationCategory>
-    <staticSunShadowHeight>1.0</staticSunShadowHeight>
-    <blockLight>true</blockLight>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-      <li>Stony</li>
-    </stuffCategories>
-    <building>
-      <isInert>true</isInert>
-    </building>
-    <damageMultipliers>
-      <li>
-        <damageDef>Bomb</damageDef>
-        <multiplier>2</multiplier>
-      </li>
-    </damageMultipliers>
-  </ThingDef>
+		<defName>Wall</defName>
+		<label>wall</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<description>An impassable wall. Capable of holding up a roof.</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Wall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>150</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<costStuffCount>5</costStuffCount>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<designationCategory>Structure</designationCategory>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<building>
+			<isInert>true</isInert>
+			<blueprintGraphicData>
+				<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+			</blueprintGraphicData>
+		</building>
+		<damageMultipliers>
+			<li>
+				<damageDef>Bomb</damageDef>
+				<multiplier>2</multiplier>
+			</li>
+		</damageMultipliers>
+	</ThingDef>
 
 	<ThingDef ParentName="Wall_GT">
 		<defName>WallWindow</defName>
@@ -170,7 +172,9 @@
 			<Titanium>10</Titanium>
 		</costList>
 		<blockLight>false</blockLight>
-		<researchPrerequisites><li>TWindows</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>TWindows</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<!--========================= Lighted =============================-->
@@ -208,7 +212,9 @@
 				<glowColor>(217,217,217,0)</glowColor>
 			</li>
 		</comps>
-		<researchPrerequisites><li>TLights</li></researchPrerequisites>
+		<researchPrerequisites>
+			<li>TLights</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 	<ThingDef ParentName="WallLight_GT">

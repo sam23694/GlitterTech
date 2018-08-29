@@ -14,6 +14,7 @@
 		<statBases>
 			<MaxHitPoints>100</MaxHitPoints>
 			<Flammability>1.0</Flammability>
+			<Mass>0.01</Mass>
 			<DeteriorationRate>1</DeteriorationRate>
 			<SellPriceFactor>0.5</SellPriceFactor>
 		</statBases>
@@ -40,7 +41,7 @@
 		<thingClass>ShieldBelt</thingClass>
 		<defName>Apparel_HC1Shield</defName>
 		<label>HC-1 shield</label>
-		<description>A high capacity energy shield device. The top teir class of personal shields, the mark 1 increases energy capacity by a factor of ten, but recycles the shield slower. </description>
+		<description>A high capacity energy shield device. The top teir class of personal shields, the mark 1 increases energy capacity by a factor of ten, but recycles the shield slower.</description>
 		<graphicData>
 			<texPath>Things/Pawn/Humanlike/Apparel/ShieldBelt/ShieldBelt</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -48,6 +49,7 @@
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<MarketValue>2400</MarketValue>
+			<Mass>1</Mass>
 			<EnergyShieldRechargeRate>0.4</EnergyShieldRechargeRate>
 			<EnergyShieldEnergyMax>10</EnergyShieldEnergyMax>
 		</statBases>
@@ -85,6 +87,7 @@
 		<tickerType>Normal</tickerType>
 		<statBases>
 			<MarketValue>2100</MarketValue>
+			<Mass>1</Mass>
 			<EnergyShieldRechargeRate>1</EnergyShieldRechargeRate>
 			<EnergyShieldEnergyMax>1</EnergyShieldEnergyMax>
 		</statBases>

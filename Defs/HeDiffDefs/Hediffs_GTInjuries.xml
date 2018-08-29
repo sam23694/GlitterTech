@@ -22,13 +22,13 @@
 			<li Class="HediffCompProperties_Infecter">
 				<infectionChance>0.50</infectionChance>
 			</li>
-			<li Class="HediffCompProperties_GetsOld">
-				<oldLabel>stab scar</oldLabel>
+			<li Class="HediffCompProperties_GetsPermanent">
+				<permanentLabel>stab scar</permanentLabel>
 			</li>
 		</comps>
 		<injuryProps>
 			<painPerSeverity>3</painPerSeverity>
-			<averagePainPerSeverityOld>0.5</averagePainPerSeverityOld>
+			<averagePainPerSeverityPermanent>0.5</averagePainPerSeverityPermanent>
 			<bleedRate>0.2</bleedRate>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Melted off</destroyedLabel>

@@ -18,7 +18,7 @@
 			<speed>80</speed>
 			<explosionRadius>1.5</explosionRadius>
 			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
 			<soundExplode>MortarBomb_Explode</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -44,6 +44,7 @@
 		<techLevel>Spacer</techLevel>
 		<destroyOnDrop>True</destroyOnDrop>
 		<menuHidden>True</menuHidden>
+		<tradeability>None</tradeability>
 		<weaponTags>
 			<li>OCTank</li>
 		</weaponTags>
