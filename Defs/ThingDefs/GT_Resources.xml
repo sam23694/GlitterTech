@@ -40,6 +40,11 @@
 		<statBases>
 			<MarketValue>32</MarketValue>
 			<Mass>0.15</Mass>
+			<StuffPower_Armor_Sharp>1.9</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>1</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.35</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>3</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>1.8</SharpDamageMultiplier>
 			<BluntDamageMultiplier>1.5</BluntDamageMultiplier>
 		</statBases>
@@ -95,6 +100,11 @@
 		<statBases>
 			<MarketValue>117</MarketValue>
 			<Mass>0.8</Mass>
+			<StuffPower_Armor_Sharp>2.5</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>2</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>3</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>4</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>2</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>3</SharpDamageMultiplier>
 			<BluntDamageMultiplier>3.5</BluntDamageMultiplier>
 		</statBases>
@@ -145,6 +155,11 @@
 		<statBases>
 			<MarketValue>235</MarketValue>
 			<Mass>1.2</Mass>
+			<StuffPower_Armor_Sharp>8</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>7</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>8.5</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>8</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
 			<SharpDamageMultiplier>8</SharpDamageMultiplier>
 			<BluntDamageMultiplier>8.5</BluntDamageMultiplier>
 		</statBases>
